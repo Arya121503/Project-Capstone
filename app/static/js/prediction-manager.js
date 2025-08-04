@@ -39,6 +39,12 @@ class PredictionManager {
         if (updateForm) {
             updateForm.addEventListener('submit', (e) => this.handleModelUpdate(e));
         }
+
+        // Manual model reload button handler
+        const manualReloadBtn = document.getElementById('manualReloadBtn');
+        if (manualReloadBtn) {
+            manualReloadBtn.addEventListener('click', () => this.reloadModelsManually());
+        }
     }
 
     async handleLandPrediction(event) {
@@ -259,17 +265,20 @@ class PredictionManager {
     }
 
     validateBuildingForm(formData) {
-        const required = ['kecamatan', 'njop', 'sertifikat', 'luas_tanah', 'luas_bangunan', 'jumlah_lantai', 'jenis_zona', 'aksesibilitas', 'tingkat_keamanan', 'kepadatan_penduduk'];
+        // Field yang diperlukan untuk prediksi bangunan (tidak termasuk tingkat_keamanan dan kepadatan_penduduk)
+        const required = ['kecamatan', 'njop', 'sertifikat', 'luas_tanah', 'luas_bangunan', 'jumlah_lantai', 'jenis_zona', 'aksesibilitas'];
         
         for (const field of required) {
             const value = formData.get(field);
             if (!value || value.trim() === '') {
+                console.log(`Field ${field} is empty or missing`);
                 return false;
             }
             // Additional validation for numeric fields
-            if (['njop', 'luas_tanah', 'luas_bangunan', 'kepadatan_penduduk'].includes(field)) {
+            if (['njop', 'luas_tanah', 'luas_bangunan'].includes(field)) {
                 const numValue = parseFloat(value);
                 if (isNaN(numValue) || numValue <= 0) {
+                    console.log(`Field ${field} has invalid numeric value: ${value}`);
                     return false;
                 }
             }
@@ -277,6 +286,7 @@ class PredictionManager {
             if (field === 'jumlah_lantai') {
                 const numValue = parseInt(value);
                 if (isNaN(numValue) || numValue < 1 || numValue > 10) {
+                    console.log(`Field ${field} has invalid value: ${value}`);
                     return false;
                 }
             }
@@ -295,7 +305,7 @@ class PredictionManager {
         
         if (submitBtn) {
             submitBtn.disabled = true;
-            // Store original text to restore later
+            // Store original text to restore later if not already stored
             if (!submitBtn.dataset.originalText) {
                 submitBtn.dataset.originalText = submitBtn.innerHTML;
             }
@@ -492,6 +502,70 @@ class PredictionManager {
         } catch (error) {
             return 'Format tanggal tidak valid';
         }
+    }
+
+    async reloadModelsManually() {
+        const btn = document.getElementById('manualReloadBtn');
+        if (!btn) return;
+        
+        const originalText = btn.innerHTML;
+        
+        try {
+            // Show loading state
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Memuat Ulang...';
+            
+            const response = await fetch('/prediction/reload_models', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                }
+            });
+            
+            const data = await response.json();
+            
+            if (data.success) {
+                // Show success message
+                this.showAlertMessage(btn, 'success', data.message);
+                
+                // Reload model status
+                this.loadModelStatus();
+            } else {
+                // Show error message
+                this.showAlertMessage(btn, 'danger', data.error);
+            }
+        } catch (error) {
+            console.error('Error reloading models:', error);
+            this.showAlertMessage(btn, 'danger', 'Terjadi kesalahan saat memuat ulang model');
+        } finally {
+            // Reset button
+            btn.disabled = false;
+            btn.innerHTML = originalText;
+        }
+    }
+
+    showAlertMessage(element, type, message) {
+        const card = element.closest('.card-body');
+        if (!card) return;
+        
+        const alertClass = type === 'success' ? 'alert-success' : 'alert-danger';
+        const iconClass = type === 'success' ? 'fas fa-check' : 'fas fa-exclamation-triangle';
+        
+        const alert = document.createElement('div');
+        alert.className = `alert ${alertClass} alert-dismissible fade show mt-2`;
+        alert.innerHTML = `
+            <i class="${iconClass} me-2"></i>${message}
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+        `;
+        
+        card.appendChild(alert);
+        
+        // Auto dismiss after 3 seconds
+        setTimeout(() => {
+            if (alert.parentNode) {
+                alert.remove();
+            }
+        }, 3000);
     }
 }
 
