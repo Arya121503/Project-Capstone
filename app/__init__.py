@@ -54,6 +54,7 @@ def create_app():
     from .routes_payment_test import payment_bp
     from .routes_rental_transaction import rental_transaction_bp
     from .routes_prediction import prediction_bp
+    from .routes_njop_api import njop_bp
     # ML routes imports removed - to be rebuilt from scratch
     
     app.register_blueprint(main)
@@ -74,6 +75,7 @@ def create_app():
     app.register_blueprint(payment_bp)
     app.register_blueprint(rental_transaction_bp)
     app.register_blueprint(prediction_bp, url_prefix='/prediction')
+    app.register_blueprint(njop_bp)
     # ML blueprint registration removed - to be rebuilt from scratch
 
     # Initialize DB tables - with better error handling
