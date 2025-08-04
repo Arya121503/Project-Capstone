@@ -709,6 +709,19 @@
                           </select>
                           <div class="invalid-feedback">Mohon pilih kecamatan</div>
                         </div>
+                        <div class="col-md-6" id="land_kelas_bumi_container" style="display: none;">
+                          <label for="land_kelas_bumi" class="form-label">
+                            Kelas Bumi <span class="text-danger">*</span>
+                            <small class="text-muted">(Berdasarkan PERWALI NO 2 TH 2017)</small>
+                          </label>
+                          <select class="form-select" id="land_kelas_bumi" name="kelas_bumi" required>
+                            <option value="">Pilih Kelas Bumi</option>
+                          </select>
+                          <div class="invalid-feedback">Mohon pilih kelas bumi</div>
+                          <div class="form-text">
+                            Pilih kecamatan terlebih dahulu untuk melihat kelas bumi yang tersedia
+                          </div>
+                        </div>
                         <div class="col-md-6">
                           <label for="land_njop" class="form-label">NJOP (Rp/M²) <span class="text-danger">*</span></label>
                           <input type="number" class="form-control" id="land_njop" name="njop" required 
@@ -831,6 +844,19 @@
                             <option value="Wonocolo">Wonocolo</option>
                             <option value="Wonokromo">Wonokromo</option>
                           </select>
+                        </div>
+                        <div class="col-md-6" id="building_kelas_bumi_container" style="display: none;">
+                          <label for="building_kelas_bumi" class="form-label">
+                            Kelas Bumi <span class="text-danger">*</span>
+                            <small class="text-muted">(Berdasarkan PERWALI NO 2 TH 2017)</small>
+                          </label>
+                          <select class="form-select" id="building_kelas_bumi" name="kelas_bumi" required>
+                            <option value="">Pilih Kelas Bumi</option>
+                          </select>
+                          <div class="invalid-feedback">Mohon pilih kelas bumi</div>
+                          <div class="form-text">
+                            Pilih kecamatan terlebih dahulu untuk melihat kelas bumi yang tersedia
+                          </div>
                         </div>
                         <div class="col-md-6">
                           <label for="building_njop" class="form-label">NJOP (Rp/M²) <span class="text-danger">*</span></label>
@@ -5354,6 +5380,9 @@
 
     <!-- Prediction Manager JavaScript -->
     <script src="{{ url_for('static', filename='js/prediction-manager.js') }}"></script>
+    
+    <!-- NJOP Enhancement JavaScript -->
+    <script src="{{ url_for('static', filename='js/njop-enhancement-v2.js') }}"></script>
     
     <!-- ML JavaScript files removed for rebuilding prediction system -->
   </body>

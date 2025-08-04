@@ -1,0 +1,5960 @@
+{
+  "BUBUTAN": {
+    "A064": {
+      "blk": "002",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A065": {
+      "blk": "020",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A066": {
+      "blk": "020",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A045": {
+      "blk": "016",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A063": {
+      "blk": "020",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A056": {
+      "blk": "025",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A059": {
+      "blk": "020",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A043": {
+      "blk": "010",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A044": {
+      "blk": "004",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A067": {
+      "blk": "015",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A050": {
+      "blk": "024",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A038": {
+      "blk": "012",
+      "nilai_min": 10040000,
+      "nilai_max": 10870000,
+      "nilai_jual": 10455000,
+      "range_text": "Rp 10,040,000 - Rp 10,870,000",
+      "recommended_njop": 10455000
+    },
+    "A039": {
+      "blk": "021",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A062": {
+      "blk": "016",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A052": {
+      "blk": "007",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A047": {
+      "blk": "006",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A055": {
+      "blk": "004",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A060": {
+      "blk": "007",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A054": {
+      "blk": "014",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A051": {
+      "blk": "003",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A057": {
+      "blk": "003",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A053": {
+      "blk": "006",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A061": {
+      "blk": "018",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A058": {
+      "blk": "005",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A037": {
+      "blk": "021",
+      "nilai_min": 10870000,
+      "nilai_max": 11740000,
+      "nilai_jual": 11305000,
+      "range_text": "Rp 10,870,000 - Rp 11,740,000",
+      "recommended_njop": 11305000
+    },
+    "A042": {
+      "blk": "021",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A040": {
+      "blk": "009",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A041": {
+      "blk": "009",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    }
+  },
+  "KENJERAN": {
+    "A064": {
+      "blk": "027",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A065": {
+      "blk": "007",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A068": {
+      "blk": "009",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A069": {
+      "blk": "004",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A045": {
+      "blk": "026",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A057": {
+      "blk": "013",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A063": {
+      "blk": "022",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A066": {
+      "blk": "007",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A050": {
+      "blk": "020",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A058": {
+      "blk": "026",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A070": {
+      "blk": "006",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    }
+  },
+  "BULAK": {
+    "A060": {
+      "blk": "023",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A066": {
+      "blk": "009",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A068": {
+      "blk": "008",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A046": {
+      "blk": "003",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A057": {
+      "blk": "003",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A061": {
+      "blk": "006",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A044": {
+      "blk": "006",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A045": {
+      "blk": "008",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A065": {
+      "blk": "023",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A053": {
+      "blk": "014",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A058": {
+      "blk": "018",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A067": {
+      "blk": "003",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A062": {
+      "blk": "007",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A064": {
+      "blk": "008",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A070": {
+      "blk": "008",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A069": {
+      "blk": "005",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    }
+  },
+  "SEMAMPIR": {
+    "A048": {
+      "blk": "030",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A049": {
+      "blk": "014",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A063": {
+      "blk": "011",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A060": {
+      "blk": "023",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A062": {
+      "blk": "014",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A050": {
+      "blk": "004",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A058": {
+      "blk": "017",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A064": {
+      "blk": "015",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A059": {
+      "blk": "016",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A066": {
+      "blk": "017",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A054": {
+      "blk": "028",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A065": {
+      "blk": "049",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A061": {
+      "blk": "048",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A053": {
+      "blk": "016",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A067": {
+      "blk": "020",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A051": {
+      "blk": "017",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    }
+  },
+  "Pabean Cantikan": {
+    "A040": {
+      "blk": "020",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A043": {
+      "blk": "044",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A046": {
+      "blk": "007",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A044": {
+      "blk": "017",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A057": {
+      "blk": "042",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A060": {
+      "blk": "042",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A061": {
+      "blk": "014",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A056": {
+      "blk": "005",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A047": {
+      "blk": "011",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A048": {
+      "blk": "011",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A050": {
+      "blk": "011",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A054": {
+      "blk": "042",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A062": {
+      "blk": "001",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A064": {
+      "blk": "014",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A063": {
+      "blk": "008",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A058": {
+      "blk": "007",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A051": {
+      "blk": "044",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A055": {
+      "blk": "004",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A049": {
+      "blk": "040",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A065": {
+      "blk": "029",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A066": {
+      "blk": "028",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A052": {
+      "blk": "042",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A086": {
+      "blk": "045",
+      "nilai_min": 12000,
+      "nilai_max": 17000,
+      "nilai_jual": 14000,
+      "range_text": "Rp 12,000 - Rp 17,000",
+      "recommended_njop": 14000
+    }
+  },
+  "KREMBANGAN": {
+    "A045": {
+      "blk": "004",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A060": {
+      "blk": "016",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A065": {
+      "blk": "019",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A066": {
+      "blk": "018",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A063": {
+      "blk": "019",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A062": {
+      "blk": "020",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A049": {
+      "blk": "021",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A064": {
+      "blk": "020",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A070": {
+      "blk": "012",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A055": {
+      "blk": "007",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A043": {
+      "blk": "004",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A054": {
+      "blk": "012",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A050": {
+      "blk": "003",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A059": {
+      "blk": "003",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A041": {
+      "blk": "008",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A044": {
+      "blk": "020",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A061": {
+      "blk": "004",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A047": {
+      "blk": "015",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A072": {
+      "blk": "018",
+      "nilai_min": 362000,
+      "nilai_max": 426000,
+      "nilai_jual": 394000,
+      "range_text": "Rp 362,000 - Rp 426,000",
+      "recommended_njop": 394000
+    },
+    "A040": {
+      "blk": "021",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A052": {
+      "blk": "013",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A053": {
+      "blk": "021",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A051": {
+      "blk": "004",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A056": {
+      "blk": "012",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A036": {
+      "blk": "002",
+      "nilai_min": 11740000,
+      "nilai_max": 12650000,
+      "nilai_jual": 12195000,
+      "range_text": "Rp 11,740,000 - Rp 12,650,000",
+      "recommended_njop": 12195000
+    },
+    "A039": {
+      "blk": "007",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A042": {
+      "blk": "021",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A038": {
+      "blk": "021",
+      "nilai_min": 10040000,
+      "nilai_max": 10870000,
+      "nilai_jual": 10455000,
+      "range_text": "Rp 10,040,000 - Rp 10,870,000",
+      "recommended_njop": 10455000
+    },
+    "A058": {
+      "blk": "012",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A046": {
+      "blk": "021",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A057": {
+      "blk": "018",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    }
+  },
+  "WONOCOLO": {
+    "A056": {
+      "blk": "014",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A060": {
+      "blk": "006",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A061": {
+      "blk": "009",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A038": {
+      "blk": "014",
+      "nilai_min": 10040000,
+      "nilai_max": 10870000,
+      "nilai_jual": 10455000,
+      "range_text": "Rp 10,040,000 - Rp 10,870,000",
+      "recommended_njop": 10455000
+    },
+    "A062": {
+      "blk": "013",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A063": {
+      "blk": "013",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A048": {
+      "blk": "009",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A051": {
+      "blk": "004",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A052": {
+      "blk": "005",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A058": {
+      "blk": "019",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A050": {
+      "blk": "011",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A049": {
+      "blk": "017",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A065": {
+      "blk": "009",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A035": {
+      "blk": "018",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    },
+    "A042": {
+      "blk": "013",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A037": {
+      "blk": "014",
+      "nilai_min": 10870000,
+      "nilai_max": 11740000,
+      "nilai_jual": 11305000,
+      "range_text": "Rp 10,870,000 - Rp 11,740,000",
+      "recommended_njop": 11305000
+    },
+    "A039": {
+      "blk": "020",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A043": {
+      "blk": "012",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A046": {
+      "blk": "010",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A041": {
+      "blk": "013",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A057": {
+      "blk": "012",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A067": {
+      "blk": "007",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A059": {
+      "blk": "011",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A047": {
+      "blk": "009",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A054": {
+      "blk": "017",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A044": {
+      "blk": "017",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    }
+  },
+  "RUNGKUT": {
+    "A050": {
+      "blk": "010",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A052": {
+      "blk": "014",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A059": {
+      "blk": "009",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A056": {
+      "blk": "014",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A061": {
+      "blk": "008",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A063": {
+      "blk": "100",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A068": {
+      "blk": "031",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A060": {
+      "blk": "010",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A066": {
+      "blk": "014",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A048": {
+      "blk": "016",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A051": {
+      "blk": "011",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A049": {
+      "blk": "001",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A055": {
+      "blk": "016",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A064": {
+      "blk": "031",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A067": {
+      "blk": "021",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A065": {
+      "blk": "001",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A072": {
+      "blk": "026",
+      "nilai_min": 362000,
+      "nilai_max": 426000,
+      "nilai_jual": 394000,
+      "range_text": "Rp 362,000 - Rp 426,000",
+      "recommended_njop": 394000
+    },
+    "A046": {
+      "blk": "032",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A047": {
+      "blk": "015",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A044": {
+      "blk": "009",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A053": {
+      "blk": "010",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A054": {
+      "blk": "003",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A058": {
+      "blk": "017",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A057": {
+      "blk": "016",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A062": {
+      "blk": "004",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A070": {
+      "blk": "017",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A069": {
+      "blk": "005",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    }
+  },
+  "TENGGILIS MEJOYO": {
+    "A053": {
+      "blk": "017",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A057": {
+      "blk": "005",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A058": {
+      "blk": "021",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A052": {
+      "blk": "001",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A062": {
+      "blk": "018",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A064": {
+      "blk": "009",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A065": {
+      "blk": "009",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A046": {
+      "blk": "006",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A055": {
+      "blk": "016",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A044": {
+      "blk": "005",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A051": {
+      "blk": "025",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A059": {
+      "blk": "017",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A063": {
+      "blk": "009",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A039": {
+      "blk": "010",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A056": {
+      "blk": "009",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A048": {
+      "blk": "009",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A045": {
+      "blk": "007",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A066": {
+      "blk": "002",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A050": {
+      "blk": "009",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A047": {
+      "blk": "006",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A042": {
+      "blk": "004",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A061": {
+      "blk": "010",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    }
+  },
+  "GUNUNG ANYAR": {
+    "A055": {
+      "blk": "013",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A063": {
+      "blk": "007",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A048": {
+      "blk": "017",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A051": {
+      "blk": "013",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A062": {
+      "blk": "023",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A054": {
+      "blk": "005",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A050": {
+      "blk": "009",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A058": {
+      "blk": "016",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A046": {
+      "blk": "013",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A052": {
+      "blk": "012",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A049": {
+      "blk": "013",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A066": {
+      "blk": "021",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A065": {
+      "blk": "009",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A070": {
+      "blk": "012",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A060": {
+      "blk": "012",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A053": {
+      "blk": "021",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A057": {
+      "blk": "012",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A067": {
+      "blk": "010",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A069": {
+      "blk": "017",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A056": {
+      "blk": "008",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A047": {
+      "blk": "013",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A072": {
+      "blk": "019",
+      "nilai_min": 362000,
+      "nilai_max": 426000,
+      "nilai_jual": 394000,
+      "range_text": "Rp 362,000 - Rp 426,000",
+      "recommended_njop": 394000
+    },
+    "A061": {
+      "blk": "013",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A068": {
+      "blk": "018",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    }
+  },
+  "SUKOLILO": {
+    "A043": {
+      "blk": "022",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A048": {
+      "blk": "024",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A061": {
+      "blk": "022",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A047": {
+      "blk": "015",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A046": {
+      "blk": "015",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A045": {
+      "blk": "006",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A051": {
+      "blk": "024",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A055": {
+      "blk": "021",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A044": {
+      "blk": "022",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A049": {
+      "blk": "021",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A063": {
+      "blk": "016",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A052": {
+      "blk": "010",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A058": {
+      "blk": "023",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A059": {
+      "blk": "007",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A041": {
+      "blk": "016",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A064": {
+      "blk": "012",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A060": {
+      "blk": "010",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A057": {
+      "blk": "020",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A070": {
+      "blk": "008",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A042": {
+      "blk": "009",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A062": {
+      "blk": "014",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A072": {
+      "blk": "016",
+      "nilai_min": 362000,
+      "nilai_max": 426000,
+      "nilai_jual": 394000,
+      "range_text": "Rp 362,000 - Rp 426,000",
+      "recommended_njop": 394000
+    },
+    "A065": {
+      "blk": "018",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A066": {
+      "blk": "005",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A067": {
+      "blk": "018",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A069": {
+      "blk": "016",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A035": {
+      "blk": "007",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    },
+    "A053": {
+      "blk": "015",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A034": {
+      "blk": "005",
+      "nilai_min": 13600000,
+      "nilai_max": 14590000,
+      "nilai_jual": 14095000,
+      "range_text": "Rp 13,600,000 - Rp 14,590,000",
+      "recommended_njop": 14095000
+    },
+    "A056": {
+      "blk": "008",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    }
+  },
+  "MULYOREJO": {
+    "A034": {
+      "blk": "014",
+      "nilai_min": 13600000,
+      "nilai_max": 14590000,
+      "nilai_jual": 14095000,
+      "range_text": "Rp 13,600,000 - Rp 14,590,000",
+      "recommended_njop": 14095000
+    },
+    "A047": {
+      "blk": "022",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A062": {
+      "blk": "014",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A048": {
+      "blk": "012",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A057": {
+      "blk": "007",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A063": {
+      "blk": "010",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A044": {
+      "blk": "008",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A037": {
+      "blk": "031",
+      "nilai_min": 10870000,
+      "nilai_max": 11740000,
+      "nilai_jual": 11305000,
+      "range_text": "Rp 10,870,000 - Rp 11,740,000",
+      "recommended_njop": 11305000
+    },
+    "A035": {
+      "blk": "018",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    },
+    "A061": {
+      "blk": "010",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A033": {
+      "blk": "009",
+      "nilai_min": 14590000,
+      "nilai_max": 15620000,
+      "nilai_jual": 15105000,
+      "range_text": "Rp 14,590,000 - Rp 15,620,000",
+      "recommended_njop": 15105000
+    },
+    "A043": {
+      "blk": "015",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A046": {
+      "blk": "014",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A058": {
+      "blk": "010",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A059": {
+      "blk": "007",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A066": {
+      "blk": "002",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A049": {
+      "blk": "016",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A056": {
+      "blk": "021",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A064": {
+      "blk": "008",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A053": {
+      "blk": "006",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A052": {
+      "blk": "012",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A045": {
+      "blk": "031",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A036": {
+      "blk": "030",
+      "nilai_min": 11740000,
+      "nilai_max": 12650000,
+      "nilai_jual": 12195000,
+      "range_text": "Rp 11,740,000 - Rp 12,650,000",
+      "recommended_njop": 12195000
+    },
+    "A065": {
+      "blk": "007",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A070": {
+      "blk": "001",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A042": {
+      "blk": "009",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A050": {
+      "blk": "008",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A051": {
+      "blk": "013",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A069": {
+      "blk": "009",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A054": {
+      "blk": "007",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A060": {
+      "blk": "010",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A041": {
+      "blk": "015",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    }
+  },
+  "KARANG PILANG": {
+    "A070": {
+      "blk": "015",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A067": {
+      "blk": "026",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A055": {
+      "blk": "009",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A068": {
+      "blk": "020",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A051": {
+      "blk": "014",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A066": {
+      "blk": "013",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A064": {
+      "blk": "004",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A062": {
+      "blk": "004",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A063": {
+      "blk": "005",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A065": {
+      "blk": "100",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A049": {
+      "blk": "004",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A056": {
+      "blk": "017",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A047": {
+      "blk": "002",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A061": {
+      "blk": "002",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    }
+  },
+  "WIYUNG": {
+    "A066": {
+      "blk": "018",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A070": {
+      "blk": "023",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A053": {
+      "blk": "026",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A059": {
+      "blk": "008",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A061": {
+      "blk": "024",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A065": {
+      "blk": "013",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A056": {
+      "blk": "007",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A068": {
+      "blk": "016",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A060": {
+      "blk": "009",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A043": {
+      "blk": "009",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A045": {
+      "blk": "008",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A046": {
+      "blk": "001",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A048": {
+      "blk": "019",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A050": {
+      "blk": "008",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A052": {
+      "blk": "009",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A067": {
+      "blk": "004",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A063": {
+      "blk": "028",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A069": {
+      "blk": "012",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A036": {
+      "blk": "005",
+      "nilai_min": 11740000,
+      "nilai_max": 12650000,
+      "nilai_jual": 12195000,
+      "range_text": "Rp 11,740,000 - Rp 12,650,000",
+      "recommended_njop": 12195000
+    },
+    "A042": {
+      "blk": "005",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A044": {
+      "blk": "009",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A049": {
+      "blk": "011",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A051": {
+      "blk": "016",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A047": {
+      "blk": "021",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A064": {
+      "blk": "014",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A062": {
+      "blk": "016",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A057": {
+      "blk": "003",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    }
+  },
+  "DUKUH PAKIS": {
+    "A028": {
+      "blk": "016",
+      "nilai_min": 20140000,
+      "nilai_max": 21370000,
+      "nilai_jual": 20755000,
+      "range_text": "Rp 20,140,000 - Rp 21,370,000",
+      "recommended_njop": 20755000
+    },
+    "A029": {
+      "blk": "016",
+      "nilai_min": 18950000,
+      "nilai_max": 20140000,
+      "nilai_jual": 19545000,
+      "range_text": "Rp 18,950,000 - Rp 20,140,000",
+      "recommended_njop": 19545000
+    },
+    "A061": {
+      "blk": "012",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A063": {
+      "blk": "018",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A052": {
+      "blk": "002",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A055": {
+      "blk": "009",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A045": {
+      "blk": "001",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A046": {
+      "blk": "013",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A065": {
+      "blk": "020",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A067": {
+      "blk": "010",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A064": {
+      "blk": "018",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A058": {
+      "blk": "016",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A057": {
+      "blk": "021",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A048": {
+      "blk": "021",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A034": {
+      "blk": "013",
+      "nilai_min": 13600000,
+      "nilai_max": 14590000,
+      "nilai_jual": 14095000,
+      "range_text": "Rp 13,600,000 - Rp 14,590,000",
+      "recommended_njop": 14095000
+    },
+    "A038": {
+      "blk": "020",
+      "nilai_min": 10040000,
+      "nilai_max": 10870000,
+      "nilai_jual": 10455000,
+      "range_text": "Rp 10,040,000 - Rp 10,870,000",
+      "recommended_njop": 10455000
+    },
+    "A039": {
+      "blk": "012",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A043": {
+      "blk": "020",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A044": {
+      "blk": "019",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A060": {
+      "blk": "012",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A062": {
+      "blk": "021",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A027": {
+      "blk": "010",
+      "nilai_min": 21370000,
+      "nilai_max": 22640000,
+      "nilai_jual": 22005000,
+      "range_text": "Rp 21,370,000 - Rp 22,640,000",
+      "recommended_njop": 22005000
+    },
+    "A030": {
+      "blk": "009",
+      "nilai_min": 17800000,
+      "nilai_max": 18950000,
+      "nilai_jual": 18375000,
+      "range_text": "Rp 17,800,000 - Rp 18,950,000",
+      "recommended_njop": 18375000
+    },
+    "A035": {
+      "blk": "019",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    },
+    "A036": {
+      "blk": "020",
+      "nilai_min": 11740000,
+      "nilai_max": 12650000,
+      "nilai_jual": 12195000,
+      "range_text": "Rp 11,740,000 - Rp 12,650,000",
+      "recommended_njop": 12195000
+    },
+    "A047": {
+      "blk": "015",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A040": {
+      "blk": "016",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A054": {
+      "blk": "019",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A042": {
+      "blk": "020",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A041": {
+      "blk": "015",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    }
+  },
+  "JAMBANGAN": {
+    "A060": {
+      "blk": "014",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A064": {
+      "blk": "013",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A066": {
+      "blk": "011",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A052": {
+      "blk": "004",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A059": {
+      "blk": "009",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A065": {
+      "blk": "014",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A050": {
+      "blk": "014",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A053": {
+      "blk": "011",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A062": {
+      "blk": "012",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A058": {
+      "blk": "012",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A056": {
+      "blk": "014",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A063": {
+      "blk": "001",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A048": {
+      "blk": "003",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A067": {
+      "blk": "006",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A051": {
+      "blk": "009",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A061": {
+      "blk": "003",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A057": {
+      "blk": "008",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A049": {
+      "blk": "011",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A055": {
+      "blk": "014",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    }
+  },
+  "GAYUNGAN": {
+    "A053": {
+      "blk": "008",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A063": {
+      "blk": "008",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A065": {
+      "blk": "003",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A034": {
+      "blk": "004",
+      "nilai_min": 13600000,
+      "nilai_max": 14590000,
+      "nilai_jual": 14095000,
+      "range_text": "Rp 13,600,000 - Rp 14,590,000",
+      "recommended_njop": 14095000
+    },
+    "A035": {
+      "blk": "013",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    },
+    "A043": {
+      "blk": "007",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A038": {
+      "blk": "010",
+      "nilai_min": 10040000,
+      "nilai_max": 10870000,
+      "nilai_jual": 10455000,
+      "range_text": "Rp 10,040,000 - Rp 10,870,000",
+      "recommended_njop": 10455000
+    },
+    "A051": {
+      "blk": "014",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A061": {
+      "blk": "014",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A037": {
+      "blk": "001",
+      "nilai_min": 10870000,
+      "nilai_max": 11740000,
+      "nilai_jual": 11305000,
+      "range_text": "Rp 10,870,000 - Rp 11,740,000",
+      "recommended_njop": 11305000
+    },
+    "A050": {
+      "blk": "019",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A052": {
+      "blk": "019",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A062": {
+      "blk": "017",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A058": {
+      "blk": "012",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A056": {
+      "blk": "012",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A040": {
+      "blk": "002",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A060": {
+      "blk": "007",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A045": {
+      "blk": "019",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A055": {
+      "blk": "012",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A059": {
+      "blk": "014",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A049": {
+      "blk": "009",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A048": {
+      "blk": "014",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A054": {
+      "blk": "014",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    }
+  },
+  "SAWAHAN": {
+    "A057": {
+      "blk": "009",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A064": {
+      "blk": "041",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A065": {
+      "blk": "042",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A048": {
+      "blk": "035",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A062": {
+      "blk": "021",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A058": {
+      "blk": "022",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A059": {
+      "blk": "005",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A045": {
+      "blk": "001",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A055": {
+      "blk": "022",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A029": {
+      "blk": "030",
+      "nilai_min": 18950000,
+      "nilai_max": 20140000,
+      "nilai_jual": 19545000,
+      "range_text": "Rp 18,950,000 - Rp 20,140,000",
+      "recommended_njop": 19545000
+    },
+    "A035": {
+      "blk": "019",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    },
+    "A027": {
+      "blk": "028",
+      "nilai_min": 21370000,
+      "nilai_max": 22640000,
+      "nilai_jual": 22005000,
+      "range_text": "Rp 21,370,000 - Rp 22,640,000",
+      "recommended_njop": 22005000
+    },
+    "A061": {
+      "blk": "042",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A063": {
+      "blk": "024",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A066": {
+      "blk": "018",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A053": {
+      "blk": "029",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A047": {
+      "blk": "004",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A041": {
+      "blk": "019",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A044": {
+      "blk": "006",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A042": {
+      "blk": "002",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A049": {
+      "blk": "024",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A039": {
+      "blk": "024",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A043": {
+      "blk": "004",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A037": {
+      "blk": "015",
+      "nilai_min": 10870000,
+      "nilai_max": 11740000,
+      "nilai_jual": 11305000,
+      "range_text": "Rp 10,870,000 - Rp 11,740,000",
+      "recommended_njop": 11305000
+    },
+    "A056": {
+      "blk": "007",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A036": {
+      "blk": "023",
+      "nilai_min": 11740000,
+      "nilai_max": 12650000,
+      "nilai_jual": 12195000,
+      "range_text": "Rp 11,740,000 - Rp 12,650,000",
+      "recommended_njop": 12195000
+    }
+  },
+  "LAKARSANTRI": {
+    "A061": {
+      "blk": "009",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A063": {
+      "blk": "023",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A066": {
+      "blk": "011",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A069": {
+      "blk": "011",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A070": {
+      "blk": "009",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A044": {
+      "blk": "003",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A068": {
+      "blk": "008",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A043": {
+      "blk": "023",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A062": {
+      "blk": "006",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A046": {
+      "blk": "018",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A048": {
+      "blk": "012",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A067": {
+      "blk": "005",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A050": {
+      "blk": "007",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A045": {
+      "blk": "002",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A065": {
+      "blk": "005",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A051": {
+      "blk": "020",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A055": {
+      "blk": "015",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A056": {
+      "blk": "025",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A047": {
+      "blk": "003",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A053": {
+      "blk": "001",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A060": {
+      "blk": "018",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A058": {
+      "blk": "016",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A042": {
+      "blk": "010",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A064": {
+      "blk": "002",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A057": {
+      "blk": "009",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    }
+  },
+  "SAMBIKEREP": {
+    "A070": {
+      "blk": "009",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A044": {
+      "blk": "039",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A045": {
+      "blk": "039",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A048": {
+      "blk": "037",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A050": {
+      "blk": "021",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A065": {
+      "blk": "038",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A041": {
+      "blk": "019",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A042": {
+      "blk": "041",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A063": {
+      "blk": "024",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A062": {
+      "blk": "100",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A067": {
+      "blk": "100",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A068": {
+      "blk": "010",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A043": {
+      "blk": "036",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A055": {
+      "blk": "039",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A069": {
+      "blk": "015",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A054": {
+      "blk": "037",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A061": {
+      "blk": "027",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A064": {
+      "blk": "087",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A066": {
+      "blk": "020",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A059": {
+      "blk": "032",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A036": {
+      "blk": "029",
+      "nilai_min": 11740000,
+      "nilai_max": 12650000,
+      "nilai_jual": 12195000,
+      "range_text": "Rp 11,740,000 - Rp 12,650,000",
+      "recommended_njop": 12195000
+    },
+    "A056": {
+      "blk": "036",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A035": {
+      "blk": "040",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    }
+  },
+  "TANDES": {
+    "A048": {
+      "blk": "005",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A054": {
+      "blk": "002",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A055": {
+      "blk": "010",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A056": {
+      "blk": "010",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A058": {
+      "blk": "008",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A062": {
+      "blk": "013",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A065": {
+      "blk": "008",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A066": {
+      "blk": "015",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A067": {
+      "blk": "004",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A069": {
+      "blk": "006",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A047": {
+      "blk": "004",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A053": {
+      "blk": "010",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A063": {
+      "blk": "008",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A061": {
+      "blk": "012",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A045": {
+      "blk": "009",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A068": {
+      "blk": "017",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A059": {
+      "blk": "011",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A070": {
+      "blk": "009",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A064": {
+      "blk": "003",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A060": {
+      "blk": "004",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A051": {
+      "blk": "005",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    }
+  },
+  "SUKOMANUNGGAL": {
+    "A029": {
+      "blk": "014",
+      "nilai_min": 18950000,
+      "nilai_max": 20140000,
+      "nilai_jual": 19545000,
+      "range_text": "Rp 18,950,000 - Rp 20,140,000",
+      "recommended_njop": 19545000
+    },
+    "A047": {
+      "blk": "032",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A062": {
+      "blk": "013",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A027": {
+      "blk": "013",
+      "nilai_min": 21370000,
+      "nilai_max": 22640000,
+      "nilai_jual": 22005000,
+      "range_text": "Rp 21,370,000 - Rp 22,640,000",
+      "recommended_njop": 22005000
+    },
+    "A041": {
+      "blk": "018",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A046": {
+      "blk": "050",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A049": {
+      "blk": "017",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A057": {
+      "blk": "026",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A048": {
+      "blk": "009",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A059": {
+      "blk": "020",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A051": {
+      "blk": "012",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A054": {
+      "blk": "014",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A056": {
+      "blk": "049",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A040": {
+      "blk": "001",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A043": {
+      "blk": "019",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A044": {
+      "blk": "047",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A055": {
+      "blk": "006",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A060": {
+      "blk": "020",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A064": {
+      "blk": "029",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A058": {
+      "blk": "047",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A063": {
+      "blk": "049",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A061": {
+      "blk": "050",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A053": {
+      "blk": "017",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A070": {
+      "blk": "001",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A067": {
+      "blk": "006",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A042": {
+      "blk": "019",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A065": {
+      "blk": "005",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    }
+  },
+  "Asemrowo": {
+    "A063": {
+      "blk": "002",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A053": {
+      "blk": "014",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A061": {
+      "blk": "008",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A064": {
+      "blk": "016",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A070": {
+      "blk": "014",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A067": {
+      "blk": "014",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A068": {
+      "blk": "002",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A049": {
+      "blk": "005",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A051": {
+      "blk": "017",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A062": {
+      "blk": "004",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A066": {
+      "blk": "023",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A059": {
+      "blk": "017",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A069": {
+      "blk": "023",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A060": {
+      "blk": "002",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A058": {
+      "blk": "001",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A048": {
+      "blk": "013",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A055": {
+      "blk": "007",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A065": {
+      "blk": "010",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A046": {
+      "blk": "012",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    }
+  },
+  "BENOWO": {
+    "A064": {
+      "blk": "018",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A070": {
+      "blk": "026",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A047": {
+      "blk": "022",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A051": {
+      "blk": "010",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A060": {
+      "blk": "008",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A067": {
+      "blk": "017",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A068": {
+      "blk": "006",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A061": {
+      "blk": "010",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A062": {
+      "blk": "015",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A069": {
+      "blk": "008",
+      "nilai_min": 573000,
+      "nilai_max": 655000,
+      "nilai_jual": 614000,
+      "range_text": "Rp 573,000 - Rp 655,000",
+      "recommended_njop": 614000
+    },
+    "A055": {
+      "blk": "012",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A066": {
+      "blk": "019",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A063": {
+      "blk": "008",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A054": {
+      "blk": "007",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A058": {
+      "blk": "004",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A059": {
+      "blk": "026",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A053": {
+      "blk": "010",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A086": {
+      "blk": "010",
+      "nilai_min": 12000,
+      "nilai_max": 17000,
+      "nilai_jual": 14000,
+      "range_text": "Rp 12,000 - Rp 17,000",
+      "recommended_njop": 14000
+    },
+    "A065": {
+      "blk": "013",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    }
+  },
+  "PAKAL": {
+    "A067": {
+      "blk": "010",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A068": {
+      "blk": "015",
+      "nilai_min": 655000,
+      "nilai_max": 748000,
+      "nilai_jual": 702000,
+      "range_text": "Rp 655,000 - Rp 748,000",
+      "recommended_njop": 702000
+    },
+    "A070": {
+      "blk": "011",
+      "nilai_min": 501000,
+      "nilai_max": 573000,
+      "nilai_jual": 537000,
+      "range_text": "Rp 501,000 - Rp 573,000",
+      "recommended_njop": 537000
+    },
+    "A065": {
+      "blk": "013",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A061": {
+      "blk": "012",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A066": {
+      "blk": "008",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A056": {
+      "blk": "009",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A046": {
+      "blk": "020",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A047": {
+      "blk": "020",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A055": {
+      "blk": "018",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    }
+  },
+  "GUBENG": {
+    "A045": {
+      "blk": "032",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A047": {
+      "blk": "038",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A048": {
+      "blk": "001",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A051": {
+      "blk": "060",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A053": {
+      "blk": "017",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A057": {
+      "blk": "023",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A058": {
+      "blk": "031",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A044": {
+      "blk": "014",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A056": {
+      "blk": "007",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A040": {
+      "blk": "014",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A062": {
+      "blk": "039",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A064": {
+      "blk": "005",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A043": {
+      "blk": "043",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A050": {
+      "blk": "031",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A059": {
+      "blk": "006",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A060": {
+      "blk": "038",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A061": {
+      "blk": "007",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A038": {
+      "blk": "013",
+      "nilai_min": 10040000,
+      "nilai_max": 10870000,
+      "nilai_jual": 10455000,
+      "range_text": "Rp 10,040,000 - Rp 10,870,000",
+      "recommended_njop": 10455000
+    },
+    "A055": {
+      "blk": "009",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A049": {
+      "blk": "011",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A065": {
+      "blk": "006",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A034": {
+      "blk": "043",
+      "nilai_min": 13600000,
+      "nilai_max": 14590000,
+      "nilai_jual": 14095000,
+      "range_text": "Rp 13,600,000 - Rp 14,590,000",
+      "recommended_njop": 14095000
+    },
+    "A063": {
+      "blk": "001",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A032": {
+      "blk": "002",
+      "nilai_min": 15620000,
+      "nilai_max": 16690000,
+      "nilai_jual": 16155000,
+      "range_text": "Rp 15,620,000 - Rp 16,690,000",
+      "recommended_njop": 16155000
+    },
+    "A052": {
+      "blk": "022",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A035": {
+      "blk": "018",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    },
+    "A066": {
+      "blk": "011",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A037": {
+      "blk": "042",
+      "nilai_min": 10870000,
+      "nilai_max": 11740000,
+      "nilai_jual": 11305000,
+      "range_text": "Rp 10,870,000 - Rp 11,740,000",
+      "recommended_njop": 11305000
+    },
+    "A046": {
+      "blk": "017",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A039": {
+      "blk": "009",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    }
+  },
+  "WONOKROMO": {
+    "A030": {
+      "blk": "001",
+      "nilai_min": 17800000,
+      "nilai_max": 18950000,
+      "nilai_jual": 18375000,
+      "range_text": "Rp 17,800,000 - Rp 18,950,000",
+      "recommended_njop": 18375000
+    },
+    "A064": {
+      "blk": "018",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A065": {
+      "blk": "020",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A036": {
+      "blk": "017",
+      "nilai_min": 11740000,
+      "nilai_max": 12650000,
+      "nilai_jual": 12195000,
+      "range_text": "Rp 11,740,000 - Rp 12,650,000",
+      "recommended_njop": 12195000
+    },
+    "A051": {
+      "blk": "010",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A057": {
+      "blk": "009",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A058": {
+      "blk": "033",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A063": {
+      "blk": "007",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A048": {
+      "blk": "019",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A061": {
+      "blk": "006",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A066": {
+      "blk": "045",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A056": {
+      "blk": "006",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A046": {
+      "blk": "016",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A041": {
+      "blk": "027",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A035": {
+      "blk": "004",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    },
+    "A055": {
+      "blk": "070",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A062": {
+      "blk": "013",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A047": {
+      "blk": "008",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A042": {
+      "blk": "009",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A050": {
+      "blk": "004",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A043": {
+      "blk": "013",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A060": {
+      "blk": "010",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A059": {
+      "blk": "008",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A033": {
+      "blk": "001",
+      "nilai_min": 14590000,
+      "nilai_max": 15620000,
+      "nilai_jual": 15105000,
+      "range_text": "Rp 14,590,000 - Rp 15,620,000",
+      "recommended_njop": 15105000
+    },
+    "A049": {
+      "blk": "008",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A054": {
+      "blk": "026",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A052": {
+      "blk": "008",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A034": {
+      "blk": "001",
+      "nilai_min": 13600000,
+      "nilai_max": 14590000,
+      "nilai_jual": 14095000,
+      "range_text": "Rp 13,600,000 - Rp 14,590,000",
+      "recommended_njop": 14095000
+    },
+    "A038": {
+      "blk": "004",
+      "nilai_min": 10040000,
+      "nilai_max": 10870000,
+      "nilai_jual": 10455000,
+      "range_text": "Rp 10,040,000 - Rp 10,870,000",
+      "recommended_njop": 10455000
+    },
+    "A067": {
+      "blk": "008",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A053": {
+      "blk": "019",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A044": {
+      "blk": "019",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A045": {
+      "blk": "020",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A031": {
+      "blk": "019",
+      "nilai_min": 16690000,
+      "nilai_max": 17800000,
+      "nilai_jual": 17245000,
+      "range_text": "Rp 16,690,000 - Rp 17,800,000",
+      "recommended_njop": 17245000
+    }
+  },
+  "TEGALSARI": {
+    "A036": {
+      "blk": "022",
+      "nilai_min": 11740000,
+      "nilai_max": 12650000,
+      "nilai_jual": 12195000,
+      "range_text": "Rp 11,740,000 - Rp 12,650,000",
+      "recommended_njop": 12195000
+    },
+    "A044": {
+      "blk": "024",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A046": {
+      "blk": "012",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A064": {
+      "blk": "010",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A031": {
+      "blk": "021",
+      "nilai_min": 16690000,
+      "nilai_max": 17800000,
+      "nilai_jual": 17245000,
+      "range_text": "Rp 16,690,000 - Rp 17,800,000",
+      "recommended_njop": 17245000
+    },
+    "A045": {
+      "blk": "008",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A043": {
+      "blk": "010",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A063": {
+      "blk": "024",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A042": {
+      "blk": "004",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A047": {
+      "blk": "012",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A050": {
+      "blk": "020",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A039": {
+      "blk": "022",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A038": {
+      "blk": "008",
+      "nilai_min": 10040000,
+      "nilai_max": 10870000,
+      "nilai_jual": 10455000,
+      "range_text": "Rp 10,040,000 - Rp 10,870,000",
+      "recommended_njop": 10455000
+    },
+    "A059": {
+      "blk": "016",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A034": {
+      "blk": "016",
+      "nilai_min": 13600000,
+      "nilai_max": 14590000,
+      "nilai_jual": 14095000,
+      "range_text": "Rp 13,600,000 - Rp 14,590,000",
+      "recommended_njop": 14095000
+    },
+    "A040": {
+      "blk": "022",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A028": {
+      "blk": "015",
+      "nilai_min": 20140000,
+      "nilai_max": 21370000,
+      "nilai_jual": 20755000,
+      "range_text": "Rp 20,140,000 - Rp 21,370,000",
+      "recommended_njop": 20755000
+    },
+    "A062": {
+      "blk": "022",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A041": {
+      "blk": "025",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A030": {
+      "blk": "003",
+      "nilai_min": 17800000,
+      "nilai_max": 18950000,
+      "nilai_jual": 18375000,
+      "range_text": "Rp 17,800,000 - Rp 18,950,000",
+      "recommended_njop": 18375000
+    },
+    "A027": {
+      "blk": "004",
+      "nilai_min": 21370000,
+      "nilai_max": 22640000,
+      "nilai_jual": 22005000,
+      "range_text": "Rp 21,370,000 - Rp 22,640,000",
+      "recommended_njop": 22005000
+    },
+    "A057": {
+      "blk": "020",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    }
+  },
+  "GENTENG": {
+    "A029": {
+      "blk": "004",
+      "nilai_min": 18950000,
+      "nilai_max": 20140000,
+      "nilai_jual": 19545000,
+      "range_text": "Rp 18,950,000 - Rp 20,140,000",
+      "recommended_njop": 19545000
+    },
+    "A030": {
+      "blk": "015",
+      "nilai_min": 17800000,
+      "nilai_max": 18950000,
+      "nilai_jual": 18375000,
+      "range_text": "Rp 17,800,000 - Rp 18,950,000",
+      "recommended_njop": 18375000
+    },
+    "A032": {
+      "blk": "017",
+      "nilai_min": 15620000,
+      "nilai_max": 16690000,
+      "nilai_jual": 16155000,
+      "range_text": "Rp 15,620,000 - Rp 16,690,000",
+      "recommended_njop": 16155000
+    },
+    "A042": {
+      "blk": "013",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A043": {
+      "blk": "016",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A036": {
+      "blk": "015",
+      "nilai_min": 11740000,
+      "nilai_max": 12650000,
+      "nilai_jual": 12195000,
+      "range_text": "Rp 11,740,000 - Rp 12,650,000",
+      "recommended_njop": 12195000
+    },
+    "A038": {
+      "blk": "016",
+      "nilai_min": 10040000,
+      "nilai_max": 10870000,
+      "nilai_jual": 10455000,
+      "range_text": "Rp 10,040,000 - Rp 10,870,000",
+      "recommended_njop": 10455000
+    },
+    "A044": {
+      "blk": "011",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A028": {
+      "blk": "015",
+      "nilai_min": 20140000,
+      "nilai_max": 21370000,
+      "nilai_jual": 20755000,
+      "range_text": "Rp 20,140,000 - Rp 21,370,000",
+      "recommended_njop": 20755000
+    },
+    "A050": {
+      "blk": "013",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A063": {
+      "blk": "021",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A045": {
+      "blk": "011",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A035": {
+      "blk": "014",
+      "nilai_min": 12650000,
+      "nilai_max": 13600000,
+      "nilai_jual": 13125000,
+      "range_text": "Rp 12,650,000 - Rp 13,600,000",
+      "recommended_njop": 13125000
+    },
+    "A039": {
+      "blk": "021",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A040": {
+      "blk": "018",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A048": {
+      "blk": "013",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A067": {
+      "blk": "013",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A041": {
+      "blk": "008",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A046": {
+      "blk": "008",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A053": {
+      "blk": "004",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    },
+    "A055": {
+      "blk": "004",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A058": {
+      "blk": "008",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A059": {
+      "blk": "007",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A049": {
+      "blk": "020",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A037": {
+      "blk": "002",
+      "nilai_min": 10870000,
+      "nilai_max": 11740000,
+      "nilai_jual": 11305000,
+      "range_text": "Rp 10,870,000 - Rp 11,740,000",
+      "recommended_njop": 11305000
+    },
+    "A060": {
+      "blk": "015",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A057": {
+      "blk": "008",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A061": {
+      "blk": "009",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A062": {
+      "blk": "020",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A054": {
+      "blk": "010",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A052": {
+      "blk": "007",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A064": {
+      "blk": "021",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A056": {
+      "blk": "020",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    }
+  },
+  "TAMBAKSARI": {
+    "A046": {
+      "blk": "016",
+      "nilai_min": 4840000,
+      "nilai_max": 5350000,
+      "nilai_jual": 5095000,
+      "range_text": "Rp 4,840,000 - Rp 5,350,000",
+      "recommended_njop": 5095000
+    },
+    "A048": {
+      "blk": "038",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A051": {
+      "blk": "018",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A063": {
+      "blk": "038",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A064": {
+      "blk": "009",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A066": {
+      "blk": "005",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A055": {
+      "blk": "019",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A065": {
+      "blk": "026",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A050": {
+      "blk": "054",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A059": {
+      "blk": "024",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    },
+    "A061": {
+      "blk": "003",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A049": {
+      "blk": "015",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A062": {
+      "blk": "033",
+      "nilai_min": 1341000,
+      "nilai_max": 1490000,
+      "nilai_jual": 1416000,
+      "range_text": "Rp 1,341,000 - Rp 1,490,000",
+      "recommended_njop": 1416000
+    },
+    "A041": {
+      "blk": "025",
+      "nilai_min": 7790000,
+      "nilai_max": 8500000,
+      "nilai_jual": 8145000,
+      "range_text": "Rp 7,790,000 - Rp 8,500,000",
+      "recommended_njop": 8145000
+    },
+    "A060": {
+      "blk": "010",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A039": {
+      "blk": "016",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A042": {
+      "blk": "023",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A052": {
+      "blk": "029",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A058": {
+      "blk": "054",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A057": {
+      "blk": "025",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A047": {
+      "blk": "018",
+      "nilai_min": 4370000,
+      "nilai_max": 4840000,
+      "nilai_jual": 4605000,
+      "range_text": "Rp 4,370,000 - Rp 4,840,000",
+      "recommended_njop": 4605000
+    },
+    "A043": {
+      "blk": "004",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A044": {
+      "blk": "038",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A045": {
+      "blk": "038",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A053": {
+      "blk": "020",
+      "nilai_min": 2708000,
+      "nilai_max": 2850000,
+      "nilai_jual": 2779000,
+      "range_text": "Rp 2,708,000 - Rp 2,850,000",
+      "recommended_njop": 2779000
+    }
+  },
+  "SIMOKERTO": {
+    "A039": {
+      "blk": "013",
+      "nilai_min": 9250000,
+      "nilai_max": 10040000,
+      "nilai_jual": 9645000,
+      "range_text": "Rp 9,250,000 - Rp 10,040,000",
+      "recommended_njop": 9645000
+    },
+    "A040": {
+      "blk": "013",
+      "nilai_min": 8500000,
+      "nilai_max": 9250000,
+      "nilai_jual": 8875000,
+      "range_text": "Rp 8,500,000 - Rp 9,250,000",
+      "recommended_njop": 8875000
+    },
+    "A060": {
+      "blk": "015",
+      "nilai_min": 1655000,
+      "nilai_max": 1789000,
+      "nilai_jual": 1722000,
+      "range_text": "Rp 1,655,000 - Rp 1,789,000",
+      "recommended_njop": 1722000
+    },
+    "A061": {
+      "blk": "013",
+      "nilai_min": 1490000,
+      "nilai_max": 1655000,
+      "nilai_jual": 1573000,
+      "range_text": "Rp 1,490,000 - Rp 1,655,000",
+      "recommended_njop": 1573000
+    },
+    "A063": {
+      "blk": "011",
+      "nilai_min": 1207000,
+      "nilai_max": 1341000,
+      "nilai_jual": 1274000,
+      "range_text": "Rp 1,207,000 - Rp 1,341,000",
+      "recommended_njop": 1274000
+    },
+    "A064": {
+      "blk": "025",
+      "nilai_min": 1086000,
+      "nilai_max": 1207000,
+      "nilai_jual": 1147000,
+      "range_text": "Rp 1,086,000 - Rp 1,207,000",
+      "recommended_njop": 1147000
+    },
+    "A045": {
+      "blk": "015",
+      "nilai_min": 5350000,
+      "nilai_max": 5900000,
+      "nilai_jual": 5625000,
+      "range_text": "Rp 5,350,000 - Rp 5,900,000",
+      "recommended_njop": 5625000
+    },
+    "A044": {
+      "blk": "015",
+      "nilai_min": 5900000,
+      "nilai_max": 6490000,
+      "nilai_jual": 6195000,
+      "range_text": "Rp 5,900,000 - Rp 6,490,000",
+      "recommended_njop": 6195000
+    },
+    "A066": {
+      "blk": "011",
+      "nilai_min": 855000,
+      "nilai_max": 977000,
+      "nilai_jual": 916000,
+      "range_text": "Rp 855,000 - Rp 977,000",
+      "recommended_njop": 916000
+    },
+    "A058": {
+      "blk": "018",
+      "nilai_min": 1934000,
+      "nilai_max": 2091000,
+      "nilai_jual": 2013000,
+      "range_text": "Rp 1,934,000 - Rp 2,091,000",
+      "recommended_njop": 2013000
+    },
+    "A067": {
+      "blk": "022",
+      "nilai_min": 748000,
+      "nilai_max": 855000,
+      "nilai_jual": 802000,
+      "range_text": "Rp 748,000 - Rp 855,000",
+      "recommended_njop": 802000
+    },
+    "A051": {
+      "blk": "008",
+      "nilai_min": 3000000,
+      "nilai_max": 3200000,
+      "nilai_jual": 3100000,
+      "range_text": "Rp 3,000,000 - Rp 3,200,000",
+      "recommended_njop": 3100000
+    },
+    "A057": {
+      "blk": "015",
+      "nilai_min": 2091000,
+      "nilai_max": 2261000,
+      "nilai_jual": 2176000,
+      "range_text": "Rp 2,091,000 - Rp 2,261,000",
+      "recommended_njop": 2176000
+    },
+    "A042": {
+      "blk": "014",
+      "nilai_min": 7120000,
+      "nilai_max": 7790000,
+      "nilai_jual": 7455000,
+      "range_text": "Rp 7,120,000 - Rp 7,790,000",
+      "recommended_njop": 7455000
+    },
+    "A043": {
+      "blk": "016",
+      "nilai_min": 6490000,
+      "nilai_max": 7120000,
+      "nilai_jual": 6805000,
+      "range_text": "Rp 6,490,000 - Rp 7,120,000",
+      "recommended_njop": 6805000
+    },
+    "A050": {
+      "blk": "010",
+      "nilai_min": 3200000,
+      "nilai_max": 3550000,
+      "nilai_jual": 3375000,
+      "range_text": "Rp 3,200,000 - Rp 3,550,000",
+      "recommended_njop": 3375000
+    },
+    "A065": {
+      "blk": "025",
+      "nilai_min": 977000,
+      "nilai_max": 1086000,
+      "nilai_jual": 1032000,
+      "range_text": "Rp 977,000 - Rp 1,086,000",
+      "recommended_njop": 1032000
+    },
+    "A055": {
+      "blk": "025",
+      "nilai_min": 2444000,
+      "nilai_max": 2573000,
+      "nilai_jual": 2508000,
+      "range_text": "Rp 2,444,000 - Rp 2,573,000",
+      "recommended_njop": 2508000
+    },
+    "A048": {
+      "blk": "009",
+      "nilai_min": 3940000,
+      "nilai_max": 4370000,
+      "nilai_jual": 4155000,
+      "range_text": "Rp 3,940,000 - Rp 4,370,000",
+      "recommended_njop": 4155000
+    },
+    "A049": {
+      "blk": "009",
+      "nilai_min": 3550000,
+      "nilai_max": 3940000,
+      "nilai_jual": 3745000,
+      "range_text": "Rp 3,550,000 - Rp 3,940,000",
+      "recommended_njop": 3745000
+    },
+    "A056": {
+      "blk": "015",
+      "nilai_min": 2261000,
+      "nilai_max": 2444000,
+      "nilai_jual": 2352000,
+      "range_text": "Rp 2,261,000 - Rp 2,444,000",
+      "recommended_njop": 2352000
+    },
+    "A052": {
+      "blk": "010",
+      "nilai_min": 2850000,
+      "nilai_max": 3000000,
+      "nilai_jual": 2925000,
+      "range_text": "Rp 2,850,000 - Rp 3,000,000",
+      "recommended_njop": 2925000
+    },
+    "A054": {
+      "blk": "017",
+      "nilai_min": 2573000,
+      "nilai_max": 2708000,
+      "nilai_jual": 2640000,
+      "range_text": "Rp 2,573,000 - Rp 2,708,000",
+      "recommended_njop": 2640000
+    },
+    "A059": {
+      "blk": "016",
+      "nilai_min": 1789000,
+      "nilai_max": 1934000,
+      "nilai_jual": 1862000,
+      "range_text": "Rp 1,789,000 - Rp 1,934,000",
+      "recommended_njop": 1862000
+    }
+  }
+}
