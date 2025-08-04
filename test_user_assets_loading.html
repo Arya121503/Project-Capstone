@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test User Assets Loading</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Test User Assets Loading</h2>
+        <div class="row" id="assetGrid">
+            <!-- Assets will be loaded here -->
+        </div>
+        <div class="mt-3">
+            <p>Total Aset: <span id="totalAset">0</span></p>
+        </div>
+        
+        <!-- Console log area -->
+        <div class="mt-4">
+            <h4>Console Log:</h4>
+            <div id="logArea" class="border p-3" style="height: 300px; overflow-y: auto; background: #f8f9fa;"></div>
+        </div>
+    </div>
+
+    <script>
+        // Override console.log to display in page
+        const logArea = document.getElementById('logArea');
+        const originalLog = console.log;
+        const originalError = console.error;
+        
+        console.log = function(...args) {
+            originalLog.apply(console, args);
+            logArea.innerHTML += '<div style="color: blue;">[LOG] ' + args.join(' ') + '</div>';
+            logArea.scrollTop = logArea.scrollHeight;
+        };
+        
+        console.error = function(...args) {
+            originalError.apply(console, args);
+            logArea.innerHTML += '<div style="color: red;">[ERROR] ' + args.join(' ') + '</div>';
+            logArea.scrollTop = logArea.scrollHeight;
+        };
+
+        // Global variables
+        let currentPage = 1;
+        const itemsPerPage = 6;
+        let totalAssets = 0;
+        let allAssets = [];
+        let filteredAssets = [];
+
+        // Load available assets from database
+        async function loadAvailableAssets(page = 1, filters = {}) {
+            try {
+                console.log('Starting loadAvailableAssets function...');
+                
+                // Show loading state
+                document.getElementById('assetGrid').innerHTML = `
+                    <div class="col-12 text-center py-5">
+                        <div class="spinner-border text-danger" role="status">
+                            <span class="visually-hidden">Loading...</span>
+                        </div>
+                        <p class="mt-3 text-muted">Memuat data aset tersedia...</p>
+                    </div>
+                `;
+
+                // Build query parameters
+                const queryParams = new URLSearchParams();
+                if (filters.assetType) queryParams.append('asset_type', filters.assetType);
+                if (filters.location) queryParams.append('kecamatan', filters.location);
+                if (filters.priceRange) queryParams.append('price_range', filters.priceRange);
+
+                console.log('Fetching from: /rental/api/assets/available?' + queryParams.toString());
+                
+                // Fetch data from API
+                const response = await fetch(`/rental/api/assets/available?${queryParams.toString()}`);
+                console.log('Response status:', response.status);
+                
+                const result = await response.json();
+                console.log('Response data:', result);
+
+                if (!result.success) {
+                    throw new Error(result.error || 'Failed to load assets');
+                }
+
+                // Store all assets
+                allAssets = result.data || result.assets || [];
+                totalAssets = result.total || allAssets.length;
+                
+                console.log('Loaded assets count:', allAssets.length);
+                console.log('Total assets:', totalAssets);
+                
+                // Update filtered assets
+                filteredAssets = [...allAssets];
+
+                // Update stats
+                const totalElement = document.getElementById('totalAset');
+                if (totalElement) {
+                    totalElement.textContent = totalAssets;
+                }
+
+                // Display assets with pagination
+                displayAssets(page);
+                
+                return result.data;
+            } catch (error) {
+                console.error('Error loading assets:', error);
+                showAlert('error', `Gagal memuat data aset: ${error.message}`);
+                return [];
+            }
+        }
+
+        // Display assets with pagination
+        function displayAssets(page) {
+            console.log('displayAssets called with page:', page);
+            
+            const startIndex = (page - 1) * itemsPerPage;
+            const endIndex = startIndex + itemsPerPage;
+            const assetsToDisplay = filteredAssets.slice(startIndex, endIndex);
+            
+            console.log('Assets to display:', assetsToDisplay.length);
+            
+            const assetGrid = document.getElementById('assetGrid');
+            
+            if (assetsToDisplay.length === 0) {
+                assetGrid.innerHTML = `
+                    <div class="col-12 text-center py-5">
+                        <i class="fas fa-search fa-3x text-muted mb-3"></i>
+                        <h5>Tidak ada aset yang tersedia</h5>
+                        <p class="text-muted">Coba ubah filter pencarian Anda</p>
+                    </div>
+                `;
+                return;
+            }
+            
+            // Clear previous content
+            assetGrid.innerHTML = '';
+            
+            // Add asset cards
+            assetsToDisplay.forEach(asset => {
+                console.log('Creating card for asset:', asset.id, asset.name);
+                const assetCard = createAssetCard(asset);
+                assetGrid.appendChild(assetCard);
+            });
+        }
+
+        // Create asset card
+        function createAssetCard(asset) {
+            console.log('createAssetCard called for asset:', asset.id);
+            
+            const div = document.createElement('div');
+            div.className = 'col-md-6 col-lg-4 mb-3';
+            
+            const formatCurrency = (amount) => {
+                return new Intl.NumberFormat('id-ID').format(amount || 0);
+            };
+            
+            const assetType = asset.asset_type || 'tanah';
+            const isTanah = assetType === 'tanah';
+            
+            div.innerHTML = `
+                <div class="card asset-card h-100 shadow-sm">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between align-items-start mb-2">
+                            <span class="badge bg-${isTanah ? 'success' : 'primary'} rounded-pill">
+                                ${isTanah ? 'Tanah' : 'Tanah + Bangunan'}
+                            </span>
+                            <div class="d-flex align-items-center gap-2">
+                                <span class="badge bg-success text-white rounded-pill">
+                                    Tersedia
+                                </span>
+                                <i class="fas fa-heart favorite-heart" 
+                                   title="Tambah ke Favorit"
+                                   data-aset-id="${asset.id}"></i>
+                            </div>
+                        </div>
+                        
+                        <h6 class="card-title text-truncate" title="${asset.name || asset.alamat || 'Alamat tidak tersedia'}">
+                            ${asset.name || asset.alamat || 'Alamat tidak tersedia'}
+                        </h6>
+                        
+                        <div class="mb-2">
+                            <small class="text-muted">
+                                <i class="fas fa-map-marker-alt me-1"></i>
+                                ${asset.kecamatan || 'Kecamatan tidak tersedia'}
+                            </small>
+                        </div>
+                        
+                        <div class="row text-center mb-3">
+                            <div class="col-6">
+                                <small class="text-muted d-block">Luas Tanah</small>
+                                <strong>${asset.luas_tanah || 0} m²</strong>
+                            </div>
+                            <div class="col-6">
+                                <small class="text-muted d-block">Luas Bangunan</small>
+                                <strong>${asset.luas_bangunan || 0} m²</strong>
+                            </div>
+                        </div>
+                        
+                        <div class="text-center">
+                            <div class="h6 text-danger mb-2">
+                                Rp ${formatCurrency(asset.harga_sewa || 0)}/bulan
+                            </div>
+                            <div class="btn-group btn-group-sm w-100">
+                                <button class="btn btn-outline-info" onclick="showAsetDetail(${asset.id}, '${assetType}')">
+                                    <i class="fas fa-eye me-1"></i>Detail
+                                </button>
+                                <button class="btn btn-danger" onclick="showRentalForm(${asset.id}, '${assetType}')">
+                                    <i class="fas fa-handshake me-1"></i>Sewa
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            return div;
+        }
+
+        // Show alert function
+        function showAlert(type, message) {
+            console.log('Alert:', type, message);
+            alert(message);
+        }
+
+        // Dummy functions for buttons
+        function showAsetDetail(id, type) {
+            console.log('showAsetDetail called:', id, type);
+            alert(`Detail aset ID: ${id} (${type})`);
+        }
+
+        function showRentalForm(id, type) {
+            console.log('showRentalForm called:', id, type);
+            alert(`Form sewa aset ID: ${id} (${type})`);
+        }
+
+        // Initialize when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            console.log('Page loaded, calling loadAvailableAssets...');
+            loadAvailableAssets();
+        });
+    </script>
+</body>
+</html>

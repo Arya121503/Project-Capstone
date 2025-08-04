@@ -1,0 +1,663 @@
+{% extends 'layout.html' %}
+
+{% block title %}Manajemen Aset Sewa | Admin{% endblock %}
+
+{% block content %}
+<div class="container-fluid py-4">
+    <div class="row">
+        <div class="col-12">
+            <div class="card mb-4">
+                <div class="card-header pb-0 d-flex justify-content-between align-items-center">
+                    <h6>Manajemen Aset Sewa</h6>
+                    <button class="btn btn-primary btn-sm" data-bs-toggle="modal" data-bs-target="#addAssetModal">
+                        <i class="fas fa-plus"></i> Tambah Aset Baru
+                    </button>
+                </div>
+                <div class="card-body px-0 pt-0 pb-2">
+                    <div class="table-responsive p-0">
+                        <table class="table align-items-center mb-0" id="rentalAssetsTable">
+                            <thead>
+                                <tr>
+                                    <th class="text-uppercase text-xxs font-weight-bolder opacity-7">Aset</th>
+                                    <th class="text-uppercase text-xxs font-weight-bolder opacity-7 ps-2">Tipe</th>
+                                    <th class="text-uppercase text-xxs font-weight-bolder opacity-7 ps-2">Lokasi</th>
+                                    <th class="text-uppercase text-xxs font-weight-bolder opacity-7 ps-2">Harga Sewa</th>
+                                    <th class="text-uppercase text-xxs font-weight-bolder opacity-7 ps-2">Status</th>
+                                    <th class="text-center text-uppercase text-xxs font-weight-bolder opacity-7">Aksi</th>
+                                </tr>
+                            </thead>
+                            <tbody id="rentalAssetsTableBody">
+                                <!-- Data will be loaded dynamically -->
+                                <tr>
+                                    <td colspan="6" class="text-center">Loading...</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Add Asset Modal -->
+<div class="modal fade" id="addAssetModal" tabindex="-1" aria-labelledby="addAssetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addAssetModalLabel">Tambah Aset Sewa Baru</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="addAssetForm">
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="asset_name" class="form-label">Nama Aset</label>
+                            <input type="text" class="form-control" id="asset_name" name="asset_name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="asset_type" class="form-label">Tipe Aset</label>
+                            <select class="form-select" id="asset_type" name="asset_type" required>
+                                <option value="">Pilih Tipe</option>
+                                <option value="tanah">Tanah</option>
+                                <option value="bangunan">Bangunan</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="location" class="form-label">Lokasi (Kecamatan)</label>
+                            <select class="form-select" id="location" name="location" required>
+                                <option value="">Pilih Kecamatan</option>
+                                <option value="Sukomanunggal">Sukomanunggal</option>
+                                <option value="Tandes">Tandes</option>
+                                <option value="Sawahan">Sawahan</option>
+                                <option value="Krembangan">Krembangan</option>
+                                <option value="Tambaksari">Tambaksari</option>
+                                <option value="Wiyung">Wiyung</option>
+                                <option value="Wonokromo">Wonokromo</option>
+                                <option value="Kenjeran">Kenjeran</option>
+                                <option value="Rungkut">Rungkut</option>
+                                <option value="Semampir">Semampir</option>
+                                <option value="Pakal">Pakal</option>
+                                <option value="Gayungan">Gayungan</option>
+                                <option value="Benowo">Benowo</option>
+                                <option value="Sambikerep">Sambikerep</option>
+                                <option value="Gubeng">Gubeng</option>
+                                <option value="Mulyorejo">Mulyorejo</option>
+                                <option value="Sukolilo">Sukolilo</option>
+                                <option value="Dukuh Pakis">Dukuh Pakis</option>
+                                <option value="Tenggilis Mejoyo">Tenggilis Mejoyo</option>
+                                <option value="Gunung Anyar">Gunung Anyar</option>
+                                <option value="Jambangan">Jambangan</option>
+                                <option value="Karang Pilang">Karang Pilang</option>
+                                <option value="Lakarsantri">Lakarsantri</option>
+                                <option value="Bulak">Bulak</option>
+                                <option value="Asemrowo">Asemrowo</option>
+                                <option value="Simokerto">Simokerto</option>
+                                <option value="Pabean Cantian">Pabean Cantian</option>
+                                <option value="Genteng">Genteng</option>
+                                <option value="Tegalsari">Tegalsari</option>
+                                <option value="Bubutan">Bubutan</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="address" class="form-label">Alamat Lengkap</label>
+                            <textarea class="form-control" id="address" name="address" rows="2" required></textarea>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="land_size" class="form-label">Luas Tanah (m²)</label>
+                            <input type="number" class="form-control" id="land_size" name="land_size" min="1" required>
+                        </div>
+                        <div class="col-md-6 building-field" style="display: none;">
+                            <label for="building_size" class="form-label">Luas Bangunan (m²)</label>
+                            <input type="number" class="form-control" id="building_size" name="building_size" min="1">
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3 building-fields" style="display: none;">
+                        <div class="col-md-4">
+                            <label for="bedrooms" class="form-label">Jumlah Kamar Tidur</label>
+                            <input type="number" class="form-control" id="bedrooms" name="bedrooms" min="0" value="0">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="bathrooms" class="form-label">Jumlah Kamar Mandi</label>
+                            <input type="number" class="form-control" id="bathrooms" name="bathrooms" min="0" value="0">
+                        </div>
+                        <div class="col-md-4">
+                            <label for="floors" class="form-label">Jumlah Lantai</label>
+                            <input type="number" class="form-control" id="floors" name="floors" min="1" value="1">
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="njop_per_m2" class="form-label">NJOP per m²</label>
+                            <div class="input-group">
+                                <span class="input-group-text">Rp</span>
+                                <input type="number" class="form-control" id="njop_per_m2" name="njop_per_m2" min="0" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="rental_price" class="form-label">Harga Sewa per Bulan</label>
+                            <div class="input-group">
+                                <span class="input-group-text">Rp</span>
+                                <input type="number" class="form-control" id="rental_price" name="rental_price" min="0" required>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="certificate" class="form-label">Jenis Sertifikat</label>
+                            <select class="form-select" id="certificate" name="certificate" required>
+                                <option value="">Pilih Jenis Sertifikat</option>
+                                <option value="HGB">HGB</option>
+                                <option value="SHM">SHM</option>
+                                <option value="AJB">AJB</option>
+                                <option value="SHSRS">SHSRS</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="zone_type" class="form-label">Jenis Zona</label>
+                            <select class="form-select" id="zone_type" name="zone_type" required>
+                                <option value="">Pilih Jenis Zona</option>
+                                <option value="Pemukiman">Pemukiman</option>
+                                <option value="Komersial">Komersial</option>
+                                <option value="Industri">Industri</option>
+                                <option value="Khusus">Khusus</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="photos" class="form-label">Foto Aset (max 5)</label>
+                        <input type="file" class="form-control" id="photos" name="photos" accept="image/*" multiple>
+                        <div class="form-text">Upload maksimal 5 foto aset (format: JPG, PNG, maksimal 2MB per foto)</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="description" class="form-label">Deskripsi</label>
+                        <textarea class="form-control" id="description" name="description" rows="3"></textarea>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-primary" id="saveAssetBtn">Simpan</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Edit Asset Modal -->
+<div class="modal fade" id="editAssetModal" tabindex="-1" aria-labelledby="editAssetModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editAssetModalLabel">Edit Aset Sewa</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form id="editAssetForm">
+                    <input type="hidden" id="edit_asset_id" name="edit_asset_id">
+                    
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="edit_asset_name" class="form-label">Nama Aset</label>
+                            <input type="text" class="form-control" id="edit_asset_name" name="asset_name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="edit_asset_type" class="form-label">Tipe Aset</label>
+                            <select class="form-select" id="edit_asset_type" name="asset_type" required>
+                                <option value="">Pilih Tipe</option>
+                                <option value="tanah">Tanah</option>
+                                <option value="bangunan">Bangunan</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- Same structure as add modal for other fields -->
+                    <div class="row mb-3">
+                        <div class="col-md-6">
+                            <label for="edit_location" class="form-label">Lokasi (Kecamatan)</label>
+                            <select class="form-select" id="edit_location" name="location" required>
+                                <option value="">Pilih Kecamatan</option>
+                                <option value="Sukomanunggal">Sukomanunggal</option>
+                                <option value="Tandes">Tandes</option>
+                                <option value="Sawahan">Sawahan</option>
+                                <option value="Krembangan">Krembangan</option>
+                                <option value="Tambaksari">Tambaksari</option>
+                                <option value="Wiyung">Wiyung</option>
+                                <option value="Wonokromo">Wonokromo</option>
+                                <option value="Kenjeran">Kenjeran</option>
+                                <option value="Rungkut">Rungkut</option>
+                                <option value="Semampir">Semampir</option>
+                                <option value="Pakal">Pakal</option>
+                                <option value="Gayungan">Gayungan</option>
+                                <option value="Benowo">Benowo</option>
+                                <option value="Sambikerep">Sambikerep</option>
+                                <option value="Gubeng">Gubeng</option>
+                                <option value="Mulyorejo">Mulyorejo</option>
+                                <option value="Sukolilo">Sukolilo</option>
+                                <option value="Dukuh Pakis">Dukuh Pakis</option>
+                                <option value="Tenggilis Mejoyo">Tenggilis Mejoyo</option>
+                                <option value="Gunung Anyar">Gunung Anyar</option>
+                                <option value="Jambangan">Jambangan</option>
+                                <option value="Karang Pilang">Karang Pilang</option>
+                                <option value="Lakarsantri">Lakarsantri</option>
+                                <option value="Bulak">Bulak</option>
+                                <option value="Asemrowo">Asemrowo</option>
+                                <option value="Simokerto">Simokerto</option>
+                                <option value="Pabean Cantian">Pabean Cantian</option>
+                                <option value="Genteng">Genteng</option>
+                                <option value="Tegalsari">Tegalsari</option>
+                                <option value="Bubutan">Bubutan</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <label for="edit_status" class="form-label">Status</label>
+                            <select class="form-select" id="edit_status" name="status" required>
+                                <option value="available">Tersedia</option>
+                                <option value="maintenance">Dalam Perawatan</option>
+                                <option value="rented">Disewa</option>
+                            </select>
+                        </div>
+                    </div>
+                    
+                    <!-- Additional fields would follow the same pattern -->
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-primary" id="updateAssetBtn">Simpan Perubahan</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Delete Confirmation Modal -->
+<div class="modal fade" id="deleteAssetModal" tabindex="-1" aria-labelledby="deleteAssetModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deleteAssetModalLabel">Konfirmasi Hapus</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Apakah Anda yakin ingin menghapus aset ini? Tindakan ini tidak dapat dibatalkan.
+                <input type="hidden" id="delete_asset_id">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Batal</button>
+                <button type="button" class="btn btn-danger" id="confirmDeleteBtn">Hapus</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript for handling rental assets -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Show/hide building fields based on asset type selection
+        document.getElementById('asset_type').addEventListener('change', function() {
+            const buildingFields = document.querySelectorAll('.building-field, .building-fields');
+            if (this.value === 'bangunan') {
+                buildingFields.forEach(field => field.style.display = 'block');
+            } else {
+                buildingFields.forEach(field => field.style.display = 'none');
+            }
+        });
+        
+        document.getElementById('edit_asset_type').addEventListener('change', function() {
+            const buildingFields = document.querySelectorAll('.edit-building-field, .edit-building-fields');
+            if (this.value === 'bangunan') {
+                buildingFields.forEach(field => field.style.display = 'block');
+            } else {
+                buildingFields.forEach(field => field.style.display = 'none');
+            }
+        });
+        
+        // Load all rental assets
+        loadRentalAssets();
+        
+        // Check if we need to open the edit modal (from URL parameter)
+        const urlParams = new URLSearchParams(window.location.search);
+        const editId = urlParams.get('edit');
+        if (editId) {
+            editAsset(editId);
+        }
+        
+        // Save new asset
+        document.getElementById('saveAssetBtn').addEventListener('click', saveNewAsset);
+        
+        // Update asset
+        document.getElementById('updateAssetBtn').addEventListener('click', updateAsset);
+        
+        // Delete asset
+        document.getElementById('confirmDeleteBtn').addEventListener('click', deleteAsset);
+    });        // Function to load all rental assets
+    function loadRentalAssets() {
+        fetch('/rental/api/rental-assets', {
+            credentials: 'include',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        })
+            .then(response => {
+                if (!response.ok) {
+                    if (response.status === 401 || response.status === 403) {
+                        console.error('Authentication error');
+                        document.getElementById('rentalAssetsTableBody').innerHTML = 
+                            '<tr><td colspan="6" class="text-center">Error: Anda tidak memiliki akses. <a href="/login">Silakan login kembali</a></td></tr>';
+                        throw new Error('Unauthorized');
+                    }
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.assets && Array.isArray(data.assets)) {
+                    displayRentalAssets(data.assets);
+                } else {
+                    console.error('Unexpected data format', data);
+                    document.getElementById('rentalAssetsTableBody').innerHTML = 
+                        '<tr><td colspan="6" class="text-center">Tidak ada data untuk ditampilkan</td></tr>';
+                }
+            })
+            .catch(error => {
+                console.error('Error fetching rental assets:', error);
+                if (!error.message.includes('Unauthorized')) {
+                    document.getElementById('rentalAssetsTableBody').innerHTML = 
+                        '<tr><td colspan="6" class="text-center">Error: Gagal memuat data</td></tr>';
+                }
+            });
+    }
+    
+    // Function to display rental assets in the table
+    function displayRentalAssets(assets) {
+        const tableBody = document.getElementById('rentalAssetsTableBody');
+        
+        if (assets.length === 0) {
+            tableBody.innerHTML = '<tr><td colspan="6" class="text-center">Belum ada aset sewa</td></tr>';
+            return;
+        }
+        
+        let html = '';
+        
+        assets.forEach(asset => {
+            let statusBadge = '';
+            switch(asset.status) {
+                case 'available':
+                    statusBadge = '<span class="badge bg-success">Tersedia</span>';
+                    break;
+                case 'maintenance':
+                    statusBadge = '<span class="badge bg-warning">Perawatan</span>';
+                    break;
+                case 'rented':
+                    statusBadge = '<span class="badge bg-info">Disewa</span>';
+                    break;
+                default:
+                    statusBadge = '<span class="badge bg-secondary">Unknown</span>';
+            }
+            
+            html += `
+                <tr>
+                    <td>
+                        <div class="d-flex px-2 py-1">
+                            <div class="d-flex flex-column justify-content-center">
+                                <h6 class="mb-0 text-sm">${asset.name}</h6>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <p class="text-xs font-weight-bold mb-0">${asset.type === 'tanah' ? 'Tanah' : 'Bangunan'}</p>
+                    </td>
+                    <td>
+                        <p class="text-xs font-weight-bold mb-0">${asset.kecamatan}</p>
+                    </td>
+                    <td>
+                        <p class="text-xs font-weight-bold mb-0">Rp ${formatNumber(asset.harga_sewa)}/bulan</p>
+                    </td>
+                    <td>
+                        ${statusBadge}
+                    </td>
+                    <td class="align-middle text-center">
+                        <button class="btn btn-link text-secondary mb-0" onclick="viewAsset(${asset.id})">
+                            <i class="fas fa-eye text-xs"></i>
+                        </button>
+                        <button class="btn btn-link text-secondary mb-0" onclick="editAsset(${asset.id})">
+                            <i class="fas fa-edit text-xs"></i>
+                        </button>
+                        <button class="btn btn-link text-danger mb-0" onclick="confirmDelete(${asset.id})">
+                            <i class="fas fa-trash text-xs"></i>
+                        </button>
+                    </td>
+                </tr>
+            `;
+        });
+        
+        tableBody.innerHTML = html;
+    }
+    
+    // Format number with commas
+    function formatNumber(number) {
+        return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    }
+    
+    // Function to view asset details
+    function viewAsset(id) {
+        window.location.href = `/rental/assets/${id}`;
+    }
+    
+    // Function to load asset for editing
+    function editAsset(id) {
+        fetch(`/rental/api/rental-assets/${id}`, {
+            credentials: 'same-origin',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        })
+            .then(response => {
+                if (!response.ok) {
+                    if (response.status === 401 || response.status === 403) {
+                        alert('Anda tidak memiliki akses. Silakan login kembali sebagai admin.');
+                        window.location.href = '/login';
+                        throw new Error('Unauthorized');
+                    }
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then(data => {
+                if (data.error) {
+                    alert(data.error);
+                    return;
+                }
+                
+                const asset = data;
+                
+                document.getElementById('edit_asset_id').value = asset.id;
+                document.getElementById('edit_asset_name').value = asset.name;
+                document.getElementById('edit_asset_type').value = asset.type;
+                document.getElementById('edit_location').value = asset.kecamatan || '';  // Match field names from API
+                document.getElementById('edit_status').value = asset.status;
+                
+                // Set other fields...
+                
+                // Show/hide building fields based on asset type
+                const buildingFields = document.querySelectorAll('.edit-building-field, .edit-building-fields');
+                if (asset.type === 'bangunan') {
+                    buildingFields.forEach(field => field.style.display = 'block');
+                } else {
+                    buildingFields.forEach(field => field.style.display = 'none');
+                }
+                
+                // Show the modal
+                const editModal = new bootstrap.Modal(document.getElementById('editAssetModal'));
+                editModal.show();
+            })
+            .catch(error => {
+                console.error('Error fetching asset details:', error);
+                alert('Gagal memuat detail aset');
+            });
+    }
+    
+    // Function to save a new asset
+    function saveNewAsset() {
+        const form = document.getElementById('addAssetForm');
+        
+        // Form validation
+        if (!form.checkValidity()) {
+            form.reportValidity();
+            return;
+        }
+        
+        const formData = new FormData(form);
+        
+        fetch('/rental/api/rental-assets', {
+            method: 'POST',
+            body: formData,
+            credentials: 'include',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401 || response.status === 403) {
+                    alert('Anda tidak memiliki akses. Silakan login kembali sebagai admin.');
+                    window.location.href = '/login';
+                    throw new Error('Unauthorized');
+                }
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.error) {
+                alert(data.error);
+                return;
+            }
+            
+            // Close modal and reload data
+            const modal = bootstrap.Modal.getInstance(document.getElementById('addAssetModal'));
+            modal.hide();
+            form.reset();
+            loadRentalAssets();
+            alert('Aset berhasil ditambahkan');
+        })
+        .catch(error => {
+            console.error('Error saving new asset:', error);
+            if (!error.message.includes('Unauthorized')) {
+                alert('Gagal menyimpan aset baru');
+            }
+        });
+    }
+    
+    // Function to update an asset
+    function updateAsset() {
+        const form = document.getElementById('editAssetForm');
+        
+        // Form validation
+        if (!form.checkValidity()) {
+            form.reportValidity();
+            return;
+        }
+        
+        const formData = new FormData(form);
+        const assetId = document.getElementById('edit_asset_id').value;
+        
+        fetch(`/rental/api/rental-assets/${assetId}`, {
+            method: 'PUT',
+            body: formData,
+            credentials: 'include',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401 || response.status === 403) {
+                    alert('Anda tidak memiliki akses. Silakan login kembali sebagai admin.');
+                    window.location.href = '/login';
+                    throw new Error('Unauthorized');
+                }
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.error) {
+                alert(data.error);
+                return;
+            }
+            
+            // Close modal and reload data
+            const modal = bootstrap.Modal.getInstance(document.getElementById('editAssetModal'));
+            modal.hide();
+            loadRentalAssets();
+            alert('Aset berhasil diperbarui');
+        })
+        .catch(error => {
+            console.error('Error updating asset:', error);
+            if (!error.message.includes('Unauthorized')) {
+                alert('Gagal memperbarui aset');
+            }
+        });
+    }
+    
+    // Function to confirm deletion
+    function confirmDelete(id) {
+        document.getElementById('delete_asset_id').value = id;
+        const deleteModal = new bootstrap.Modal(document.getElementById('deleteAssetModal'));
+        deleteModal.show();
+    }
+    
+    // Function to delete an asset
+    function deleteAsset() {
+        const assetId = document.getElementById('delete_asset_id').value;
+        
+        fetch(`/rental/api/rental-assets/${assetId}`, {
+            method: 'DELETE',
+            credentials: 'include',
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                if (response.status === 401 || response.status === 403) {
+                    alert('Anda tidak memiliki akses. Silakan login kembali sebagai admin.');
+                    window.location.href = '/login';
+                    throw new Error('Unauthorized');
+                }
+                throw new Error('Network response was not ok');
+            }
+            return response.json();
+        })
+        .then(data => {
+            if (data.error) {
+                alert(data.error);
+                return;
+            }
+            
+            // Close modal and reload data
+            const modal = bootstrap.Modal.getInstance(document.getElementById('deleteAssetModal'));
+            modal.hide();
+            loadRentalAssets();
+            alert('Aset berhasil dihapus');
+        })
+        .catch(error => {
+            console.error('Error deleting asset:', error);
+            if (!error.message.includes('Unauthorized')) {
+                alert('Gagal menghapus aset');
+            }
+        });
+    }
+</script>
+{% endblock %}

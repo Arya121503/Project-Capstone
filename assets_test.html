@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Assets Loading Test</title>
+    <script>
+        async function testAssetsAPI() {
+            console.log('Testing assets API...');
+            try {
+                const response = await fetch('/rental/api/assets/available?page=1&per_page=5');
+                const data = await response.json();
+                
+                const resultDiv = document.getElementById('result');
+                if (data.success) {
+                    resultDiv.innerHTML = `
+                        <h3 style="color: green;">API Working!</h3>
+                        <p>Found ${data.assets.length} assets</p>
+                        <p>Total: ${data.pagination.total}</p>
+                        <pre>${JSON.stringify(data.assets[0], null, 2)}</pre>
+                    `;
+                } else {
+                    resultDiv.innerHTML = `
+                        <h3 style="color: red;">API Error!</h3>
+                        <p>Error: ${data.error || 'Unknown error'}</p>
+                    `;
+                }
+            } catch (error) {
+                document.getElementById('result').innerHTML = `
+                    <h3 style="color: red;">Network Error!</h3>
+                    <p>Error: ${error.message}</p>
+                `;
+                console.error('Error:', error);
+            }
+        }
+        
+        function testDOMElements() {
+            const availableList = document.getElementById('availableAssetsList');
+            const result = document.getElementById('dom-result');
+            
+            if (availableList) {
+                result.innerHTML = '<p style="color: green;">availableAssetsList element found</p>';
+            } else {
+                result.innerHTML = '<p style="color: red;">availableAssetsList element NOT found</p>';
+            }
+        }
+        
+        window.onload = function() {
+            testAssetsAPI();
+            testDOMElements();
+        };
+    </script>
+</head>
+<body>
+    <h1>Assets Loading Test</h1>
+    
+    <h2>API Test Result:</h2>
+    <div id="result">Loading...</div>
+    
+    <h2>DOM Element Test:</h2>
+    <div id="dom-result">Checking...</div>
+    
+    <h2>Test Table Structure:</h2>
+    <table>
+        <tbody id="availableAssetsList">
+            <tr><td>Test row</td></tr>
+        </tbody>
+    </table>
+    
+    <h2>Manual Test:</h2>
+    <button onclick="testAssetsAPI()">Test API Again</button>
+    <button onclick="testDOMElements()">Test DOM Again</button>
+    
+    <h2>Instructions:</h2>
+    <ol>
+        <li>If API test shows green, the backend is working</li>
+        <li>If DOM test shows green, the element exists</li>
+        <li>If both are green but you still get errors in admin dashboard, its likely a JavaScript timing or authentication issue</li>
+    </ol>
+</body>
+</html>

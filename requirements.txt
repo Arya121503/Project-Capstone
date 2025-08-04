@@ -1,0 +1,16 @@
+Flask
+Werkzeug
+Flask-WTF
+WTForms
+python-dotenv
+pandas
+numpy
+PyMySQL
+mysql-connector-python
+Flask-MySQLdb
+Flask-SQLAlchemy
+Flask-Migrate
+scikit-learn
+xgboost
+catboost
+joblib

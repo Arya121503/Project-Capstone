@@ -1,0 +1,20 @@
+{
+  "model_info": {
+    "name": "CatBoost",
+    "type": "CatBoostRegressor",
+    "timestamp": "20250803_235254"
+  },
+  "performance": {
+    "test_r2": 0.9750128986214744,
+    "test_mape": 0.32495547746776837,
+    "test_mae": 3576695.11206545,
+    "cv_r2_mean": 0.9571916910661772,
+    "overfitting_gap": 0.02035553998837014
+  },
+  "data_info": {
+    "target_column": "Sewa Per Bulan (Rp)",
+    "features_count": 10,
+    "samples_trained": 793,
+    "samples_tested": 199
+  }
+}

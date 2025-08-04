@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="/static/css/style.css"
+    />
+    <title>Login | Telkom Aset Dashboard</title>
+  </head>
+
+  <body>
+    <div class="container" id="container">
+       
+      <div class="flash-container">
+        
+        <div class="flash-message error">Silakan login terlebih dahulu.</div>
+        
+      </div>
+       
+
+      <!-- REGISTER FORM -->
+      <div class="form-container sign-up">
+        <div class="logo-container logo-right">
+          <img src="/static/img/Telkom_Indonesia_2013.svg" alt="Telkom Logo" class="telkom-logo">
+        </div>
+        <form method="POST" action="/register">
+          <h1>Buat Akun</h1>
+          <span>Gunakan email Anda untuk mendaftar</span>
+          <input type="text" name="name" placeholder="Nama" required />
+          <input type="email" name="email" placeholder="Email" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit">Daftar</button>
+        </form>
+      </div>
+
+      <!-- LOGIN FORM -->
+      <div class="form-container sign-in">
+        <div class="logo-container logo-left">
+          <img src="/static/img/Telkom_Indonesia_2013.svg" alt="Telkom Logo" class="telkom-logo">
+        </div>
+        <form method="POST" action="/login">
+          <h1>Masuk</h1>
+          <span>Masukkan email dan password Anda</span>
+          <input type="email" name="email" placeholder="Email" required />
+          <input
+            type="password"
+            name="password"
+            placeholder="Password"
+            required
+          />
+          <button type="submit">Masuk</button>
+        </form>
+      </div>
+
+      <!-- TOGGLE PANEL -->
+      <div class="toggle-container">
+        <div class="toggle">
+          <div class="toggle-panel toggle-left">
+            <h1>Selamat Datang Kembali!</h1>
+            <p>Sudah punya akun? Silakan login.</p>
+            <button class="hidden" id="login">Masuk</button>
+          </div>
+          <div class="toggle-panel toggle-right">
+            <h1>Hai Selamat Datang!</h1>
+            <p>Daftarkan diri untuk menemukan aset sesuai kebutuhan Anda</p>
+            <button class="hidden" id="register">Daftar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/static/js/auth_script.js"></script>
+  </body>
+</html>
