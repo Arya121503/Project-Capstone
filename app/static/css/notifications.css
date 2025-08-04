@@ -1,0 +1,109 @@
+/* Admin Notification Styles */
+/* Telkom Color Variables */
+:root {
+    --telkom-red: #DC143C;
+    --telkom-dark: #B71C1C;
+    --telkom-light: rgba(220, 20, 60, 0.1);
+    --telkom-lighter: rgba(220, 20, 60, 0.05);
+}
+
+/* Notification badge */
+.notification-badge {
+    font-size: 0.65rem;
+    padding: 0.25rem 0.4rem;
+}
+
+/* Notification dropdown */
+.notification-dropdown {
+    padding: 0;
+    border: none;
+}
+
+/* Notification item styles */
+.notification-item {
+    transition: background-color 0.3s ease;
+}
+
+.notification-item:hover {
+    background-color: var(--telkom-lighter);
+}
+
+/* Notification list */
+.notification-list {
+    max-height: 600px;
+    overflow-y: auto;
+}
+
+/* Rental requests list */
+.rental-requests-list {
+    padding: 1rem;
+}
+
+/* Status badges */
+.badge-status-pending {
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.badge-status-approved {
+    background-color: #28a745;
+    color: #fff;
+}
+
+.badge-status-rejected {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.badge-status-active {
+    background-color: #0d6efd;
+    color: #fff;
+}
+
+.badge-status-completed {
+    background-color: #17a2b8;
+    color: #fff;
+}
+
+/* Hover effects for action buttons */
+.btn-action {
+    transition: transform 0.2s ease;
+}
+
+.btn-action:hover {
+    transform: translateY(-2px);
+}
+
+/* Empty state styles */
+.empty-state {
+    padding: 2rem;
+    text-align: center;
+}
+
+.empty-state i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #adb5bd;
+}
+
+/* Custom scrollbar for notification containers */
+.notification-list::-webkit-scrollbar,
+.notification-dropdown::-webkit-scrollbar {
+    width: 6px;
+}
+
+.notification-list::-webkit-scrollbar-track,
+.notification-dropdown::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+.notification-list::-webkit-scrollbar-thumb,
+.notification-dropdown::-webkit-scrollbar-thumb {
+    background: var(--telkom-red);
+    border-radius: 3px;
+}
+
+.notification-list::-webkit-scrollbar-thumb:hover,
+.notification-dropdown::-webkit-scrollbar-thumb:hover {
+    background: var(--telkom-dark);
+}

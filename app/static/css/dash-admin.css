@@ -1,0 +1,1771 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+/* Smooth scrolling setup */
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+:root{
+    --color-primary: #DC143C;
+    --color-danger: #DC143C;
+    --color-success: #1B9C85;
+    --color-warning: #F7D060;
+    --color-white: #fff;
+    --color-info-dark: #7d8da1;
+    --color-dark: #363949;
+    --color-light: rgba(220, 20, 60, 0.18);
+    --color-dark-variant: #677483;
+    --color-background: #f6f6f9;
+
+    --card-border-radius: 2rem;
+    --border-radius-1: 0.4rem;
+    --border-radius-2: 1.2rem;
+
+    --card-padding: 1.8rem;
+    --padding-1: 1.2rem;
+
+    --box-shadow: 0 2rem 3rem var(--color-light);
+
+    /* Telkom Branding Colors */
+    --telkom-red: #DC143C;
+    --telkom-light: rgba(220, 20, 60, 0.1);
+    --telkom-dark: #B71C1C;
+}
+
+.dark-mode-variables{
+    --color-background: #181a1e;
+    --color-white: #202528;
+    --color-dark: #edeffd;
+    --color-dark-variant: #a3bdcc;
+    --color-light: rgba(0, 0, 0, 0.4);
+    --box-shadow: 0 2rem 3rem var(--color-light);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: 0;
+    border: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 14px;
+}
+
+body{
+    width: 100vw;
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.88rem;
+    user-select: none;
+    overflow-x: hidden;
+    color: var(--color-dark);
+    background-color: var(--color-background);
+    padding-top: 70px; /* Space for fixed navbar */
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* TOP NAVBAR */
+.top-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 70px;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid var(--color-light);
+}
+
+/* Dark mode support for navbar */
+.dark-mode-variables .top-navbar {
+    background-color: var(--color-white);
+    border-bottom: 1px solid var(--color-light);
+}
+
+.navbar-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0 2rem;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: var(--color-dark);
+    font-size: 1.5rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: var(--border-radius-1);
+    transition: background-color 0.3s ease;
+}
+
+.menu-toggle:hover {
+    background-color: var(--color-light);
+}
+
+/* Sidebar toggle button - always visible on desktop */
+.sidebar-toggle {
+    background: none;
+    border: none;
+    color: var(--color-dark);
+    font-size: 1.2rem;
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: var(--border-radius-1);
+    transition: background-color 0.3s ease;
+    margin-right: 0.5rem;
+    display: block;
+}
+
+.sidebar-toggle:hover {
+    background-color: var(--color-light);
+}
+
+.navbar-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.navbar-logo img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.navbar-logo h2 {
+    margin: 0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+/* Notification container styling */
+.notifications-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.notification-icon {
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: var(--border-radius-1);
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-icon:hover {
+    background-color: var(--color-light);
+}
+
+.notification-icon .material-icons-sharp {
+    font-size: 1.5rem;
+    color: var(--color-dark);
+}
+
+.navbar-right .dark-mode {
+    background-color: var(--color-light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    border-radius: var(--border-radius-1);
+}
+
+.navbar-right .dark-mode span {
+    font-size: 1.2rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-right .dark-mode span.active {
+    background-color: var(--color-primary);
+    color: white;
+    border-radius: var(--border-radius-1);
+}
+
+.navbar-right .profile {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.navbar-right .profile .info {
+    text-align: right;
+}
+
+.navbar-right .profile .info p {
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+.navbar-right .profile .info small {
+    color: var(--color-info-dark);
+}
+
+/* Dark mode override for profile info */
+.dark-mode-variables .navbar-right .profile .info small {
+    color: var(--color-dark-variant);
+}
+
+.navbar-right .profile .profile-photo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.navbar-right .profile .profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a{
+    color: var(--color-dark);
+    text-decoration: none;
+}
+
+img{
+    display: block;
+    width: 100%;
+    object-fit: cover;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 1.8rem;
+}
+
+h2{
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+h3{
+    font-weight: 500;
+    font-size: 0.87rem;
+}
+
+small{
+    font-size: 0.76rem;
+}
+
+p{
+    color: var(--color-dark-variant);
+}
+
+b{
+    color: var(--color-dark);
+}
+
+.text-muted{
+    color: var(--color-info-dark) !important;
+}
+
+/* Dark mode override for text-muted */
+.dark-mode-variables .text-muted {
+    color: var(--color-dark-variant) !important;
+}
+
+/* Additional Bootstrap text-muted overrides for dark mode */
+.dark-mode-variables .text-muted,
+.dark-mode-variables small.text-muted,
+.dark-mode-variables p.text-muted {
+    color: var(--color-dark-variant) !important;
+}
+
+.primary{
+    color: var(--color-primary);
+}
+
+.danger{
+    color: var(--color-danger);
+}
+
+.success{
+    color: var(--color-success);
+}
+
+.warning{
+    color: var(--color-warning);
+}
+
+.container{
+    display: grid;
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    gap: 1.8rem;
+    grid-template-columns: 12rem 1fr;
+    padding-top: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    transition: grid-template-columns 0.3s ease;
+    overflow-x: hidden;
+    min-height: calc(100vh - 90px);
+    align-items: start;
+}
+
+.container.sidebar-hidden {
+    grid-template-columns: 0rem 1fr;
+}
+
+aside{
+    height: calc(100vh - 90px);
+    position: sticky;
+    top: 90px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+    scroll-behavior: smooth;
+}
+
+aside.hidden {
+    width: 0;
+    min-width: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sidebar-content {
+    height: 100%;
+    position: relative;
+}
+
+.sidebar-content .close {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    color: var(--color-dark);
+    z-index: 10;
+}
+
+aside .sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+    height: 100%;
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+aside .sidebar:hover{
+    box-shadow: none;
+}
+
+aside .sidebar a{
+    display: flex;
+    align-items: center;
+    color: var(--color-info-dark);
+    height: 3.7rem;
+    gap: 1rem;
+    position: relative;
+    margin-left: 2rem;
+    transition: all 0.3s ease;
+}
+
+aside .sidebar a:hover{
+    background: var(--color-light);
+    color: var(--color-primary) !important;
+    transform: translateX(4px);
+    border-radius: var(--border-radius-1);
+    margin-right: 1rem;
+}
+
+aside .sidebar a span{
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+}
+
+aside .sidebar a:last-child{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+}
+
+aside .sidebar a.active {
+  width: calc(100% - 2rem);
+  margin-left: 1rem;
+  color: var(--color-primary);
+  background-color: var(--color-light);
+  border-radius: var(--border-radius-1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  position: relative;
+}
+
+aside .sidebar a.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 50%;
+  background: var(--color-primary);
+  border-radius: 0 5px 5px 0;
+}
+
+aside .sidebar a.active span {
+  color: var(--color-primary);
+}
+
+aside .sidebar a.active:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+
+aside .sidebar a:hover span{
+    margin-left: 0.6rem;
+}
+
+aside .sidebar .message-count{
+    background-color: var(--color-danger);
+    padding: 2px 6px;
+    color: var(--color-white);
+    font-size: 11px;
+    border-radius: var(--border-radius-1);
+}
+
+main{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: calc(100vh - 90px);
+    min-height: calc(100vh - 90px);
+    padding-right: 1rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+    position: sticky;
+    top: 90px;
+    scroll-behavior: smooth;
+}
+
+main .analyse{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+}
+
+main .analyse > div{
+    background-color: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .analyse > div:hover{
+    box-shadow: none;
+}
+
+main .analyse > div .status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .analyse h3{
+    margin-left: 0.6rem;
+    font-size: 1rem;
+}
+
+main .analyse .progresss{
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+
+main .analyse svg{
+    width: 7rem;
+    height: 7rem;
+}
+
+main .analyse svg circle{
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+main .analyse .sales svg circle{
+    stroke: var(--color-success);
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .analyse .visits svg circle{
+    stroke: var(--color-danger);
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .analyse .searches svg circle{
+    stroke: var(--color-primary);
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .analyse .progresss .percentage{
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+main .new-users{
+    margin-top: 1.3rem;
+}
+
+main .new-users .user-list{
+    background-color: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .new-users .user-list:hover{
+    box-shadow: none;
+}
+
+main .new-users .user-list .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .new-users .user-list .user img{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 0.4rem;
+    border-radius: 50%;
+}
+
+main .recent-orders{
+    margin-top: 1.3rem;
+}
+
+main .recent-orders h2{
+    margin-bottom: 0.8rem;
+}
+
+main .recent-orders table{
+    background-color: var(--color-white);
+    width: 100%;
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--card-border-radius);
+    transition: all 0.3s ease;
+}
+
+main .recent-orders table:hover{
+    box-shadow: none;
+}
+
+main table tbody td{
+    height: 2.8rem;
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark-variant);
+}
+
+main table tbody tr:last-child td{
+    border: none;
+}
+
+main .recent-orders a{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-primary);
+}
+
+/* Custom scrollbar untuk sidebar dan main */
+aside::-webkit-scrollbar,
+main::-webkit-scrollbar {
+    width: 6px;
+}
+
+aside::-webkit-scrollbar-track,
+main::-webkit-scrollbar-track {
+    background: var(--color-background);
+    border-radius: 10px;
+}
+
+aside::-webkit-scrollbar-thumb,
+main::-webkit-scrollbar-thumb {
+    background: var(--telkom-red);
+    border-radius: 10px;
+}
+
+aside::-webkit-scrollbar-thumb:hover,
+main::-webkit-scrollbar-thumb:hover {
+    background: var(--telkom-dark);
+}
+
+/* Firefox scrollbar */
+aside,
+main {
+    scrollbar-width: thin;
+    scrollbar-color: var(--telkom-red) var(--color-background);
+}
+
+/* Ensure both elements have the same height and are aligned */
+.container {
+    display: grid;
+    width: 100%;
+    max-width: 100vw;
+    margin: 0;
+    gap: 1.8rem;
+    grid-template-columns: 12rem 1fr;
+    padding-top: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+    transition: grid-template-columns 0.3s ease;
+    overflow-x: hidden;
+    min-height: calc(100vh - 90px);
+    align-items: start;
+}
+
+.container.sidebar-hidden {
+    grid-template-columns: 0rem 1fr;
+}
+
+aside{
+    height: calc(100vh - 90px);
+    position: sticky;
+    top: 90px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    transition: all 0.3s ease;
+    scroll-behavior: smooth;
+}
+
+aside.hidden {
+    width: 0;
+    min-width: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.sidebar-content {
+    height: 100%;
+    position: relative;
+}
+
+.sidebar-content .close {
+    display: none;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+    color: var(--color-dark);
+    z-index: 10;
+}
+
+aside .sidebar{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-white);
+    box-shadow: var(--box-shadow);
+    border-radius: 15px;
+    height: 100%;
+    padding: 1rem 0;
+    transition: all 0.3s ease;
+}
+
+aside .sidebar:hover{
+    box-shadow: none;
+}
+
+aside .sidebar a{
+    display: flex;
+    align-items: center;
+    color: var(--color-info-dark);
+    height: 3.7rem;
+    gap: 1rem;
+    position: relative;
+    margin-left: 2rem;
+    transition: all 0.3s ease;
+}
+
+aside .sidebar a:hover{
+    background: var(--color-light);
+    color: var(--color-primary) !important;
+    transform: translateX(4px);
+    border-radius: var(--border-radius-1);
+    margin-right: 1rem;
+}
+
+aside .sidebar a span{
+    font-size: 1.6rem;
+    transition: all 0.3s ease;
+}
+
+aside .sidebar a:last-child{
+    position: absolute;
+    bottom: 2rem;
+    width: 100%;
+}
+
+aside .sidebar a.active {
+  width: calc(100% - 2rem);
+  margin-left: 1rem;
+  color: var(--color-primary);
+  background-color: var(--color-light);
+  border-radius: var(--border-radius-1);
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: flex;
+  align-items: center;
+  padding-left: 1rem;
+  position: relative;
+}
+
+aside .sidebar a.active::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 6px;
+  height: 50%;
+  background: var(--color-primary);
+  border-radius: 0 5px 5px 0;
+}
+
+aside .sidebar a.active span {
+  color: var(--color-primary);
+}
+
+aside .sidebar a.active:hover {
+  box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+}
+
+
+aside .sidebar a:hover span{
+    margin-left: 0.6rem;
+}
+
+aside .sidebar .message-count{
+    background-color: var(--color-danger);
+    padding: 2px 6px;
+    color: var(--color-white);
+    font-size: 11px;
+    border-radius: var(--border-radius-1);
+}
+
+main{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+    height: calc(100vh - 90px);
+    min-height: calc(100vh - 90px);
+    padding-right: 1rem;
+    box-sizing: border-box;
+    overflow-y: auto;
+    position: sticky;
+    top: 90px;
+    scroll-behavior: smooth;
+}
+
+main .analyse{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.6rem;
+}
+
+main .analyse > div{
+    background-color: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .analyse > div:hover{
+    box-shadow: none;
+}
+
+main .analyse > div .status{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main .analyse h3{
+    margin-left: 0.6rem;
+    font-size: 1rem;
+}
+
+main .analyse .progresss{
+    position: relative;
+    width: 92px;
+    height: 92px;
+    border-radius: 50%;
+}
+
+main .analyse svg{
+    width: 7rem;
+    height: 7rem;
+}
+
+main .analyse svg circle{
+    fill: none;
+    stroke-width: 10;
+    stroke-linecap: round;
+    transform: translate(5px, 5px);
+}
+
+main .analyse .sales svg circle{
+    stroke: var(--color-success);
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .analyse .visits svg circle{
+    stroke: var(--color-danger);
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .analyse .searches svg circle{
+    stroke: var(--color-primary);
+    stroke-dashoffset: -30;
+    stroke-dasharray: 200;
+}
+
+main .analyse .progresss .percentage{
+    position: absolute;
+    top: -3px;
+    left: -1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+main .new-users{
+    margin-top: 1.3rem;
+}
+
+main .new-users .user-list{
+    background-color: var(--color-white);
+    padding: var(--card-padding);
+    border-radius: var(--card-border-radius);
+    margin-top: 1rem;
+    box-shadow: var(--box-shadow);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+main .new-users .user-list:hover{
+    box-shadow: none;
+}
+
+main .new-users .user-list .user{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .new-users .user-list .user img{
+    width: 5rem;
+    height: 5rem;
+    margin-bottom: 0.4rem;
+    border-radius: 50%;
+}
+
+main .recent-orders{
+    margin-top: 1.3rem;
+}
+
+main .recent-orders h2{
+    margin-bottom: 0.8rem;
+}
+
+main .recent-orders table{
+    background-color: var(--color-white);
+    width: 100%;
+    padding: var(--card-padding);
+    text-align: center;
+    box-shadow: var(--box-shadow);
+    border-radius: var(--card-border-radius);
+    transition: all 0.3s ease;
+}
+
+main .recent-orders table:hover{
+    box-shadow: none;
+}
+
+main table tbody td{
+    height: 2.8rem;
+    border-bottom: 1px solid var(--color-light);
+    color: var(--color-dark-variant);
+}
+
+main table tbody tr:last-child td{
+    border: none;
+}
+
+main .recent-orders a{
+    text-align: center;
+    display: block;
+    margin: 1rem auto;
+    color: var(--color-primary);
+}
+
+/* Section navigation indicator - DISABLED */
+/*
+.section-nav-indicator {
+    position: fixed;
+    right: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1000;
+    background: rgba(255, 255, 255, 0.9);
+    backdrop-filter: blur(10px);
+    border-radius: 25px;
+    padding: 10px 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(220, 53, 69, 0.2);
+}
+
+.section-indicator {
+    display: block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(220, 53, 69, 0.3);
+    margin: 8px 0;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    position: relative;
+}
+
+.section-indicator.active {
+    background: var(--telkom-red);
+    transform: scale(1.3);
+    box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+}
+
+.section-indicator:hover {
+    background: var(--telkom-red);
+    transform: scale(1.1);
+}
+*/
+
+/* Tooltip for section indicators - DISABLED */
+/*
+.section-indicator::before {
+    content: attr(data-title);
+    position: absolute;
+    right: 25px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: var(--color-dark);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    white-space: nowrap;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.section-indicator:hover::before {
+    opacity: 1;
+    visibility: visible;
+    right: 30px;
+}
+*/
+
+/* Scroll progress bar */
+.scroll-progress {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: rgba(220, 53, 69, 0.1);
+    z-index: 9999;
+}
+
+.scroll-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, var(--telkom-red), #ff6b6b);
+    width: 0%;
+    transition: width 0.1s ease;
+    box-shadow: 0 0 10px rgba(220, 53, 69, 0.5);
+}
+
+/* Section transitions */
+.content-section h1 {
+    opacity: 0;
+    transform: translateY(30px);
+    animation: fadeInUp 0.8s ease forwards;
+    animation-delay: 0.2s;
+}
+
+.content-section .card {
+    opacity: 1;
+    transform: translateY(0);
+    /* Disable animation to prevent icon scaling issue */
+    /* animation: fadeInUp 0.6s ease forwards; */
+}
+
+/* Prevent icon scaling issues on page load */
+.content-section .card .svg-inline--fa,
+.content-section .card svg {
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Specifically target display-6 icons to prevent scaling */
+.display-6.svg-inline--fa,
+.display-6 svg {
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Additional fix for Font Awesome icons on page load */
+.card-body .svg-inline--fa,
+.card-body svg[data-fa-i2svg] {
+    transform: scale(1) !important;
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Ensure stable icon rendering */
+.fa-house, .fa-percent, .fa-coins, .fa-chart-line,
+.fa-users, .fa-clock, .fa-clipboard-list, .fa-calendar-days {
+    transform: none !important;
+    animation: none !important;
+}
+
+/* Comprehensive icon stability fix */
+.svg-inline--fa, svg[data-fa-i2svg] {
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    scale: 1 !important;
+    will-change: auto !important;
+}
+
+/* Exception: Make sure me-2 icons don't get affected by global rules */
+.svg-inline--fa.me-2, 
+svg[data-fa-i2svg].me-2 {
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    scale: 1 !important;
+    will-change: auto !important;
+    display: inline-block !important;
+    margin: 0 0.5rem 0 0 !important;
+    vertical-align: middle !important;
+    font-size: 1.2rem !important;
+    width: 1.2rem !important;
+    height: 1.2rem !important;
+}
+
+/* Ultra-specific fix for house icon scaling issue */
+svg[data-icon="house"],
+.fa-house.svg-inline--fa,
+svg.svg-inline--fa.fa-house {
+    transform: scale(1) !important;
+    animation: none !important;
+    transition: none !important;
+    will-change: auto !important;
+    font-size: inherit !important;
+    width: auto !important;
+    height: auto !important;
+}
+
+/* Lock all Font Awesome icons to prevent any scaling */
+.svg-inline--fa[data-icon] {
+    transform: scale(1) !important;
+    animation: none !important;
+    transition: none !important;
+    will-change: auto !important;
+}
+
+/* Prevent display-6 class from causing scaling */
+.display-6.svg-inline--fa,
+.display-6 svg {
+    font-size: 2.5rem !important;
+    transform: scale(1) !important;
+    animation: none !important;
+    transition: none !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+}
+
+/* Prevent any size changes on load */
+.display-6 {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    scale: 1 !important;
+}
+
+/* Bootstrap class override for stable rendering */
+.card-body > * {
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Disable all animations on page load */
+body:not(.page-loaded) * {
+    animation-duration: 0s !important;
+    animation-delay: 0s !important;
+    transition-duration: 0s !important;
+    transition-delay: 0s !important;
+}
+
+/* Force disable Font Awesome animations globally */
+.fas, .far, .fal, .fab, .fa {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+}
+
+/* Prevent Font Awesome CSS loading animations */
+@keyframes fa-spin {
+    0% { transform: rotate(0deg) !important; }
+    100% { transform: rotate(0deg) !important; }
+}
+
+@keyframes fa-pulse {
+    0% { transform: scale(1) !important; }
+    50% { transform: scale(1) !important; }
+    100% { transform: scale(1) !important; }
+}
+
+/* Specifically prevent icon scaling during page load */
+body:not(.page-loaded) .svg-inline--fa,
+body:not(.page-loaded) svg[data-fa-i2svg],
+body:not(.page-loaded) .display-6 {
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    scale: 1 !important;
+    will-change: auto !important;
+}
+
+/* Re-enable transitions after page load */
+.page-loaded * {
+    animation-duration: initial !important;
+    transition-duration: initial !important;
+}
+
+/* ULTIMATE FIX: Override any CSS that might cause icon scaling */
+* {
+    --fa-animation-duration: 0s !important;
+    --fa-animation-delay: 0s !important;
+}
+
+/* Force static rendering for all SVG icons */
+svg {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+}
+
+/* Ensure card body doesn't interfere with icon rendering */
+.card-body {
+    transform: none !important;
+    animation: none !important;
+}
+
+/* Lock Bootstrap display classes */
+.display-1, .display-2, .display-3, .display-4, .display-5, .display-6 {
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+}
+
+/* Override Bootstrap display-6 default size */
+.display-6 {
+    font-size: 2.5rem !important;
+    animation: none !important;
+    transition: none !important;
+    transform: none !important;
+    scale: 1 !important;
+}
+
+/* Specific fix for card icons to have consistent size */
+.card-body .display-6 {
+    font-size: 2.5rem !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    max-width: 2.5rem !important;
+    max-height: 2.5rem !important;
+}
+
+/* Ensure all icons in cards have same size */
+.card-body svg.display-6,
+.card-body .svg-inline--fa.display-6 {
+    font-size: 2.5rem !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    max-width: 2.5rem !important;
+    max-height: 2.5rem !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Prevent any CSS framework interference */
+.svg-inline--fa {
+    display: inline-block !important;
+    font-size: 2.5rem !important;
+    height: 2.5rem !important;
+    width: 2.5rem !important;
+    overflow: visible !important;
+    vertical-align: -0.125em !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    max-width: 2.5rem !important;
+    max-height: 2.5rem !important;
+}
+
+/* Exception: Override global rules for icons with me-2 class */
+.svg-inline--fa.me-2 {
+    display: inline-block !important;
+    font-size: 1.2rem !important;
+    height: 1.2rem !important;
+    width: 1.2rem !important;
+    overflow: visible !important;
+    vertical-align: middle !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    max-width: 1.2rem !important;
+    max-height: 1.2rem !important;
+    margin: 0 0.5rem 0 0 !important;
+    text-align: left !important;
+    position: static !important;
+    left: auto !important;
+    right: auto !important;
+    order: -1 !important;
+    flex-shrink: 0 !important;
+}
+
+/* Override Font Awesome default animations */
+.svg-inline--fa.fa-spin,
+.svg-inline--fa.fa-pulse {
+    animation: none !important;
+}
+
+/* Final override - nuclear option for house icon */
+svg[data-icon="house"].svg-inline--fa.fa-house.text-primary.mb-2.display-6 {
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    will-change: auto !important;
+    font-size: 2.5rem !important;
+    width: 2.5rem !important;
+    height: 2.5rem !important;
+    max-width: 2.5rem !important;
+    max-height: 2.5rem !important;
+    position: static !important;
+    left: auto !important;
+    display: block !important;
+    margin: 0 auto 0.5rem auto !important;
+    text-align: center !important;
+}
+
+/* Center all dashboard icons perfectly */
+.row.g-4 .card .svg-inline--fa {
+    transform: none !important;
+    position: static !important;
+    left: auto !important;
+    display: block !important;
+    margin: 0 auto 0.5rem auto !important;
+    text-align: center !important;
+}
+
+/* Exception: Don't center icons with me-2 class */
+.svg-inline--fa.me-2 {
+    transform: none !important;
+    position: static !important;
+    left: auto !important;
+    display: inline-block !important;
+    margin: 0 0.5rem 0 0 !important;
+    text-align: left !important;
+    vertical-align: middle !important;
+    order: -1 !important;
+    flex-shrink: 0 !important;
+}
+
+/* Override Bootstrap margin utilities that might interfere */
+.mb-2.svg-inline--fa,
+.mb-3.svg-inline--fa {
+    margin-bottom: 0.5rem !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 0 !important;
+}
+
+/* Card layout optimization */
+.card-body.text-center {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    text-align: center !important;
+    padding: 1.5rem !important;
+}
+
+/* Perfect icon positioning */
+.card-body .svg-inline--fa.display-6 {
+    display: block !important;
+    margin: 0 auto 0.5rem auto !important;
+    text-align: center !important;
+}
+
+/* Sidebar icon positioning */
+aside .svg-inline--fa.me-2 {
+    display: inline-block !important;
+    margin: 0 0.5rem 0 0 !important;
+    vertical-align: middle !important;
+    order: -1 !important;
+    flex-shrink: 0 !important;
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Enhanced smooth scrolling - styles moved to main section above */
+
+/* Enhanced Icon Positioning & Styling */
+.card-body .fas {
+    display: block !important;
+    margin: 0 auto 0.75rem auto !important;
+    text-align: center !important;
+    line-height: 1 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    font-size: inherit !important;
+}
+
+/* Perfect icon positioning for dashboard cards */
+.card-body .display-6 {
+    display: block !important;
+    margin: 0 auto 0.75rem auto !important;
+    text-align: center !important;
+    font-size: 3rem !important;
+    line-height: 1 !important;
+    height: auto !important;
+    width: auto !important;
+}
+
+/* Ensure consistent icon alignment */
+.card-body .text-center .fas {
+    margin-bottom: 0.75rem !important;
+}
+
+/* Sidebar icon improvements */
+aside .sidebar a span.material-icons-sharp {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    min-width: 24px !important;
+    font-size: 1.6rem !important;
+}
+
+/* Action buttons icon sizing */
+.btn-group .btn i,
+.btn-group .btn .fas,
+.btn-group .btn .svg-inline--fa {
+    font-size: 0.75rem !important;
+    width: 0.75rem !important;
+    height: 0.75rem !important;
+}
+
+/* Search button icon sizing */
+.input-group .btn i,
+.input-group .btn .fas,
+.input-group .btn .svg-inline--fa {
+    font-size: 0.875rem !important;
+    width: 0.875rem !important;
+    height: 0.875rem !important;
+}
+
+/* Small button icons */
+.btn-sm i,
+.btn-sm .fas,
+.btn-sm .svg-inline--fa {
+    font-size: 0.7rem !important;
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+}
+
+/* Table action buttons specific sizing */
+table .btn i,
+table .btn .fas,
+table .btn .svg-inline--fa,
+tbody .btn i,
+tbody .btn .fas,
+tbody .btn .svg-inline--fa {
+    font-size: 0.7rem !important;
+    width: 0.7rem !important;
+    height: 0.7rem !important;
+    line-height: 1 !important;
+}
+
+/* Button group small class specific */
+.btn-group-sm .btn i,
+.btn-group-sm .btn .fas,
+.btn-group-sm .btn .svg-inline--fa {
+    font-size: 0.65rem !important;
+    width: 0.65rem !important;
+    height: 0.65rem !important;
+    line-height: 1 !important;
+}
+
+/* Ensure button icons are always on the left */
+.btn {
+    display: inline-flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    flex-direction: row !important;
+    text-align: center !important;
+    gap: 0.5rem !important;
+}
+
+/* Force icons to left side with proper spacing */
+.btn i,
+.btn .fas,
+.btn .svg-inline--fa {
+    order: -1 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    flex-shrink: 0 !important;
+}
+
+/* Ensure text comes after icon */
+.btn span,
+.btn:not(:empty) {
+    order: 1 !important;
+}
+
+/* Ensure card header icons are on the left */
+.card-header h6,
+.card-header h5 {
+    display: flex !important;
+    align-items: center !important;
+    flex-direction: row !important;
+    gap: 0.5rem !important;
+}
+
+.card-header h6 i,
+.card-header h6 .fas,
+.card-header h6 .svg-inline--fa,
+.card-header h5 i,
+.card-header h5 .fas,
+.card-header h5 .svg-inline--fa {
+    order: -1 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+    flex-shrink: 0 !important;
+}
+
+/* Form label icons - make them smaller and more proportional */
+.form-label i,
+.form-label .fas,
+.form-label .svg-inline--fa {
+    font-size: 0.875rem !important;
+    width: 0.875rem !important;
+    height: 0.875rem !important;
+    margin-right: 0.25rem !important;
+    vertical-align: middle !important;
+}
+
+/* Card header icons - consistent with form labels */
+.card-header h5 i,
+.card-header h5 .fas,
+.card-header h5 .svg-inline--fa,
+.card-header h6 i,
+.card-header h6 .fas,
+.card-header h6 .svg-inline--fa {
+    font-size: 0.875rem !important;
+    width: 0.875rem !important;
+    height: 0.875rem !important;
+    margin-right: 0.5rem !important;
+}
+
+/* Prevent icon repositioning on page refresh/load */
+.card-header .svg-inline--fa.me-2,
+.card-header i.me-2,
+.card-header .fas.me-2 {
+    position: static !important;
+    display: inline-block !important;
+    margin: 0 0.5rem 0 0 !important;
+    order: -1 !important;
+    flex-shrink: 0 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+}
+
+/* Ultimate fix for FontAwesome JS interference */
+.card-header h6 .svg-inline--fa[data-fa-i2svg],
+.card-header h5 .svg-inline--fa[data-fa-i2svg],
+.btn .svg-inline--fa[data-fa-i2svg] {
+    position: static !important;
+    display: inline-block !important;
+    margin: 0 0.5rem 0 0 !important;
+    order: -1 !important;
+    flex-shrink: 0 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    clear: none !important;
+}
+
+/* Force FontAwesome converted SVGs to stay left */
+svg[data-fa-i2svg].me-2,
+svg[data-fa-i2svg][class*="me-2"] {
+    position: static !important;
+    display: inline-block !important;
+    margin: 0 0.5rem 0 0 !important;
+    order: -1 !important;
+    flex-shrink: 0 !important;
+    transform: none !important;
+    animation: none !important;
+    transition: none !important;
+    vertical-align: middle !important;
+}
+
+/* Button icons in forms */
+.btn i,
+.btn .fas,
+.btn .svg-inline--fa {
+    font-size: 0.875rem !important;
+    width: 0.875rem !important;
+    height: 0.875rem !important;
+    margin-right: 0.25rem !important;
+}
+
+/* Override for large buttons to have slightly bigger icons */
+.btn-lg i,
+.btn-lg .fas,
+.btn-lg .svg-inline--fa {
+    font-size: 1rem !important;
+    width: 1rem !important;
+    height: 1rem !important;
+}
+
+/* Specific fix for prediction form icons */
+#rentalPredictionForm .form-label i,
+#rentalPredictionForm .form-label .fas,
+#rentalPredictionForm .form-label .svg-inline--fa {
+    font-size: 0.8rem !important;
+    width: 0.8rem !important;
+    height: 0.8rem !important;
+    margin-right: 0.25rem !important;
+}
+
+/* Prediction form card header */
+#manajemen_prediksi .card-header h5 i,
+#manajemen_prediksi .card-header h5 .fas,
+#manajemen_prediksi .card-header h5 .svg-inline--fa {
+    font-size: 0.9rem !important;
+    width: 0.9rem !important;
+    height: 0.9rem !important;
+}
+
+/* Prediction form submit button */
+#rentalPredictionForm .btn i,
+#rentalPredictionForm .btn .fas,
+#rentalPredictionForm .btn .svg-inline--fa {
+    font-size: 0.875rem !important;
+    width: 0.875rem !important;
+    height: 0.875rem !important;
+}
+
+/* Global override for FontAwesome converted SVGs */
+svg[data-fa-i2svg] {
+    width: 1em !important;
+    height: 1em !important;
+}
+
+/* Form specific SVG icons */
+.form-label svg[data-fa-i2svg] {
+    width: 0.8em !important;
+    height: 0.8em !important;
+    font-size: 0.8rem !important;
+}
+
+/* Card header SVG icons */
+.card-header svg[data-fa-i2svg] {
+    width: 0.9em !important;
+    height: 0.9em !important;
+    font-size: 0.9rem !important;
+}
+
+/* Fix for visualization section layout issues */
+.content-section .card {
+    height: auto;
+    min-height: unset;
+}
+
+.content-section .card-body {
+    padding: 1.25rem;
+    overflow: hidden;
+}
+
+/* Model Performance Cards - Better Layout */
+.content-section .card-body .row.text-center {
+    margin-bottom: 1rem;
+}
+
+.content-section .card-body .col-4 {
+    padding: 0.5rem;
+}
+
+.content-section .card-body .progress {
+    margin-top: 0.5rem !important;
+    height: 6px !important;
+}
+
+/* Chart containers responsive sizing */
+.content-section canvas {
+    max-width: 100%;
+    height: auto !important;
+    max-height: 400px;
+}
+
+/* Ensure equal height for analysis cards */
+.content-section .row.g-4 .card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-section .row.g-4 .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Table responsive improvements */
+.content-section .table-responsive {
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.content-section .table-sm td,
+.content-section .table-sm th {
+    padding: 0.5rem;
+    font-size: 0.875rem;
+}
+
+/* Statistics cards compact layout */
+.content-section .text-center h4,
+.content-section .text-center h5 {
+    margin-bottom: 0.25rem;
+    font-size: 1.1rem;
+}
+
+.content-section .text-center small {
+    font-size: 0.75rem;
+}
+
+/* Prevent cards from becoming too tall */
+@media (max-width: 1200px) {
+    .content-section .col-md-4 .card-body {
+        padding: 1rem;
+    }
+    
+    .content-section canvas {
+        max-height: 250px;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-section .col-md-4,
+    .content-section .col-md-6 {
+        margin-bottom: 1rem;
+    }
+    
+    .content-section .card-body .row.text-center .col-4 {
+        margin-bottom: 1rem;
+    }
+}

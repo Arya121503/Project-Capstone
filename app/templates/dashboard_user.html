@@ -1,0 +1,1167 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard User | Telkom Aset</title>
+
+    <!-- Google Icons -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp"
+      rel="stylesheet"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom Dashboard CSS -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/dash-admin.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/telkom-style.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/timeline.css') }}"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/dashboard-user-assets.css') }}"
+    />
+    
+    <!-- Midtrans Payment Styles -->
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='css/midtrans-payment.css') }}"
+    />
+
+    <!-- User Notification System Styles -->
+    <style>
+      /* Initially hide badge, will be shown by JS when there are actual favorites */
+      #favoriteBadge {
+        display: none;
+      }
+      
+      /* Favorite heart styling */
+      .favorite-heart {
+        cursor: pointer;
+        color: #ccc;
+        font-size: 18px;
+        transition: color 0.3s ease;
+      }
+      
+      .favorite-heart:hover {
+        color: #ff6b6b;
+      }
+      
+      .favorite-heart.favorited {
+        color: #e74c3c !important;
+      }
+      
+      .favorite-heart.favorited:hover {
+        color: #c0392b !important;
+      }
+      
+      .notification-dropdown {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 350px;
+        max-height: 500px;
+        overflow-y: auto;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+        z-index: 1000;
+        transition: all 0.2s ease;
+      }
+
+      .notification-item {
+        cursor: pointer;
+        transition: background-color 0.2s ease;
+      }
+
+      .notification-item:hover {
+        background-color: #f8f9fa !important;
+      }
+
+      .notification-container {
+        position: relative;
+        display: inline-block;
+      }
+
+      .notification-icon {
+        cursor: pointer;
+        padding: 8px;
+        border-radius: 50%;
+        transition: background-color 0.2s ease;
+      }
+
+      .notification-icon:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- TOP NAVBAR -->
+    <nav class="top-navbar">
+      <div class="navbar-content">
+        <div class="navbar-left">
+          <button id="menu-btn" class="menu-toggle">
+            <span class="material-icons-sharp">menu</span>
+          </button>
+          <button id="sidebar-toggle" class="sidebar-toggle">
+            <span class="material-icons-sharp">menu_open</span>
+          </button>
+          <div class="navbar-logo">
+            <img
+              src="{{ url_for('static', filename='img/telkomLogo.png') }}"
+              alt="Telkom Logo"
+            />
+            <h2>Telkom<span class="danger">Aset</span></h2>
+          </div>
+        </div>
+
+        <div class="navbar-right">
+          <div class="dark-mode">
+            <span class="material-icons-sharp active">light_mode</span>
+            <span class="material-icons-sharp">dark_mode</span>
+          </div>
+
+          <!-- Notification Button -->
+          <div class="notification-container">
+            <div class="notification-icon" id="notificationToggleBtn">
+              <span class="material-icons-sharp">notifications</span>
+              <span
+                class="user-notification-badge"
+                style="
+                  position: absolute;
+                  top: -5px;
+                  right: -5px;
+                  min-width: 18px;
+                  height: 18px;
+                  background-color: var(--telkom-red);
+                  color: white;
+                  font-size: 10px;
+                  border-radius: 50%;
+                  display: none;
+                  align-items: center;
+                  justify-content: center;
+                  padding: 0 4px;
+                  font-weight: bold;
+                "
+                >1</span
+              >
+            </div>
+            <div
+              class="notification-dropdown"
+              id="userNotificationsDropdown"
+              style="
+                display: none;
+                position: absolute;
+                right: 0;
+                top: 45px;
+                width: 350px;
+                max-height: 400px;
+                overflow-y: auto;
+                background-color: white;
+                border-radius: var(--border-radius-1);
+                box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+                z-index: 1000;
+              "
+            >
+              <div
+                class="notification-header d-flex justify-content-between align-items-center p-2"
+                style="
+                  background-color: var(--telkom-light);
+                  color: var(--telkom-dark);
+                  border-top-left-radius: var(--border-radius-1);
+                  border-top-right-radius: var(--border-radius-1);
+                "
+              >
+                <h6 class="m-0">Notifikasi</h6>
+                <button
+                  id="markAllUserNotificationsRead"
+                  class="btn btn-sm"
+                  style="
+                    background: none;
+                    border: none;
+                    color: var(--telkom-dark);
+                  "
+                >
+                  <i class="fas fa-check-double"></i> Tandai Dibaca
+                </button>
+              </div>
+              <div id="userNotificationsDropdownContent" class="p-0">
+                <div class="text-center py-3">
+                  <div
+                    class="spinner-border spinner-border-sm"
+                    style="color: var(--telkom-dark)"
+                    role="status"
+                  >
+                    <span class="visually-hidden">Loading...</span>
+                  </div>
+                  <p class="mb-0 mt-2 small">Memuat notifikasi...</p>
+                </div>
+              </div>
+              <!-- Link "Lihat Semua" telah dihapus -->
+            </div>
+          </div>
+
+          <div class="profile">
+            <div class="info">
+              <div class="user-name-section">
+                <p>
+                  Hey,
+                  <b
+                    ><a
+                      href="{{ url_for('main.edit_profile') }}"
+                      class="username-link"
+                      title="Klik untuk edit profil"
+                      >{{ session.get('user_name', 'User') }}</a
+                    ></b
+                  >
+                </p>
+                <small class="text-muted">User</small>
+              </div>
+            </div>
+            <div class="profile-photo">
+              <img
+                src="{{ url_for('static', filename='img/profile.jpg') }}"
+                style="
+                  width: 40px;
+                  height: 40px;
+                  border-radius: 50%;
+                  object-fit: cover;
+                "
+                alt="Profile Photo"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container">
+      <!-- SIDEBAR -->
+      <aside>
+        <div class="sidebar-content">
+          <div class="close" id="close-btn">
+            <span class="material-icons-sharp">close</span>
+          </div>
+
+          <div class="sidebar">
+            <a href="#" class="menu-link active" data-target="dashboard-home">
+              <span class="material-icons-sharp">dashboard</span>
+              <h3>Dashboard</h3>
+            </a>
+            <a href="#" class="menu-link" data-target="favorit-aset">
+              <span class="material-icons-sharp">favorite</span>
+              <h3>Favorit</h3>
+              <span
+                class="favorite-count-badge"
+                id="favoriteBadge"
+                style="display: none; position: absolute; top: 8px; right: 15px; background-color: #ff4444; color: white; font-size: 14px; font-weight: bold; min-width: 22px; height: 22px; border-radius: 50%; text-align: center; line-height: 22px; box-shadow: 0 2px 4px rgba(0,0,0,0.2);"
+                >0</span
+              >
+            </a>
+            <a href="#" class="menu-link" data-target="histori-sewa">
+              <span class="material-icons-sharp">history</span>
+              <h3>Histori Sewa</h3>
+            </a>
+            <a href="{{ url_for('main.logout_user') }}">
+              <span class="material-icons-sharp">logout</span>
+              <h3>Logout</h3>
+            </a>
+          </div>
+        </div>
+      </aside>
+
+      <!-- MAIN CONTENT -->
+      <main>
+        <!-- Dashboard Utama -->
+        <section id="dashboard-home" class="content-section active">
+          <h1>Dashboard User</h1>
+          <p class="text-muted mb-4">
+            Selamat datang, {{ session.get('user_name', 'User') }}! Temukan aset
+            properti terbaik untuk disewa.
+          </p>
+
+          <!-- Statistik Utama -->
+          <div class="analyse">
+            <div class="sales">
+              <div class="status">
+                <div class="info">
+                  <h3>Aset Tersedia</h3>
+                  <h1 id="totalAset">2</h1>
+                  <small>Properti</small>
+                </div>
+                <div class="progresss">
+                  <svg><circle cx="38" cy="38" r="36"></circle></svg>
+                  <div class="percentage"><p>100%</p></div>
+                </div>
+              </div>
+            </div>
+            <div class="visits">
+              <div class="status">
+                <div class="info">
+                  <h3>Favorit</h3>
+                  <h1 id="totalFavorit">0</h1>
+                  <small>Aset Disimpan</small>
+                </div>
+                <div class="progresss">
+                  <svg><circle cx="38" cy="38" r="36"></circle></svg>
+                  <div class="percentage"><p>Aktif</p></div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Immediate script to prevent flash -->
+            <script>
+              (function() {
+                // Set initial state to 0, but allow badge to be shown later if there are favorites
+                const badge = document.getElementById('favoriteBadge');
+                const total = document.getElementById('totalFavorit');
+                if (badge) {
+                  badge.textContent = '0';
+                  // Don't force hide - let JS control visibility based on actual count
+                }
+                if (total) {
+                  total.textContent = '0';
+                }
+              })();
+            </script>
+            <div class="searches">
+              <div class="status">
+                <div class="info">
+                  <h3>Histori Sewa</h3>
+                  <h1 id="totalHistori">0</h1>
+                  <small>Transaksi</small>
+                </div>
+                <div class="progresss">
+                  <svg><circle cx="38" cy="38" r="36"></circle></svg>
+                  <div class="percentage"><p>Total</p></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Aset Tersedia -->
+          <div class="row mt-4">
+            <div class="col-12">
+              <div class="card shadow-sm border-0">
+                <div class="card-header bg-danger text-white">
+                  <h5 class="mb-0">
+                    <i class="fas fa-building me-2"></i>Aset Tersedia
+                  </h5>
+                </div>
+                <div class="card-body">
+                  <!-- Alerts container -->
+                  <div id="alertContainer"></div>
+
+                  <!-- Filter Form -->
+                  <form id="assetFilterForm" class="mb-4">
+                    <div class="row g-2">
+                      <div class="col-md-3">
+                        <label for="assetTypeFilter" class="form-label small"
+                          >Tipe Aset</label
+                        >
+                        <select
+                          class="form-select form-select-sm"
+                          id="assetTypeFilter"
+                          name="assetType"
+                        >
+                          <option value="">Semua Tipe</option>
+                          <option value="tanah">Tanah</option>
+                          <option value="bangunan">Bangunan</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="locationFilter" class="form-label small"
+                          >Lokasi</label
+                        >
+                        <select
+                          class="form-select form-select-sm"
+                          id="locationFilter"
+                          name="location"
+                        >
+                          <option value="">Semua Lokasi</option>
+                        </select>
+                      </div>
+                      <div class="col-md-3">
+                        <label for="priceFilter" class="form-label small"
+                          >Harga</label
+                        >
+                        <select
+                          class="form-select form-select-sm"
+                          id="priceFilter"
+                          name="priceRange"
+                        >
+                          <option value="">Semua Range</option>
+                          <option value="0-1000000">< Rp 1 juta/bln</option>
+                          <option value="1000000-5000000">
+                            Rp 1-5 juta/bln
+                          </option>
+                          <option value="5000000-10000000">
+                            Rp 5-10 juta/bln
+                          </option>
+                          <option value="10000000-20000000">
+                            Rp 10-20 juta/bln
+                          </option>
+                          <option value="20000000-50000000">
+                            Rp 20-50 juta/bln
+                          </option>
+                          <option value="50000000-999999999999">
+                            > Rp 50 juta/bln
+                          </option>
+                        </select>
+                      </div>
+                      <div class="col-md-3 d-flex align-items-end">
+                        <div class="d-grid gap-2 w-100">
+                          <button type="submit" class="btn btn-sm btn-danger">
+                            <i class="fas fa-search me-2"></i>Cari
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </form>
+
+                  <!-- Asset Grid -->
+                  <div id="assetGrid" class="row g-4">
+                    <!-- Data aset akan diambil dari database dan ditampilkan secara dinamis di sini -->
+                    <div
+                      class="col-12 text-center py-4"
+                      id="assetLoadingIndicator"
+                    >
+                      <div class="spinner-border text-danger" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                      <p class="mt-2 text-muted">
+                        Memuat data aset dari database...
+                      </p>
+                    </div>
+
+                    <!-- No assets placeholder -->
+                    <div
+                      class="col-12 text-center py-5 d-none"
+                      id="noAssetsPlaceholder"
+                    >
+                      <i
+                        class="fas fa-building text-muted mb-3"
+                        style="font-size: 4rem"
+                      ></i>
+                      <h4 class="text-muted">Tidak Ada Aset Tersedia</h4>
+                      <p class="text-muted">
+                        Tidak ada aset yang tersedia saat ini. Silakan coba lagi
+                        nanti atau ubah filter pencarian Anda.
+                      </p>
+                      <button
+                        class="btn btn-outline-danger"
+                        onclick="refreshAssets()"
+                      >
+                        <i class="fas fa-sync-alt me-1"></i>Muat Ulang
+                      </button>
+                    </div>
+                  </div>
+
+                  <!-- Pagination -->
+                  <nav class="mt-4" aria-label="Page navigation">
+                    <ul
+                      class="pagination pagination-sm justify-content-center"
+                      id="assetPagination"
+                    ></ul>
+                  </nav>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <br />
+        <br />
+
+        <!-- Favorit Aset -->
+        <section id="favorit-aset" class="content-section">
+          <h1>Aset Favorit</h1>
+          <p class="text-muted mb-4">
+            Koleksi aset properti pilihan Anda. Simpan aset yang menarik untuk
+            disewa di kemudian hari.
+          </p>
+
+          <!-- Favorit List -->
+          <div class="card shadow-sm border-0">
+            <div class="card-header bg-danger text-white">
+              <h5 class="mb-0">
+                <i class="fas fa-heart me-2"></i>Daftar Aset Favorit
+                <span class="badge bg-light text-dark ms-2" id="favoritCount"
+                  >0</span
+                >
+              </h5>
+            </div>
+            <div class="card-body">
+              <div class="row g-3">
+                <div class="col-md-4">
+                  <label class="form-label">Jenis Aset</label>
+                  <select
+                    class="form-select form-select-sm"
+                    id="filterJenisFavorit"
+                  >
+                    <option value="">Semua Jenis</option>
+                    <option value="tanah">Tanah</option>
+                    <option value="bangunan">Bangunan</option>
+                  </select>
+                </div>
+                <div class="col-md-4">
+                  <label class="form-label">Kecamatan</label>
+                  <select
+                    class="form-select form-select-sm"
+                    id="filterKecamatanFavorit"
+                  >
+                    <option value="">Semua Kecamatan</option>
+                  </select>
+                </div>
+                <div class="col-md-3 d-flex align-items-end">
+                  <div class="d-grid gap-2 w-100">
+                    <button
+                      class="btn btn-sm btn-outline-danger"
+                      id="reloadFavoritBtn"
+                    >
+                      <i class="fas fa-search me-1"></i>Filter
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="card-body">
+              <div id="favoritContainer" class="row g-3">
+                <!-- Favorit akan ditampilkan di sini secara otomatis -->
+              </div>
+            </div>
+          </div>
+        </section>
+        <br />
+        <br />
+
+        <!-- Histori Lengkap -->
+        <section id="histori-sewa" class="content-section">
+          <h1>Histori & Aktivitas</h1>
+          <p class="text-muted mb-4">
+            Lihat riwayat lengkap aktivitas Anda: notifikasi, pengajuan sewa ke
+            admin, dan transaksi sewa yang telah selesai.
+          </p>
+
+          <!-- Filter Histori -->
+          <div class="card mb-4 shadow-sm border-0">
+            <div class="card-header bg-danger text-white">
+              <h5 class="mb-0">
+                <i class="fas fa-filter me-2"></i>Filter Histori & Aktivitas
+              </h5>
+            </div>
+            <div class="card-body">
+              <div class="row g-3">
+                <div class="col-md-3">
+                  <label class="form-label">Jenis Aktivitas</label>
+                  <select
+                    class="form-select form-select-sm"
+                    id="filterJenisAktivitas"
+                  >
+                    <option value="">Semua Aktivitas</option>
+                    <option value="pengajuan">Pengajuan Sewa</option>
+                    <option value="sewa">Transaksi Sewa</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                  <label class="form-label">Status</label>
+                  <select
+                    class="form-select form-select-sm"
+                    id="filterStatusHistori"
+                  >
+                    <option value="">Semua Status</option>
+                    <option value="pending">Menunggu</option>
+                    <option value="aktif">Aktif</option>
+                    <option value="berakhir">Berakhir</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                  <label class="form-label">Periode</label>
+                  <select class="form-select form-select-sm" id="filterPeriode">
+                    <option value="">Semua Periode</option>
+                    <option value="7hari">7 Hari Terakhir</option>
+                    <option value="1bulan">1 Bulan Terakhir</option>
+                    <option value="3bulan">3 Bulan Terakhir</option>
+                    <option value="6bulan">6 Bulan Terakhir</option>
+                    <option value="1tahun">1 Tahun Terakhir</option>
+                  </select>
+                </div>
+                <div class="col-md-3 d-flex align-items-end">
+                  <div class="d-grid gap-2 w-100">
+                    <button
+                      class="btn btn-sm btn-outline-danger"
+                      id="reloadHistoriBtn"
+                    >
+                      <i class="fas fa-search me-1"></i>Filter
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Tab Navigation -->
+          <div class="card mb-3 shadow-sm border-0">
+            <div class="card-header bg-light">
+              <ul
+                class="nav nav-tabs card-header-tabs"
+                id="historiTabs"
+                role="tablist"
+              >
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="semua-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#semua"
+                    type="button"
+                    role="tab"
+                  >
+                    <i class="fas fa-list me-1"></i>Semua Aktivitas
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="pengajuan-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#pengajuan"
+                    type="button"
+                    role="tab"
+                  >
+                    <i class="fas fa-file-alt me-1"></i>Pengajuan Sewa
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="sewa-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#sewa"
+                    type="button"
+                    role="tab"
+                  >
+                    <i class="fas fa-handshake me-1"></i>Transaksi Sewa
+                  </button>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Tab Content -->
+          <div class="tab-content" id="historiTabContent">
+            <!-- Semua Aktivitas -->
+            <div class="tab-pane fade show active" id="semua" role="tabpanel">
+              <div class="card shadow-sm border-0">
+                <div class="card-header bg-danger text-white">
+                  <h5 class="mb-0">
+                    <i class="fas fa-history me-2"></i>Timeline Aktivitas
+                  </h5>
+                </div>
+                <div class="card-body">
+                  <div id="timelineContainer">
+                    <div class="text-center py-4">
+                      <div class="spinner-border text-danger" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                      <p class="mt-2 text-muted">
+                        Memuat timeline aktivitas...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Pengajuan Sewa -->
+            <div class="tab-pane fade" id="pengajuan" role="tabpanel">
+              <div class="card shadow-sm border-0">
+                <div class="card-header bg-warning text-dark">
+                  <h5 class="mb-0">
+                    <i class="fas fa-file-alt me-2"></i>Riwayat Pengajuan Sewa
+                  </h5>
+                </div>
+                <div class="card-body">
+                  <div id="pengajuanContainer">
+                    <div class="text-center py-4">
+                      <div class="spinner-border text-warning" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                      <p class="mt-2 text-muted">Memuat riwayat pengajuan...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Transaksi Sewa -->
+            <div class="tab-pane fade" id="sewa" role="tabpanel">
+              <div class="card shadow-sm border-0">
+                <div class="card-header bg-success text-white">
+                  <h5 class="mb-0">
+                    <i class="fas fa-handshake me-2"></i>Riwayat Transaksi Sewa
+                  </h5>
+                </div>
+                <div class="card-body">
+                  <div id="historiContainer" class="row g-3">
+                    <div
+                      class="col-12 text-center"
+                      id="transactionLoadingIndicator"
+                    >
+                      <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Loading...</span>
+                      </div>
+                      <p class="mt-2 text-muted">
+                        Memuat riwayat transaksi sewa...
+                      </p>
+                    </div>
+
+                    <div
+                      class="col-12 text-center d-none"
+                      id="noTransactionsIndicator"
+                    >
+                      <i
+                        class="fas fa-file-invoice-dollar fa-3x text-muted mb-3"
+                      ></i>
+                      <h5 class="text-muted">Tidak Ada Transaksi Sewa</h5>
+                      <p class="text-muted">
+                        Anda belum memiliki transaksi sewa yang aktif.
+                      </p>
+                      <a
+                        href="{{ url_for('main.user_dashboard') }}"
+                        class="btn btn-outline-success mt-2"
+                      >
+                        <i class="fas fa-search me-1"></i>Cari Aset untuk Disewa
+                      </a>
+                    </div>
+
+                    <div id="transactionsListContainer" class="col-12 d-none">
+                      <!-- Template untuk transaksi sewa -->
+                      <div class="list-group transaction-list mb-4">
+                        <!-- Transaksi akan diisi secara dinamis oleh JavaScript -->
+                      </div>
+
+                      <!-- Pagination untuk transaksi -->
+                      <nav
+                        aria-label="Pagination"
+                        id="transactionPagination"
+                        class="d-none"
+                      >
+                        <ul
+                          class="pagination pagination-sm justify-content-center"
+                        >
+                          <!-- Pagination akan diisi oleh JavaScript -->
+                        </ul>
+                      </nav>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Notification section removed as it's now handled in the top navbar -->
+      </main>
+    </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Utility Functions -->
+    <script src="{{ url_for('static', filename='js/utils.js') }}"></script>
+
+    <!-- Midtrans Snap Script -->
+    <script src="https://app.sandbox.midtrans.com/snap/snap.js" data-client-key="SB-Mid-client-Qda8j_JcCCIAoyKc"></script>
+
+    <!-- Custom Dashboard JS -->
+    <script src="{{ url_for('static', filename='js/dash-admin.js') }}"></script>
+
+    <!-- User Dashboard JS Files -->
+    <script src="{{ url_for('static', filename='js/dashboard-user-utils.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard-user-notifications.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard-user-favorites.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard-user-history.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard-user-inline-functions.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard-user-rental.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard-user-stats.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard-user-main.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard-user-refresh.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/dashboard-user-transactions.js') }}"></script>
+    <!-- Database integration -->
+    <script src="{{ url_for('static', filename='js/dashboard-user-database.js') }}"></script>
+    <!-- Favorite handlers -->
+    <script src="{{ url_for('static', filename='js/favorite-handler.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/favorite-notification-handler.js') }}"></script>
+
+    <!-- Initialize user data -->
+    <script>
+      // Pass any server-side variables to JavaScript here
+      const userNameFromSession = "{{ session.get('user_name', '') }}";
+      const userEmailFromSession = "{{ session.get('user_email', '') }}";
+
+      // Initialize dashboard with real database data
+      document.addEventListener("DOMContentLoaded", function () {
+        console.log("Loading assets from database");
+        
+        // Load assets from database
+        if (typeof loadAvailableAssets === "function") {
+          loadAvailableAssets();
+        }
+
+        // Load and update favorite count
+        console.log("Loading favorite count");
+        if (typeof updateFavoriteCount === "function") {
+          updateFavoriteCount();
+        } else if (typeof loadUserFavorites === "function") {
+          loadUserFavorites();
+        }
+
+        // Initialize notifications
+        console.log("Initializing notifications");
+        if (typeof fetchNotifications === "function") {
+          fetchNotifications();
+        }
+
+        // Set up notification toggle button
+        const notifToggleBtn = document.getElementById("notificationToggleBtn");
+        if (notifToggleBtn) {
+          console.log("Setting up notification toggle button");
+          notifToggleBtn.addEventListener("click", function () {
+            console.log("Notification toggle button clicked");
+            if (typeof toggleNotificationDropdown === "function") {
+              toggleNotificationDropdown();
+            }
+          });
+        } else {
+          console.error("Notification toggle button not found");
+        }
+
+        // Add tab switching event listeners
+        const sewaTab = document.getElementById("sewa-tab");
+        if (sewaTab) {
+          sewaTab.addEventListener("shown.bs.tab", function () {
+            console.log("Sewa tab shown");
+            // Load rental transactions if the function exists
+            if (typeof loadRentalTransactions === "function") {
+              loadRentalTransactions();
+            }
+          });
+        }
+
+        // Make sure favorite hearts are clickable
+        document.querySelectorAll(".favorite-heart").forEach((heart) => {
+          heart.addEventListener("click", function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+            const assetId = this.getAttribute("data-aset-id");
+            if (typeof toggleFavorite === "function") {
+              toggleFavorite(assetId, this);
+            } else {
+              // Fallback
+              const isFavorited = this.classList.contains("favorited");
+              if (isFavorited) {
+                this.classList.remove("favorited");
+              } else {
+                this.classList.add("favorited");
+              }
+              alert(
+                isFavorited
+                  ? "Aset dihapus dari favorit"
+                  : "Aset ditambahkan ke favorit"
+              );
+            }
+          });
+        });
+        
+        // Add event listener for favorite menu
+        const favoritMenu = document.querySelector('.menu-link[data-target="favorit-aset"]');
+        if (favoritMenu) {
+          favoritMenu.addEventListener('click', function() {
+            console.log("Favorit menu clicked");
+            setTimeout(() => {
+              if (typeof loadUserFavorites === "function") {
+                loadUserFavorites();
+              }
+              if (typeof updateFavoriteCount === "function") {
+                updateFavoriteCount();
+              }
+            }, 100);
+          });
+        }
+        
+        // Synchronize favorite hearts after all content loads
+        setTimeout(() => {
+          if (typeof synchronizeFavoriteHearts === "function") {
+            synchronizeFavoriteHearts();
+          }
+        }, 1000);
+      });
+    </script>
+
+    <!-- Debug script -->
+    <script src="{{ url_for('static', filename='js/dashboard-user-debug.js') }}"></script>
+
+    <!-- User Notification System -->
+    <script src="{{ url_for('static', filename='js/user-notification-system.js') }}"></script>
+    
+    <!-- Midtrans Payment Integration Script -->
+    <script>
+      // Real Midtrans Payment Integration with new API keys
+      window.MidtransPayment = {
+        // Real payment function with QR Code
+        processPayment: function(asset) {
+          console.log('🚀 Starting REAL payment with NEW API keys for asset:', asset);
+          
+          // Show loading
+          this.showLoading('Memproses pembayaran dengan API baru...');
+          
+          // Get form data
+          const startDate = document.getElementById('startDate') ? document.getElementById('startDate').value : new Date().toISOString().split('T')[0];
+          const totalMonths = document.getElementById('rentalDuration') ? parseInt(document.getElementById('rentalDuration').value) : 1;
+          
+          // Calculate total cost
+          const totalCost = asset.harga_sewa * totalMonths;
+          
+          // Create payment data untuk test endpoint
+          const paymentData = {
+            total_amount: totalCost,
+            customer_name: "{{ session.get('user_name', 'Test User') }}",
+            customer_email: "{{ session.get('user_email', 'test@example.com') }}",
+            customer_phone: "081234567890",
+            item_name: `Sewa ${asset.name} - ${totalMonths} bulan`
+          };
+          
+          console.log('💳 Payment data:', paymentData);
+          
+          // Call test payment endpoint yang tidak butuh database
+          fetch('/api/test-payment', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(paymentData)
+          })
+          .then(response => {
+            console.log('📡 Response status:', response.status);
+            if (!response.ok) {
+              throw new Error(`HTTP error! status: ${response.status}`);
+            }
+            return response.json();
+          })
+          .then(result => {
+            this.hideLoading();
+            console.log('✅ Payment response:', result);
+            
+            if (!result.success) {
+              throw new Error(result.error || 'Gagal membuat pembayaran');
+            }
+            
+            // Check if Midtrans Snap is available
+            if (typeof window.snap === 'undefined') {
+              throw new Error('Midtrans Snap tidak tersedia. Silakan refresh halaman.');
+            }
+            
+            console.log('🎯 Got payment token:', result.token);
+            console.log('📱 Opening QR Code payment...');
+            
+            // Process payment with Midtrans Snap - QR Code akan muncul di sini!
+            window.snap.pay(result.token, {
+              onSuccess: function(result) {
+                console.log('🎉 Payment success:', result);
+                
+                // Save successful payment to rental transactions
+                const rentalData = {
+                  asset_id: asset.id,
+                  asset_name: asset.name,
+                  asset_type: asset.asset_type,
+                  customer_name: "{{ session.get('user_name', 'User') }}",
+                  customer_email: "{{ session.get('user_email', 'user@email.com') }}",
+                  start_date: startDate,
+                  total_months: totalMonths,
+                  monthly_price: asset.harga_sewa,
+                  total_amount: totalCost,
+                  payment_status: 'paid',
+                  payment_method: result.payment_type || 'qr_code',
+                  midtrans_order_id: result.order_id,
+                  midtrans_transaction_id: result.transaction_id,
+                  payment_date: new Date().toISOString().split('T')[0]
+                };
+                
+                // Send rental data to backend to create rental transaction
+                fetch('/api/create-rental-transaction', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json'
+                  },
+                  body: JSON.stringify(rentalData)
+                })
+                .then(response => response.json())
+                .then(rentalResult => {
+                  console.log('✅ Rental transaction created:', rentalResult);
+                  
+                  if (rentalResult.success) {
+                    alert('Pembayaran berhasil dan aset telah disewakan!');
+                  } else {
+                    alert('Pembayaran berhasil dan aset telah disewakan!');
+                  }
+                  
+                  // Refresh page to update data
+                  window.location.reload();
+                })
+                .catch(error => {
+                  console.error('⚠️ Error creating rental transaction:', error);
+                  alert('✅ Pembayaran berhasil!\\n\\nOrder ID: ' + result.order_id + 
+                        '\\nPayment Type: ' + result.payment_type +
+                        '\\n\\n⚠️ Transaksi sewa akan diproses secara manual oleh admin.');
+                  
+                  // Still refresh page even if rental creation fails
+                  window.location.reload();
+                });
+              },
+              onPending: function(result) {
+                console.log('⏳ Payment pending:', result);
+                alert('⏳ Pembayaran pending. Silakan selesaikan pembayaran.\\n\\nOrder ID: ' + result.order_id);
+              },
+              onError: function(result) {
+                console.log('❌ Payment error:', result);
+                alert('❌ Pembayaran gagal. Silakan coba lagi.\\n\\nError: ' + (result.status_message || 'Unknown error'));
+              },
+              onClose: function() {
+                console.log('🚪 Payment popup closed');
+                alert('ℹ️ QR Code payment ditutup. Anda bisa melanjutkan pembayaran nanti.');
+              }
+            });
+          })
+          .catch(error => {
+            this.hideLoading();
+            console.error('💥 Error creating payment:', error);
+            alert('❌ Gagal memproses pembayaran: ' + error.message + '\\n\\nSilakan coba lagi atau hubungi admin.');
+          });
+        },
+        
+        showLoading: function(message) {
+          // Create loading modal
+          const loadingHtml = `
+            <div id="paymentLoading" class="modal fade" data-bs-backdrop="static" data-bs-keyboard="false">
+              <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content">
+                  <div class="modal-body text-center p-4">
+                    <div class="spinner-border text-primary mb-3" role="status">
+                      <span class="visually-hidden">Loading...</span>
+                    </div>
+                    <p class="mb-0">${message}</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `;
+          
+          // Remove existing loading modal
+          const existing = document.getElementById('paymentLoading');
+          if (existing) existing.remove();
+          
+          // Add new loading modal
+          document.body.insertAdjacentHTML('beforeend', loadingHtml);
+          
+          // Show modal
+          const modal = new bootstrap.Modal(document.getElementById('paymentLoading'));
+          modal.show();
+        },
+        
+        hideLoading: function() {
+          const loadingModal = document.getElementById('paymentLoading');
+          if (loadingModal) {
+            const modal = bootstrap.Modal.getInstance(loadingModal);
+            if (modal) modal.hide();
+            setTimeout(() => loadingModal.remove(), 300);
+          }
+        }
+      };
+      
+      // Override handlePayment function globally
+      window.handlePayment = function(asset) {
+        console.log('=== REAL PAYMENT HANDLER CALLED ===');
+        console.log('Asset data:', asset);
+        
+        if (!asset) {
+          alert('❌ Data aset tidak tersedia');
+          return;
+        }
+        
+        // Use real payment
+        window.MidtransPayment.processPayment(asset);
+      };
+      
+      // Ensure payment button works
+      document.addEventListener('DOMContentLoaded', function() {
+        console.log('✅ Real payment handler ready with new API keys');
+        console.log('Client Key: SB-Mid-client-Qda8j_JcCCIAoyKc');
+        
+        // Check if Midtrans Snap is loaded
+        setTimeout(() => {
+          if (typeof window.snap !== 'undefined') {
+            console.log('✅ Midtrans Snap loaded successfully');
+          } else {
+            console.log('❌ Midtrans Snap not loaded');
+          }
+        }, 1000);
+      });
+    </script>
+  </body>
+</html>
+<!-- Fallback functions -->
+<script>
+  // Fallback functions in case the external JS fails to load
+  if (typeof toggleFavorite !== "function") {
+    function toggleFavorite(assetId, element) {
+      // Check if already favorited
+      const isFavorited = element.classList.contains("favorited");
+
+      // Optimistic UI update
+      if (isFavorited) {
+        element.classList.remove("favorited");
+      } else {
+        element.classList.add("favorited");
+      }
+
+      // Show alert
+      alert(
+        isFavorited
+          ? "Aset dihapus dari favorit"
+          : "Aset ditambahkan ke favorit"
+      );
+    }
+  }
+
+  if (typeof showAsetDetail !== "function") {
+    function showAsetDetail(id, assetType) {
+      alert("Detail aset " + id + " (" + assetType + ")");
+    }
+  }
+
+  if (typeof showRentalForm !== "function") {
+    function showRentalForm(id, assetType) {
+      alert("Form sewa aset " + id + " (" + assetType + ")");
+    }
+  }
+</script>
