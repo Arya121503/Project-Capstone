@@ -39,12 +39,6 @@ class PredictionManager {
         if (updateForm) {
             updateForm.addEventListener('submit', (e) => this.handleModelUpdate(e));
         }
-
-        // Manual model reload button handler
-        const manualReloadBtn = document.getElementById('manualReloadBtn');
-        if (manualReloadBtn) {
-            manualReloadBtn.addEventListener('click', () => this.reloadModelsManually());
-        }
     }
 
     async handleLandPrediction(event) {
@@ -501,46 +495,6 @@ class PredictionManager {
             });
         } catch (error) {
             return 'Format tanggal tidak valid';
-        }
-    }
-
-    async reloadModelsManually() {
-        const btn = document.getElementById('manualReloadBtn');
-        if (!btn) return;
-        
-        const originalText = btn.innerHTML;
-        
-        try {
-            // Show loading state
-            btn.disabled = true;
-            btn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Memuat Ulang...';
-            
-            const response = await fetch('/prediction/reload_models', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json'
-                }
-            });
-            
-            const data = await response.json();
-            
-            if (data.success) {
-                // Show success message
-                this.showAlertMessage(btn, 'success', data.message);
-                
-                // Reload model status
-                this.loadModelStatus();
-            } else {
-                // Show error message
-                this.showAlertMessage(btn, 'danger', data.error);
-            }
-        } catch (error) {
-            console.error('Error reloading models:', error);
-            this.showAlertMessage(btn, 'danger', 'Terjadi kesalahan saat memuat ulang model');
-        } finally {
-            // Reset button
-            btn.disabled = false;
-            btn.innerHTML = originalText;
         }
     }
 
