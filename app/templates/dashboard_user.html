@@ -675,6 +675,9 @@
                 <div class="card-header bg-danger text-white">
                   <h5 class="mb-0">
                     <i class="fas fa-history me-2"></i>Timeline Aktivitas
+                    <button class="btn btn-sm btn-outline-light ms-2" onclick="loadRentalRequests()" style="font-size: 12px;">
+                      <i class="fas fa-refresh me-1"></i>Muat Ulang
+                    </button>
                   </h5>
                 </div>
                 <div class="card-body">
@@ -909,12 +912,39 @@
           });
         }
         
+        // Add event listener for history menu
+        const historiMenu = document.querySelector('.menu-link[data-target="histori-sewa"]');
+        if (historiMenu) {
+          historiMenu.addEventListener('click', function() {
+            console.log("Histori sewa menu clicked");
+            setTimeout(() => {
+              if (typeof loadRentalRequests === "function") {
+                console.log("Calling loadRentalRequests function");
+                loadRentalRequests();
+              } else {
+                console.error("loadRentalRequests function not found");
+              }
+            }, 100);
+          });
+        }
+        
         // Synchronize favorite hearts after all content loads
         setTimeout(() => {
           if (typeof synchronizeFavoriteHearts === "function") {
             synchronizeFavoriteHearts();
           }
         }, 1000);
+        
+        // Initialize timeline data if histori-sewa section is already active
+        setTimeout(() => {
+          const historiSection = document.getElementById('histori-sewa');
+          if (historiSection && historiSection.classList.contains('active')) {
+            console.log("History section is active on load, loading rental requests");
+            if (typeof loadRentalRequests === "function") {
+              loadRentalRequests();
+            }
+          }
+        }, 1500);
       });
     </script>
 

@@ -551,10 +551,10 @@ class UserRentalTransactionsManager {
     
     getPaymentStatusClass(paymentStatus) {
         const statusClasses = {
-            'pending': 'bg-warning',
+            'unpaid': 'bg-warning',
             'partial': 'bg-info',
             'paid': 'bg-success',
-            'overdue': 'bg-danger'
+            'failed': 'bg-danger'
         };
         return statusClasses[paymentStatus] || 'bg-secondary';
     }

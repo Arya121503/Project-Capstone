@@ -598,9 +598,9 @@ function getPaymentStatusBadgeClass(status) {
             return 'bg-success';
         case 'partial':
             return 'bg-warning';
-        case 'pending':
-            return 'bg-secondary';
-        case 'overdue':
+        case 'unpaid':
+            return 'bg-warning';
+        case 'failed':
             return 'bg-danger';
         default:
             return 'bg-secondary';

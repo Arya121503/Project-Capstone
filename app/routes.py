@@ -2187,6 +2187,86 @@ def model_updated_notification():
             'error': str(e)
         }), 500
 
+@main.route('/api/available-assets')
+def get_available_assets():
+    """Get all available rental assets from database"""
+    try:
+        # Get query parameters
+        asset_type = request.args.get('asset_type', '')
+        kecamatan = request.args.get('kecamatan', '')
+        price_range = request.args.get('price_range', '')
+        page = int(request.args.get('page', 1))
+        per_page = int(request.args.get('per_page', 20))
+        
+        # Query RentalAsset table for available assets
+        query = RentalAsset.query.filter_by(status='available')
+        
+        # Apply filters
+        if asset_type and asset_type != 'all':
+            query = query.filter_by(asset_type=asset_type)
+        
+        if kecamatan and kecamatan != 'all':
+            query = query.filter_by(kecamatan=kecamatan)
+        
+        # Apply price range filter
+        if price_range and '-' in price_range:
+            try:
+                min_price, max_price = price_range.split('-')
+                min_price = int(min_price)
+                max_price = int(max_price) if max_price != '999999999999' else 999999999999
+                query = query.filter(
+                    RentalAsset.harga_sewa >= min_price,
+                    RentalAsset.harga_sewa <= max_price
+                )
+            except (ValueError, TypeError):
+                pass  # Ignore invalid price range format
+        
+        # Get results with pagination
+        assets = query.order_by(RentalAsset.created_at.desc()).all()
+        
+        # Convert to dict format expected by frontend
+        assets_data = []
+        for asset in assets:
+            assets_data.append({
+                'id': asset.id,
+                'name': asset.name,
+                'asset_type': asset.asset_type,
+                'alamat': asset.alamat,
+                'kecamatan': asset.kecamatan,
+                'luas_tanah': asset.luas_tanah,
+                'luas_bangunan': asset.luas_bangunan,
+                'kamar_tidur': asset.kamar_tidur,
+                'kamar_mandi': asset.kamar_mandi,
+                'jumlah_lantai': asset.jumlah_lantai,
+                'harga_sewa': asset.harga_sewa,
+                'status': asset.status,
+                'created_at': asset.created_at.isoformat() if asset.created_at else None,
+                'sertifikat': asset.sertifikat,
+                'deskripsi': asset.deskripsi,
+                'jenis_zona': asset.jenis_zona,
+                'aksesibilitas': asset.aksesibilitas,
+                'tingkat_keamanan': asset.tingkat_keamanan,
+                'njop_per_m2': asset.njop_per_m2,
+                'daya_listrik': asset.daya_listrik,
+                'kondisi_properti': asset.kondisi_properti
+            })
+        
+        return jsonify({
+            'success': True,
+            'data': assets_data,
+            'total': len(assets_data),
+            'page': page,
+            'per_page': per_page
+        })
+        
+    except Exception as e:
+        print(f"❌ Error loading available assets: {e}")
+        return jsonify({
+            'success': False,
+            'error': str(e),
+            'data': []
+        }), 500
+
 @main.route('/test-charts')
 def test_charts():
     """Test route for notebook charts"""

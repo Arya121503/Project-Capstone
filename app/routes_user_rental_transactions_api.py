@@ -49,10 +49,10 @@ def get_user_rental_transactions():
             }.get(transaction.status, transaction.status.title())
             
             transaction_data['payment_status_label'] = {
-                'pending': 'Menunggu Pembayaran',
+                'unpaid': 'Menunggu Pembayaran',
                 'partial': 'Dibayar Sebagian',
                 'paid': 'Lunas',
-                'overdue': 'Terlambat'
+                'failed': 'Gagal'
             }.get(transaction.payment_status, transaction.payment_status.title())
             
             # Add warning flags
@@ -66,7 +66,7 @@ def get_user_rental_transactions():
             elif days_remaining <= 30 and transaction.status == 'active':
                 transaction_data['warnings'].append('Kontrak akan berakhir dalam 30 hari')
             
-            if transaction.payment_status == 'overdue':
+            if transaction.payment_status == 'failed':
                 transaction_data['warnings'].append('Pembayaran terlambat')
             
             result.append(transaction_data)
@@ -115,10 +115,10 @@ def get_rental_transaction_detail(transaction_id):
         }.get(transaction.status, transaction.status.title())
         
         transaction_data['payment_status_label'] = {
-            'pending': 'Menunggu Pembayaran',
+            'unpaid': 'Menunggu Pembayaran',
             'partial': 'Dibayar Sebagian',
             'paid': 'Lunas',
-            'overdue': 'Terlambat'
+            'failed': 'Gagal'
         }.get(transaction.payment_status, transaction.payment_status.title())
         
         # Add rental request details

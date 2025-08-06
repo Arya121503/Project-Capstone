@@ -23,7 +23,7 @@ class RentalTransaction(db.Model):
     
     # Status tracking
     status = db.Column(db.Enum('active', 'extended', 'completed', 'terminated'), default='active')
-    payment_status = db.Column(db.Enum('pending', 'partial', 'paid', 'overdue'), default='pending')
+    payment_status = db.Column(db.Enum('unpaid', 'partial', 'paid', 'failed'), default='unpaid')
     
     # Extension tracking
     extension_count = db.Column(db.Integer, default=0)
@@ -144,6 +144,6 @@ class RentalTransaction(db.Model):
             total_months=rental_request.total_months,
             remaining_amount=rental_request.total_price,
             status='active',
-            payment_status='pending'
+            payment_status='unpaid'
         )
         return transaction

@@ -365,7 +365,7 @@ def payment_notification():
                 # Payment failed
                 cursor.execute("""
                     UPDATE rental_transactions 
-                    SET payment_status = 'failed', status = 'cancelled' 
+                    SET payment_status = 'failed', status = 'terminated' 
                     WHERE id = %s
                 """, (transaction_id,))
                 
@@ -380,7 +380,7 @@ def payment_notification():
                 # Payment pending
                 cursor.execute("""
                     UPDATE rental_transactions 
-                    SET payment_status = 'pending', status = 'pending' 
+                    SET payment_status = 'unpaid', status = 'active' 
                     WHERE id = %s
                 """, (transaction_id,))
             
