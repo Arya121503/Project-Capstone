@@ -47,7 +47,7 @@ async function loadRentalRequests(filters = {}) {
         }
         
         // Fetch data from API
-        const apiUrl = `/api/user-rental-requests?${queryParams.toString()}`;
+        const apiUrl = `/api/user/rental-applications?${queryParams.toString()}`;
         console.log(`Fetching data from: ${apiUrl}`);
         const response = await fetch(apiUrl);
         const result = await response.json();
@@ -76,6 +76,18 @@ async function loadRentalRequests(filters = {}) {
                 <i class="fas fa-exclamation-circle fa-3x text-danger mb-3"></i>
                 <h5>Gagal memuat data</h5>
                 <p class="text-muted">${error.message}</p>
+            </div>
+        `;
+        
+        // Show error message for timeline too
+        document.getElementById('timelineContainer').innerHTML = `
+            <div class="text-center py-4">
+                <i class="fas fa-exclamation-circle fa-3x text-danger mb-3"></i>
+                <h5>Gagal memuat timeline</h5>
+                <p class="text-muted">${error.message}</p>
+                <button class="btn btn-outline-danger btn-sm" onclick="loadRentalRequests()">
+                    <i class="fas fa-redo me-1"></i>Coba Lagi
+                </button>
             </div>
         `;
         
@@ -390,13 +402,43 @@ function updateTimelineUI() {
     }
     
     if (filteredRequests.length === 0) {
-        container.innerHTML = `
-            <div class="text-center py-4">
-                <i class="fas fa-history fa-3x text-muted mb-3"></i>
-                <h5>Tidak ada aktivitas yang sesuai dengan filter</h5>
-                <p class="text-muted">Coba ubah filter untuk melihat aktivitas lainnya</p>
-            </div>
-        `;
+        // Check if it's due to filters or no data at all
+        if (rentalRequests.length === 0) {
+            // No data at all - show demo timeline
+            container.innerHTML = `
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-icon bg-primary">
+                            <i class="fas fa-user-plus"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-time">Hari ini</div>
+                            <h6 class="timeline-title">Selamat datang!</h6>
+                            <p class="timeline-text">Akun Anda telah dibuat. Mulai jelajahi aset properti yang tersedia dan ajukan sewa sesuai kebutuhan Anda.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-icon bg-info">
+                            <i class="fas fa-info-circle"></i>
+                        </div>
+                        <div class="timeline-content">
+                            <div class="timeline-time">Tips</div>
+                            <h6 class="timeline-title">Cara menggunakan sistem</h6>
+                            <p class="timeline-text">1. Jelajahi aset di halaman Dashboard<br>2. Tambahkan ke favorit jika tertarik<br>3. Klik "Sewa Sekarang" untuk mengajukan penyewaan<br>4. Pantau status pengajuan di halaman Histori</p>
+                        </div>
+                    </div>
+                </div>
+            `;
+        } else {
+            // Data exists but filtered out
+            container.innerHTML = `
+                <div class="text-center py-4">
+                    <i class="fas fa-history fa-3x text-muted mb-3"></i>
+                    <h5>Tidak ada aktivitas yang sesuai dengan filter</h5>
+                    <p class="text-muted">Coba ubah filter untuk melihat aktivitas lainnya</p>
+                </div>
+            `;
+        }
         return;
     }
     
@@ -1014,3 +1056,8 @@ function viewRentalDetails(requestId) {
     const modal = new bootstrap.Modal(document.getElementById('rentalDetailsModal'));
     modal.show();
 }
+
+// Make functions available globally
+window.loadRentalRequests = loadRentalRequests;
+window.updateTimelineUI = updateTimelineUI;
+window.updateRentalRequestsUI = updateRentalRequestsUI;
