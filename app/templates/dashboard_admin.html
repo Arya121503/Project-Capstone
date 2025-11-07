@@ -187,7 +187,11 @@
             </a>
             <a href="#" class="menu-link" data-target="prediksi">
               <span class="material-icons-sharp">psychology</span>
-              <h3>Prediksi Harga</h3>
+              <h3>Prediksi Harga Sewa</h3>
+            </a>
+            <a href="#" class="menu-link" data-target="prediksi_jual">
+              <span class="material-icons-sharp">attach_money</span>
+              <h3>Prediksi Harga Jual</h3>
             </a>
             
             <!-- Prediksi features removed - to be rebuilt from scratch -->
@@ -971,6 +975,26 @@
                       </div>
                     </div>
 
+                    <!-- FASE 3: Prediction Analytics & Monitoring -->
+                    <div class="row mb-4">
+                      <div class="col-12">
+                        <div class="card border-info">
+                          <div class="card-header bg-info text-white">
+                            <h6 class="mb-0">
+                              <i class="fas fa-chart-line me-2"></i>Prediction Analytics (Last 7 Days)
+                            </h6>
+                          </div>
+                          <div class="card-body">
+                            <div id="predictionAnalytics">
+                              <div class="text-center text-muted">
+                                <i class="fas fa-spinner fa-spin me-2"></i>Loading analytics...
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
                     <!-- Upload Form -->
                     <form id="modelUpdateForm" enctype="multipart/form-data" novalidate>
                       <div class="row g-3">
@@ -1021,6 +1045,316 @@
                       <div class="alert alert-success">
                         <h6><i class="fas fa-check-circle me-2"></i>Hasil Update Model</h6>
                         <div id="updateResultContent"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!-- Prediksi Harga Jual -->
+        <section id="prediksi_jual" class="content-section">
+          <div class="p-4">
+            <h1 class="fw-bold mb-3">
+              <i class="fas fa-money-bill-wave me-2"></i>Prediksi Harga Jual Aset
+            </h1>
+            <p class="text-muted mb-4">
+              Prediksi harga jual aset menggunakan machine learning (XGBoost, Random Forest, CatBoost, Voting Regressor)
+            </p>
+
+            <!-- FASE 2: Upload & Training Section -->
+            <div class="card shadow-sm border-warning mb-4">
+              <div class="card-header bg-warning text-dark">
+                <h5 class="mb-0">
+                  <i class="fas fa-upload me-2"></i>Upload Dataset & Auto-Training
+                </h5>
+              </div>
+              <div class="card-body">
+                <p class="text-muted mb-3">
+                  Upload file CSV untuk melatih ulang model prediksi jual. System akan otomatis melatih 4 ensemble models (XGBoost, Random Forest, CatBoost, Voting Regressor).
+                </p>
+
+                <!-- Upload Form untuk Jual -->
+                <form id="jualModelUpdateForm" enctype="multipart/form-data" novalidate>
+                  <div class="row g-3">
+                    <div class="col-md-6">
+                      <label for="jual_tanah_file" class="form-label">
+                        <i class="fas fa-map me-2"></i>File CSV Data Jual Tanah
+                      </label>
+                      <input type="file" class="form-control" id="jual_tanah_file" name="jual_tanah_file" accept=".csv">
+                      <div class="form-text">
+                        <strong>Format CSV harus mengandung kolom:</strong><br>
+                        Kecamatan, Sertifikat, Luas Tanah (M²), Jenis Zona, Aksesibilitas, 
+                        Tingkat Keamanan, Kepadatan_Penduduk, Jarak ke Pusat Kota (km), <strong>Harga Jual (Rp)</strong>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="jual_bangunan_file" class="form-label">
+                        <i class="fas fa-building me-2"></i>File CSV Data Jual Bangunan
+                      </label>
+                      <input type="file" class="form-control" id="jual_bangunan_file" name="jual_bangunan_file" accept=".csv">
+                      <div class="form-text">
+                        <strong>Format CSV harus mengandung kolom:</strong><br>
+                        Kecamatan, Sertifikat, Luas Tanah (M²), Luas Bangunan (M²), Jenis Zona, Kondisi Bangunan, 
+                        Jumlah Lantai, Tahun Dibangun, Aksesibilitas, Tingkat Keamanan, Kepadatan_Penduduk, 
+                        Jarak ke Pusat Kota (km), <strong>Harga Jual (Rp)</strong>
+                      </div>
+                    </div>
+                  </div>
+                  
+                  <div class="d-grid gap-2 mt-4">
+                    <button type="submit" class="btn btn-warning btn-lg">
+                      <i class="fas fa-sync-alt me-2"></i>Upload & Train Ensemble Models
+                    </button>
+                  </div>
+                </form>
+                
+                <!-- Update Progress -->
+                <div id="jualUpdateProgress" class="mt-4" style="display: none;">
+                  <div class="card border-info">
+                    <div class="card-body">
+                      <h6><i class="fas fa-cog fa-spin me-2"></i>Training Ensemble Models...</h6>
+                      <div class="progress mb-3">
+                        <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%"></div>
+                      </div>
+                      <p class="text-muted mb-0">
+                        🤖 Melatih 4 models: XGBoost, Random Forest, CatBoost, Voting Regressor<br>
+                        ⏱️ Proses ini memakan waktu beberapa menit...
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!-- Update Result -->
+                <div id="jualUpdateResult" class="mt-4" style="display: none;">
+                  <div class="alert alert-success">
+                    <h6><i class="fas fa-check-circle me-2"></i>Hasil Training Ensemble Models</h6>
+                    <div id="jualUpdateResultContent"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="card shadow-sm border-0">
+              <div class="card-body">
+                <!-- Tabs -->
+                <ul class="nav nav-tabs mb-4" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#prediksi-jual-tanah">
+                      <i class="fas fa-map me-2"></i>Prediksi Jual Tanah
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#prediksi-jual-bangunan">
+                      <i class="fas fa-building me-2"></i>Prediksi Jual Bangunan
+                    </a>
+                  </li>
+                </ul>
+
+                <div class="tab-content">
+                  <!-- Prediksi Jual Tanah Tab -->
+                  <div class="tab-pane fade show active" id="prediksi-jual-tanah">
+                    <div class="card border-success">
+                      <div class="card-header bg-success text-white">
+                        <h5 class="mb-0">
+                          <i class="fas fa-map me-2"></i>Prediksi Harga Jual Tanah
+                        </h5>
+                      </div>
+                      <div class="card-body">
+                        <form id="prediksi_jual_tanah_form">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="mb-3">
+                                <label class="form-label">Kecamatan</label>
+                                <select class="form-select" id="prediksi_jual_tanah_kecamatan" required>
+                                  <option value="">Pilih Kecamatan</option>
+                                </select>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Sertifikat</label>
+                                <select class="form-select" id="prediksi_jual_tanah_sertifikat" required>
+                                  <option value="">Pilih Sertifikat</option>
+                                </select>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Luas Tanah (m²)</label>
+                                <input type="number" class="form-control" id="prediksi_jual_tanah_luas" 
+                                       placeholder="Contoh: 500" step="0.01" required>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Jenis Zona</label>
+                                <select class="form-select" id="prediksi_jual_tanah_zona" required>
+                                  <option value="">Pilih Jenis Zona</option>
+                                </select>
+                              </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                              <div class="mb-3">
+                                <label class="form-label">Aksesibilitas</label>
+                                <select class="form-select" id="prediksi_jual_tanah_aksesibilitas" required>
+                                  <option value="">Pilih Aksesibilitas</option>
+                                </select>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Tingkat Keamanan</label>
+                                <select class="form-select" id="prediksi_jual_tanah_keamanan" required>
+                                  <option value="">Pilih Tingkat Keamanan</option>
+                                </select>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Kepadatan Penduduk</label>
+                                <input type="number" class="form-control" id="prediksi_jual_tanah_kepadatan" 
+                                       placeholder="Contoh: 123961" required>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Jarak ke Pusat Kota (km)</label>
+                                <input type="number" class="form-control" id="prediksi_jual_tanah_jarak" 
+                                       placeholder="Contoh: 5.5" step="0.01" required>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="alert alert-info">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <strong>Model Prediksi:</strong> Ensemble Learning (Gabungan XGBoost, Random Forest, dan CatBoost) untuk akurasi maksimal
+                          </div>
+                          
+                          <div class="d-flex gap-2">
+                            <button type="button" class="btn btn-success" onclick="predictJualTanah()">
+                              <i class="fas fa-calculator me-2"></i>Prediksi Harga Jual
+                            </button>
+                            <button type="button" class="btn btn-secondary" onclick="resetJualTanahForm()">
+                              <i class="fas fa-redo me-2"></i>Reset
+                            </button>
+                          </div>
+                        </form>
+                        
+                        <!-- Result -->
+                        <div id="prediksi_jual_tanah_result" class="mt-4"></div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <!-- Prediksi Jual Bangunan Tab -->
+                  <div class="tab-pane fade" id="prediksi-jual-bangunan">
+                    <div class="card border-primary">
+                      <div class="card-header bg-primary text-white">
+                        <h5 class="mb-0">
+                          <i class="fas fa-building me-2"></i>Prediksi Harga Jual Bangunan
+                        </h5>
+                      </div>
+                      <div class="card-body">
+                        <form id="prediksi_jual_bangunan_form">
+                          <div class="row">
+                            <div class="col-md-6">
+                              <div class="mb-3">
+                                <label class="form-label">Kecamatan</label>
+                                <select class="form-select" id="prediksi_jual_bangunan_kecamatan" required>
+                                  <option value="">Pilih Kecamatan</option>
+                                </select>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Sertifikat</label>
+                                <select class="form-select" id="prediksi_jual_bangunan_sertifikat" required>
+                                  <option value="">Pilih Sertifikat</option>
+                                </select>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Luas Tanah (m²)</label>
+                                <input type="number" class="form-control" id="prediksi_jual_bangunan_luas_tanah" 
+                                       placeholder="Contoh: 300" step="0.01" required>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Luas Bangunan (m²)</label>
+                                <input type="number" class="form-control" id="prediksi_jual_bangunan_luas_bangunan" 
+                                       placeholder="Contoh: 250" step="0.01" required>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Jenis Zona</label>
+                                <select class="form-select" id="prediksi_jual_bangunan_zona" required>
+                                  <option value="">Pilih Jenis Zona</option>
+                                </select>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Kondisi Bangunan</label>
+                                <select class="form-select" id="prediksi_jual_bangunan_kondisi" required>
+                                  <option value="">Pilih Kondisi</option>
+                                </select>
+                              </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                              <div class="mb-3">
+                                <label class="form-label">Jumlah Lantai</label>
+                                <input type="number" class="form-control" id="prediksi_jual_bangunan_lantai" 
+                                       placeholder="Contoh: 2" min="1" required>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Tahun Dibangun</label>
+                                <input type="number" class="form-control" id="prediksi_jual_bangunan_tahun" 
+                                       placeholder="Contoh: 2015" min="1900" max="2025" required>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Aksesibilitas</label>
+                                <select class="form-select" id="prediksi_jual_bangunan_aksesibilitas" required>
+                                  <option value="">Pilih Aksesibilitas</option>
+                                </select>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Tingkat Keamanan</label>
+                                <select class="form-select" id="prediksi_jual_bangunan_keamanan" required>
+                                  <option value="">Pilih Tingkat Keamanan</option>
+                                </select>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Kepadatan Penduduk</label>
+                                <input type="number" class="form-control" id="prediksi_jual_bangunan_kepadatan" 
+                                       placeholder="Contoh: 123961" required>
+                              </div>
+                              
+                              <div class="mb-3">
+                                <label class="form-label">Jarak ke Pusat Kota (km)</label>
+                                <input type="number" class="form-control" id="prediksi_jual_bangunan_jarak" 
+                                       placeholder="Contoh: 5.5" step="0.01" required>
+                              </div>
+                            </div>
+                          </div>
+                          
+                          <div class="alert alert-info">
+                            <i class="fas fa-info-circle me-2"></i>
+                            <strong>Model Prediksi:</strong> Ensemble Learning (Gabungan XGBoost, Random Forest, dan CatBoost) untuk akurasi maksimal
+                          </div>
+                          
+                          <div class="d-flex gap-2">
+                            <button type="button" class="btn btn-primary" onclick="predictJualBangunan()">
+                              <i class="fas fa-calculator me-2"></i>Prediksi Harga Jual
+                            </button>
+                            <button type="button" class="btn btn-secondary" onclick="resetJualBangunanForm()">
+                              <i class="fas fa-redo me-2"></i>Reset
+                            </button>
+                          </div>
+                        </form>
+                        
+                        <!-- Result -->
+                        <div id="prediksi_jual_bangunan_result" class="mt-4"></div>
                       </div>
                     </div>
                   </div>
@@ -4858,10 +5192,139 @@
 
       // Model status functions removed for rebuilding ML prediction system
       
+      // =========================================================================
+      // FASE 3: PREDICTION ANALYTICS & MONITORING
+      // =========================================================================
+      
+      function loadPredictionAnalytics() {
+        console.log('📊 Loading prediction analytics...');
+        const analyticsDiv = document.getElementById('predictionAnalytics');
+        
+        if (!analyticsDiv) {
+          console.warn('⚠️ Analytics div not found');
+          return;
+        }
+        
+        // Fetch analytics data
+        fetch('/prediction/prediction_analytics?days=7')
+          .then(response => response.json())
+          .then(data => {
+            console.log('📊 Analytics data received:', data);
+            
+            if (data.success) {
+              displayPredictionAnalytics(data);
+            } else {
+              analyticsDiv.innerHTML = `
+                <div class="alert alert-warning mb-0">
+                  <i class="fas fa-exclamation-triangle me-2"></i>
+                  Gagal memuat analytics: ${data.error}
+                </div>
+              `;
+            }
+          })
+          .catch(error => {
+            console.error('❌ Error loading analytics:', error);
+            analyticsDiv.innerHTML = `
+              <div class="alert alert-danger mb-0">
+                <i class="fas fa-times-circle me-2"></i>
+                Error loading analytics. Analytics akan tersedia setelah prediksi pertama.
+              </div>
+            `;
+          });
+      }
+      
+      function displayPredictionAnalytics(data) {
+        const analyticsDiv = document.getElementById('predictionAnalytics');
+        const stats = data.prediction_stats;
+        
+        let html = '<div class="row g-3">';
+        
+        // Total Predictions
+        html += `
+          <div class="col-md-3">
+            <div class="card bg-light border-0">
+              <div class="card-body text-center">
+                <h6 class="text-muted mb-2">
+                  <i class="fas fa-calculator me-2"></i>Total Predictions
+                </h6>
+                <h3 class="mb-0 text-primary">${stats.total_predictions}</h3>
+              </div>
+            </div>
+          </div>
+        `;
+        
+        // Success Rate
+        const successRateColor = stats.success_rate >= 95 ? 'success' : stats.success_rate >= 80 ? 'warning' : 'danger';
+        html += `
+          <div class="col-md-3">
+            <div class="card bg-light border-0">
+              <div class="card-body text-center">
+                <h6 class="text-muted mb-2">
+                  <i class="fas fa-check-circle me-2"></i>Success Rate
+                </h6>
+                <h3 class="mb-0 text-${successRateColor}">${stats.success_rate.toFixed(1)}%</h3>
+              </div>
+            </div>
+          </div>
+        `;
+        
+        // Average Confidence
+        const confColor = stats.average_confidence >= 90 ? 'success' : stats.average_confidence >= 75 ? 'warning' : 'danger';
+        html += `
+          <div class="col-md-3">
+            <div class="card bg-light border-0">
+              <div class="card-body text-center">
+                <h6 class="text-muted mb-2">
+                  <i class="fas fa-shield-alt me-2"></i>Avg Confidence
+                </h6>
+                <h3 class="mb-0 text-${confColor}">${stats.average_confidence.toFixed(1)}%</h3>
+              </div>
+            </div>
+          </div>
+        `;
+        
+        // Predictions by Type
+        html += `
+          <div class="col-md-3">
+            <div class="card bg-light border-0">
+              <div class="card-body">
+                <h6 class="text-muted mb-2">
+                  <i class="fas fa-chart-pie me-2"></i>By Type
+                </h6>
+                <div class="d-flex justify-content-between">
+                  <span><i class="fas fa-map text-success me-1"></i>Tanah:</span>
+                  <strong>${stats.predictions_by_type.tanah}</strong>
+                </div>
+                <div class="d-flex justify-content-between">
+                  <span><i class="fas fa-building text-primary me-1"></i>Bangunan:</span>
+                  <strong>${stats.predictions_by_type.bangunan}</strong>
+                </div>
+              </div>
+            </div>
+          </div>
+        `;
+        
+        html += '</div>';
+        
+        // Add note about validation
+        if (stats.failed_predictions > 0) {
+          html += `
+            <div class="alert alert-info mt-3 mb-0">
+              <i class="fas fa-info-circle me-2"></i>
+              <strong>${stats.failed_predictions}</strong> predictions failed validation.
+              Input validation helps maintain prediction quality.
+            </div>
+          `;
+        }
+        
+        analyticsDiv.innerHTML = html;
+      }
+      
       // Auto-load when page is ready
       document.addEventListener('DOMContentLoaded', function() {
         setTimeout(() => {
           loadLocationPerformance();
+          loadPredictionAnalytics();  // FASE 3: Load analytics
           // Model status loading removed
         }, 1000); // Delay to ensure other elements are loaded
       });
@@ -4884,6 +5347,9 @@
     
     <!-- Population Auto-Fill JavaScript -->
     <script src="{{ url_for('static', filename='js/population_autofill.js') }}"></script>
+    
+    <!-- Jual Prediction JavaScript -->
+    <script src="{{ url_for('static', filename='js/jual_prediction.js') }}"></script>
     
     <!-- ML JavaScript files removed for rebuilding prediction system -->
   </body>

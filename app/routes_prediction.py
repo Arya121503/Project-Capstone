@@ -320,3 +320,43 @@ def get_prediction_stats():
     except Exception as e:
         current_app.logger.error(f"Error getting prediction stats: {str(e)}")
         return jsonify({'error': f'Gagal mendapatkan statistik: {str(e)}'}), 500
+
+# ============================================================================
+# FASE 3: PREDICTION MONITORING & ANALYTICS
+# ============================================================================
+
+@prediction_bp.route('/prediction_analytics', methods=['GET'])
+def get_prediction_analytics():
+    """
+    Get prediction analytics dan monitoring statistics
+    
+    Query Parameters:
+        days (int): Jumlah hari ke belakang untuk analisis (default: 7)
+        
+    Returns:
+        JSON dengan prediction stats dan model status
+    """
+    try:
+        # Get days parameter
+        days = request.args.get('days', 7, type=int)
+        
+        # Get prediction statistics from logs
+        prediction_stats = prediction_system.get_prediction_stats(days=days)
+        
+        # Get current model status
+        model_status = prediction_system.get_model_status()
+        
+        return jsonify({
+            'success': True,
+            'period_days': days,
+            'prediction_stats': prediction_stats,
+            'model_status': model_status,
+            'timestamp': datetime.now().isoformat()
+        })
+        
+    except Exception as e:
+        current_app.logger.error(f"Error getting prediction analytics: {str(e)}")
+        return jsonify({
+            'success': False,
+            'error': f'Gagal mendapatkan analytics: {str(e)}'
+        }), 500

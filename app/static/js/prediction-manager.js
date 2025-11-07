@@ -80,7 +80,8 @@ class PredictionManager {
             const data = await response.json();
             
             if (data.success) {
-                this.showSuccessResult(resultDiv, data.prediction, 'Tanah');
+                // IMPROVED: Pass entire response object for confidence display
+                this.showSuccessResult(resultDiv, data, 'Tanah');
                 // Update the specific result value element
                 const valueElement = document.getElementById('landPredictionValue');
                 if (valueElement) {
@@ -151,7 +152,8 @@ class PredictionManager {
             const data = await response.json();
             
             if (data.success) {
-                this.showSuccessResult(resultDiv, data.prediction, 'Bangunan');
+                // IMPROVED: Pass entire response object for confidence display
+                this.showSuccessResult(resultDiv, data, 'Bangunan');
                 // Update the specific result value element
                 const valueElement = document.getElementById('buildingPredictionValue');
                 if (valueElement) {
@@ -309,10 +311,48 @@ class PredictionManager {
 
     showSuccessResult(resultDiv, prediction, type) {
         resultDiv.style.display = 'block';
+        
+        // IMPROVED: Show detailed result with confidence if available
+        let confidenceHTML = '';
+        
+        // Check if prediction is an object with confidence data
+        if (typeof prediction === 'object' && prediction.prediction) {
+            const confidence = prediction.confidence || 85;
+            const confidenceLevel = prediction.confidence_level || 'Good';
+            const cvPercentage = prediction.cv_percentage || 0;
+            
+            let confidenceBadge = 'success';
+            if (confidence < 80) confidenceBadge = 'warning';
+            if (confidence < 70) confidenceBadge = 'danger';
+            
+            confidenceHTML = `
+                <div class="mt-3 p-3 bg-light rounded">
+                    <h6 class="mb-2"><i class="fas fa-shield-alt me-2"></i>Tingkat Kepercayaan</h6>
+                    <div class="d-flex align-items-center mb-2">
+                        <div class="progress flex-grow-1 me-3" style="height: 25px;">
+                            <div class="progress-bar bg-${confidenceBadge}" role="progressbar" 
+                                 style="width: ${confidence}%;" 
+                                 aria-valuenow="${confidence}" aria-valuemin="0" aria-valuemax="100">
+                                ${confidence}%
+                            </div>
+                        </div>
+                        <span class="badge bg-${confidenceBadge}">${confidenceLevel}</span>
+                    </div>
+                    <small class="text-muted">
+                        <i class="fas fa-info-circle me-1"></i>
+                        Variasi Model: ${cvPercentage}%
+                    </small>
+                </div>
+            `;
+            
+            prediction = prediction.prediction;
+        }
+        
         resultDiv.innerHTML = `
             <div class="alert alert-success">
                 <h5><i class="fas fa-chart-line me-2"></i>Hasil Prediksi ${type}</h5>
                 <p class="mb-0">Estimasi harga sewa per bulan: <strong>${prediction}</strong></p>
+                ${confidenceHTML}
             </div>
         `;
     }

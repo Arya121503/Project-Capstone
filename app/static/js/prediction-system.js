@@ -533,13 +533,181 @@ window.updateModels = function() {
     }
 };
 
+// ============================================================================
+// FASE 2: JUAL PREDICTION AUTO-UPLOAD & TRAINING
+// ============================================================================
+
+/**
+ * Setup handlers for jual model update form
+ */
+function setupJualModelUpdateHandlers() {
+    const jualModelUpdateForm = document.getElementById('jualModelUpdateForm');
+    if (jualModelUpdateForm) {
+        jualModelUpdateForm.addEventListener('submit', handleJualModelUpdate);
+        console.log('✅ Jual model update form handler initialized');
+    }
+}
+
+/**
+ * Handle jual model update (upload & auto-train ensemble models)
+ */
+async function handleJualModelUpdate(event) {
+    event.preventDefault();
+    
+    const form = event.target;
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalBtnText = submitBtn.innerHTML;
+    
+    try {
+        // Check if any files are selected
+        const jualTanahFile = form.querySelector('#jual_tanah_file').files[0];
+        const jualBangunanFile = form.querySelector('#jual_bangunan_file').files[0];
+        
+        if (!jualTanahFile && !jualBangunanFile) {
+            alert('Silakan pilih minimal satu file untuk diupload');
+            return;
+        }
+        
+        // Show loading state
+        submitBtn.disabled = true;
+        submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-2"></i>Mengupload & Training...';
+        showElement('jualUpdateProgress');
+        hideElement('jualUpdateResult');
+        
+        // Prepare form data
+        const formData = new FormData(form);
+        
+        // Upload files and trigger auto-training
+        console.log('📤 Uploading jual dataset and starting auto-training...');
+        const response = await fetch('/jual-prediction/upload-dataset', {
+            method: 'POST',
+            body: formData
+        });
+        
+        const result = await response.json();
+        
+        // Hide progress
+        hideElement('jualUpdateProgress');
+        
+        if (response.ok && result.success) {
+            showJualUpdateSuccess(result);
+            
+            // Clear file inputs
+            form.querySelector('#jual_tanah_file').value = '';
+            form.querySelector('#jual_bangunan_file').value = '';
+        } else {
+            showJualUpdateError(result.error || result.message || 'Gagal mengupload file atau training model');
+        }
+        
+    } catch (error) {
+        console.error('Error updating jual models:', error);
+        hideElement('jualUpdateProgress');
+        showJualUpdateError('Terjadi kesalahan saat mengupload file atau training model');
+    } finally {
+        // Restore button state
+        submitBtn.disabled = false;
+        submitBtn.innerHTML = originalBtnText;
+    }
+}
+
+/**
+ * Show jual model update success message
+ */
+function showJualUpdateSuccess(result) {
+    const resultDiv = document.getElementById('jualUpdateResult');
+    const contentDiv = document.getElementById('jualUpdateResultContent');
+    
+    if (!resultDiv || !contentDiv) return;
+    
+    let html = '<div class="mb-3">';
+    html += '<p class="fw-bold text-success mb-2">✅ Ensemble models berhasil dilatih!</p>';
+    
+    // Show training results
+    if (result.results && result.results.training && result.results.training.models_trained) {
+        html += '<hr class="my-3">';
+        html += '<h6 class="mb-2">📊 Model Performance:</h6>';
+        
+        result.results.training.models_trained.forEach(model => {
+            const perf = model.performance;
+            const info = model.data_info;
+            
+            html += `
+                <div class="card bg-light mb-2">
+                    <div class="card-body p-3">
+                        <h6 class="text-primary mb-2">
+                            <i class="fas fa-${model.model_type === 'jual_tanah' ? 'map' : 'building'} me-2"></i>
+                            ${model.model_type === 'jual_tanah' ? 'Jual Tanah' : 'Jual Bangunan'}
+                        </h6>
+                        <div class="row g-2">
+                            <div class="col-md-3">
+                                <small class="text-muted d-block">Voting R²:</small>
+                                <strong class="text-success">${perf.voting_r2.toFixed(4)}</strong>
+                            </div>
+                            <div class="col-md-3">
+                                <small class="text-muted d-block">XGBoost R²:</small>
+                                <strong>${perf.xgboost_r2.toFixed(4)}</strong>
+                            </div>
+                            <div class="col-md-3">
+                                <small class="text-muted d-block">Random Forest R²:</small>
+                                <strong>${perf.random_forest_r2.toFixed(4)}</strong>
+                            </div>
+                            <div class="col-md-3">
+                                <small class="text-muted d-block">CatBoost R²:</small>
+                                <strong>${perf.catboost_r2.toFixed(4)}</strong>
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <small class="text-muted">
+                                <i class="fas fa-database me-1"></i>${info.total_samples} samples
+                                | <i class="fas fa-chart-line me-1"></i>MAPE: ${perf.voting_mape.toFixed(4)}
+                            </small>
+                        </div>
+                    </div>
+                </div>
+            `;
+        });
+    }
+    
+    html += '</div>';
+    html += `<p class="text-muted mb-0"><i class="fas fa-clock me-1"></i>Timestamp: ${result.results.training.timestamp}</p>`;
+    
+    contentDiv.innerHTML = html;
+    resultDiv.className = 'alert alert-success mt-4';
+    showElement('jualUpdateResult');
+}
+
+/**
+ * Show jual model update error message
+ */
+function showJualUpdateError(errorMessage) {
+    const resultDiv = document.getElementById('jualUpdateResult');
+    const contentDiv = document.getElementById('jualUpdateResultContent');
+    
+    if (!resultDiv || !contentDiv) return;
+    
+    contentDiv.innerHTML = `
+        <p class="mb-0">
+            <i class="fas fa-exclamation-circle me-2"></i>${errorMessage}
+        </p>
+    `;
+    resultDiv.className = 'alert alert-danger mt-4';
+    showElement('jualUpdateResult');
+}
+
+// Call setup function when DOM is ready
+document.addEventListener('DOMContentLoaded', () => {
+    setupJualModelUpdateHandlers();
+});
+
 // Export functions for use in other modules
 window.PredictionSystem = {
     loadModelStatus,
     updateModelStatusDisplay,
     handleLandPrediction,
     handleBuildingPrediction,
-    handleModelUpdate
+    handleModelUpdate,
+    handleJualModelUpdate  // Add new function
 };
 
 console.log('✅ Prediction System JavaScript loaded successfully!');
+

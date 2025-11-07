@@ -1,0 +1,1001 @@
+Kecamatan,Luas Tanah (m²),Luas Bangunan (m²),Jumlah Lantai,Kondisi Properti,Kondisi Perabotan,Sertifikat,Daya Listrik (watt),Hook,NJOP (Rp/m²),Jenis Zona,Aksesibilitas,Tingkat Keamanan,Usia Bangunan (tahun),Nilai Jual Bangunan (Rp)
+Asemrowo,549,287,2,Baru,Furnished,AJB,4400,Ya,189440,Campuran,Dekat Sekolah,5,14,54369280
+Asemrowo,452,533,2,Butuh Renovasi,Furnished,SHM,6600,Tidak,183573,Komersial,Dekat Sekolah,4,11,97844409
+Asemrowo,412,418,1,Butuh Renovasi,Unfurnished,SHM,6600,Tidak,183705,Perumahan,Dekat Jalan Raya,4,29,76788690
+Asemrowo,517,555,2,Baru,Semi-Furnished,SHM,5500,Ya,199049,Perumahan,Dekat Jalan Raya,4,15,110472195
+Asemrowo,503,54,3,Baru,Unfurnished,SHM,1300,Tidak,166412,Campuran,Dekat Jalan Raya,3,23,8986248
+Asemrowo,579,473,3,Baru,Unfurnished,AJB,6600,Tidak,175075,Perumahan,Dekat Jalan Raya,5,18,82810475
+Asemrowo,577,81,2,Bagus,Semi-Furnished,AJB,900,Tidak,179416,Campuran,Dekat Jalan Raya,3,7,14532696
+Asemrowo,268,164,1,Bagus,Semi-Furnished,SHM,1300,Tidak,157788,Perumahan,Dekat Sekolah,5,30,25877232
+Asemrowo,467,525,2,Butuh Renovasi,Unfurnished,HGB,6600,Ya,198532,Campuran,Dekat Jalan Raya,4,20,104229300
+Asemrowo,305,111,1,Baru,Furnished,HGB,2200,Ya,180170,Komersial,Dekat Jalan Raya,5,16,19998870
+Asemrowo,581,335,3,Baru,Unfurnished,SHM,3500,Tidak,159034,Perumahan,Dekat Pusat Kota,5,22,53276390
+Asemrowo,144,218,1,Butuh Renovasi,Furnished,HGB,2200,Ya,157578,Perumahan,Dekat Pusat Kota,5,4,34352004
+Asemrowo,137,135,1,Baru,Semi-Furnished,HGB,2200,Tidak,162852,Perumahan,Dekat Pusat Kota,4,21,21985020
+Asemrowo,366,344,2,Butuh Renovasi,Unfurnished,SHM,3500,Ya,177220,Perumahan,Dekat Pusat Kota,5,15,60963680
+Asemrowo,350,239,2,Bagus,Unfurnished,AJB,3500,Ya,183210,Campuran,Dekat Jalan Raya,5,5,43787190
+Asemrowo,269,103,2,Bagus,Semi-Furnished,SHM,1300,Tidak,172441,Perumahan,Dekat Jalan Raya,3,7,17761423
+Asemrowo,444,33,1,Bagus,Furnished,AJB,1300,Ya,146887,Perumahan,Dekat Jalan Raya,3,24,4847271
+Asemrowo,384,110,3,Baru,Semi-Furnished,SHM,2200,Tidak,166592,Komersial,Dekat Pusat Kota,5,17,18325120
+Asemrowo,165,140,3,Butuh Renovasi,Furnished,AJB,1300,Ya,168143,Komersial,Dekat Pusat Kota,4,24,23540020
+Asemrowo,310,354,3,Baru,Semi-Furnished,SHM,2200,Ya,159846,Perumahan,Dekat Jalan Raya,5,11,56585484
+Asemrowo,334,40,2,Butuh Renovasi,Unfurnished,HGB,900,Tidak,145906,Campuran,Dekat Pusat Kota,1,14,5836240
+Asemrowo,276,175,3,Butuh Renovasi,Furnished,HGB,1300,Ya,178173,Komersial,Dekat Sekolah,4,26,31180275
+Asemrowo,575,613,1,Baru,Semi-Furnished,SHM,6600,Ya,174871,Campuran,Dekat Sekolah,5,25,107195923
+Asemrowo,310,289,1,Butuh Renovasi,Furnished,SHM,4400,Tidak,159802,Perumahan,Dekat Sekolah,5,8,46182778
+Asemrowo,65,30,2,Baru,Unfurnished,AJB,1300,Ya,168853,Komersial,Dekat Sekolah,1,12,5065590
+Asemrowo,593,284,2,Butuh Renovasi,Semi-Furnished,SHM,4400,Tidak,169566,Perumahan,Dekat Sekolah,5,25,48156744
+Asemrowo,275,317,2,Baru,Unfurnished,HGB,4400,Ya,177363,Komersial,Dekat Pusat Kota,4,14,56224071
+Asemrowo,81,72,2,Butuh Renovasi,Furnished,HGB,1300,Ya,170342,Komersial,Dekat Jalan Raya,2,9,12264624
+Asemrowo,542,231,2,Butuh Renovasi,Unfurnished,SHM,4400,Tidak,155054,Perumahan,Dekat Pusat Kota,5,15,35817474
+Asemrowo,103,45,1,Baru,Unfurnished,AJB,900,Tidak,168500,Campuran,Dekat Pusat Kota,2,6,7582500
+Asemrowo,180,55,3,Baru,Furnished,AJB,1300,Tidak,170952,Campuran,Dekat Sekolah,5,16,9402360
+Asemrowo,137,33,1,Baru,Semi-Furnished,SHM,1300,Tidak,167878,Campuran,Dekat Sekolah,3,22,5539974
+Asemrowo,162,65,1,Bagus,Furnished,AJB,1300,Tidak,167472,Perumahan,Dekat Sekolah,3,25,10885680
+Benowo,416,412,1,Baru,Furnished,HGB,5500,Ya,165725,Campuran,Dekat Jalan Raya,5,20,68278700
+Benowo,522,621,3,Bagus,Semi-Furnished,SHM,6600,Tidak,192041,Campuran,Dekat Sekolah,5,21,119257461
+Benowo,332,185,2,Butuh Renovasi,Unfurnished,HGB,1300,Ya,163001,Perumahan,Dekat Sekolah,5,25,30155185
+Benowo,271,260,1,Baru,Semi-Furnished,SHM,4400,Ya,145754,Campuran,Dekat Jalan Raya,5,6,37896040
+Benowo,152,115,1,Bagus,Furnished,HGB,2200,Ya,143377,Komersial,Dekat Sekolah,2,13,16488355
+Benowo,483,455,1,Baru,Unfurnished,SHM,4400,Ya,160886,Perumahan,Dekat Jalan Raya,5,14,73203130
+Benowo,199,104,2,Bagus,Semi-Furnished,SHM,2200,Tidak,147067,Campuran,Dekat Jalan Raya,2,20,15294968
+Benowo,205,186,1,Baru,Semi-Furnished,HGB,1300,Tidak,152063,Campuran,Dekat Pusat Kota,5,6,28283718
+Benowo,169,195,3,Baru,Furnished,SHM,2200,Tidak,173909,Komersial,Dekat Pusat Kota,4,8,33912255
+Benowo,589,276,1,Baru,Semi-Furnished,SHM,4400,Ya,175682,Komersial,Dekat Jalan Raya,5,18,48488232
+Benowo,185,57,1,Baru,Semi-Furnished,HGB,1300,Ya,150971,Campuran,Dekat Pusat Kota,2,15,8605347
+Benowo,313,368,3,Bagus,Semi-Furnished,AJB,4400,Tidak,175275,Komersial,Dekat Sekolah,4,7,64501200
+Benowo,580,149,3,Bagus,Semi-Furnished,SHM,2200,Ya,155774,Perumahan,Dekat Sekolah,5,17,23210326
+Benowo,183,217,2,Butuh Renovasi,Unfurnished,AJB,2200,Ya,146673,Komersial,Dekat Sekolah,4,26,31828041
+Benowo,265,278,1,Baru,Semi-Furnished,AJB,4400,Tidak,168874,Campuran,Dekat Sekolah,5,22,46946972
+Benowo,294,322,3,Baru,Furnished,HGB,4400,Tidak,148586,Komersial,Dekat Sekolah,5,28,47844692
+Benowo,482,479,1,Baru,Furnished,HGB,4400,Tidak,157699,Komersial,Dekat Pusat Kota,5,17,75537821
+Benowo,324,175,1,Butuh Renovasi,Unfurnished,HGB,1300,Tidak,171664,Campuran,Dekat Pusat Kota,4,30,30041200
+Benowo,227,318,3,Bagus,Unfurnished,SHM,4400,Tidak,154749,Campuran,Dekat Sekolah,5,29,49210182
+Benowo,286,213,1,Baru,Furnished,HGB,3500,Tidak,164691,Perumahan,Dekat Pusat Kota,5,19,35079183
+Benowo,412,94,3,Butuh Renovasi,Furnished,HGB,900,Tidak,146852,Perumahan,Dekat Jalan Raya,3,6,13804088
+Benowo,205,45,2,Butuh Renovasi,Furnished,AJB,900,Tidak,164199,Campuran,Dekat Pusat Kota,1,2,7388955
+Benowo,101,34,2,Butuh Renovasi,Unfurnished,SHM,1300,Ya,157602,Campuran,Dekat Jalan Raya,3,17,5358468
+Benowo,207,269,3,Butuh Renovasi,Unfurnished,AJB,4400,Ya,171178,Komersial,Dekat Sekolah,5,26,46046882
+Benowo,239,55,3,Butuh Renovasi,Unfurnished,SHM,1300,Tidak,157628,Campuran,Dekat Pusat Kota,2,9,8669540
+Benowo,248,141,1,Butuh Renovasi,Semi-Furnished,AJB,1300,Ya,161457,Campuran,Dekat Sekolah,4,6,22765437
+Benowo,55,34,1,Baru,Furnished,HGB,900,Ya,151094,Perumahan,Dekat Jalan Raya,2,16,5137196
+Benowo,238,332,2,Baru,Unfurnished,AJB,2200,Tidak,171939,Perumahan,Dekat Jalan Raya,5,13,57083748
+Benowo,177,186,1,Butuh Renovasi,Furnished,AJB,2200,Ya,154140,Komersial,Dekat Jalan Raya,5,30,28670040
+Benowo,170,219,3,Bagus,Unfurnished,HGB,4400,Tidak,162038,Komersial,Dekat Sekolah,5,23,35486322
+Benowo,464,338,2,Butuh Renovasi,Semi-Furnished,SHM,3500,Tidak,156750,Campuran,Dekat Jalan Raya,5,2,52981500
+Benowo,109,174,2,Baru,Unfurnished,SHM,1300,Tidak,170648,Komersial,Dekat Jalan Raya,5,11,29692752
+Benowo,281,70,1,Butuh Renovasi,Furnished,SHM,1300,Tidak,155505,Campuran,Dekat Jalan Raya,3,27,10885350
+Bubutan,577,57,2,Butuh Renovasi,Unfurnished,AJB,1300,Ya,244064,Campuran,Dekat Sekolah,2,12,13911648
+Bubutan,134,84,1,Bagus,Furnished,HGB,1300,Tidak,230158,Campuran,Dekat Pusat Kota,5,1,19333272
+Bubutan,489,231,2,Baru,Semi-Furnished,HGB,2200,Tidak,276315,Perumahan,Dekat Jalan Raya,5,2,63828765
+Bubutan,458,389,3,Bagus,Furnished,SHM,4400,Ya,270836,Perumahan,Dekat Sekolah,5,4,105355204
+Bubutan,478,442,3,Baru,Furnished,SHM,4400,Tidak,260649,Komersial,Dekat Sekolah,4,10,115206858
+Bubutan,55,73,1,Baru,Furnished,SHM,1300,Ya,244533,Campuran,Dekat Jalan Raya,4,7,17850909
+Bubutan,232,249,1,Butuh Renovasi,Furnished,SHM,3500,Tidak,268040,Komersial,Dekat Jalan Raya,4,25,66741960
+Bubutan,566,149,3,Butuh Renovasi,Furnished,AJB,2200,Tidak,275302,Komersial,Dekat Jalan Raya,4,22,41019998
+Bubutan,514,536,2,Bagus,Unfurnished,HGB,4400,Tidak,268704,Perumahan,Dekat Jalan Raya,4,22,144025344
+Bubutan,351,145,3,Bagus,Furnished,AJB,2200,Tidak,253085,Komersial,Dekat Sekolah,5,11,36697325
+Bubutan,490,131,1,Baru,Furnished,HGB,1300,Tidak,267743,Komersial,Dekat Sekolah,4,6,35074333
+Bubutan,237,56,1,Butuh Renovasi,Furnished,SHM,1300,Tidak,250274,Perumahan,Dekat Jalan Raya,3,14,14015344
+Bubutan,216,253,1,Baru,Semi-Furnished,SHM,4400,Tidak,273491,Komersial,Dekat Jalan Raya,5,23,69193223
+Bubutan,286,232,3,Bagus,Semi-Furnished,AJB,4400,Tidak,235858,Campuran,Dekat Pusat Kota,5,16,54719056
+Bubutan,322,355,2,Baru,Furnished,HGB,3500,Tidak,247238,Perumahan,Dekat Sekolah,4,3,87769490
+Bubutan,575,182,1,Butuh Renovasi,Semi-Furnished,AJB,2200,Tidak,229337,Campuran,Dekat Pusat Kota,4,28,41739334
+Bubutan,302,47,2,Baru,Semi-Furnished,HGB,900,Tidak,245189,Perumahan,Dekat Pusat Kota,3,21,11523883
+Bubutan,517,46,2,Baru,Semi-Furnished,SHM,900,Ya,229483,Campuran,Dekat Jalan Raya,4,24,10556218
+Bubutan,379,185,1,Baru,Unfurnished,SHM,2200,Ya,237836,Perumahan,Dekat Pusat Kota,5,12,43999660
+Bubutan,366,222,1,Butuh Renovasi,Unfurnished,AJB,2200,Tidak,267559,Perumahan,Dekat Pusat Kota,5,17,59398098
+Bubutan,96,44,1,Baru,Unfurnished,SHM,1300,Ya,220848,Campuran,Dekat Jalan Raya,2,0,9717312
+Bubutan,277,168,2,Baru,Unfurnished,HGB,1300,Ya,230842,Campuran,Dekat Pusat Kota,4,15,38781456
+Bubutan,573,586,1,Butuh Renovasi,Semi-Furnished,SHM,4400,Tidak,278146,Perumahan,Dekat Sekolah,4,12,162993556
+Bubutan,482,300,3,Baru,Furnished,AJB,3500,Ya,258583,Perumahan,Dekat Jalan Raya,4,9,77574900
+Bubutan,568,186,2,Baru,Semi-Furnished,AJB,1300,Tidak,275417,Komersial,Dekat Pusat Kota,5,11,51227562
+Bubutan,155,193,3,Baru,Unfurnished,HGB,2200,Tidak,256656,Komersial,Dekat Sekolah,5,29,49534608
+Bubutan,130,225,3,Butuh Renovasi,Semi-Furnished,SHM,4400,Ya,259583,Komersial,Dekat Pusat Kota,5,1,58406175
+Bubutan,232,97,3,Bagus,Semi-Furnished,HGB,900,Ya,228019,Perumahan,Dekat Pusat Kota,4,22,22117843
+Bubutan,189,84,3,Bagus,Semi-Furnished,AJB,900,Ya,269644,Campuran,Dekat Sekolah,5,2,22650096
+Bubutan,251,260,3,Bagus,Unfurnished,SHM,4400,Ya,258286,Komersial,Dekat Jalan Raya,5,9,67154360
+Bubutan,546,315,2,Butuh Renovasi,Semi-Furnished,AJB,3500,Tidak,270548,Komersial,Dekat Pusat Kota,5,1,85222620
+Bubutan,224,45,3,Baru,Unfurnished,HGB,900,Tidak,221119,Komersial,Dekat Sekolah,3,29,9950355
+Bubutan,219,163,2,Bagus,Furnished,SHM,2200,Tidak,251788,Perumahan,Dekat Pusat Kota,5,26,41041444
+Bulak,482,377,3,Baru,Semi-Furnished,AJB,4400,Ya,183150,Campuran,Dekat Jalan Raya,5,22,69047550
+Bulak,515,417,1,Baru,Furnished,AJB,5500,Ya,208042,Komersial,Dekat Pusat Kota,5,12,86753514
+Bulak,171,61,2,Baru,Furnished,AJB,900,Tidak,194702,Komersial,Dekat Pusat Kota,5,12,11876822
+Bulak,105,180,1,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,207219,Komersial,Dekat Sekolah,4,17,37299420
+Bulak,275,252,3,Baru,Furnished,HGB,3500,Tidak,182556,Perumahan,Dekat Jalan Raya,4,2,46004112
+Bulak,54,106,1,Butuh Renovasi,Furnished,HGB,1300,Ya,192521,Campuran,Dekat Pusat Kota,4,26,20407226
+Bulak,111,55,3,Baru,Furnished,SHM,1300,Ya,189615,Perumahan,Dekat Jalan Raya,5,6,10428825
+Bulak,259,186,3,Bagus,Semi-Furnished,AJB,1300,Ya,175530,Perumahan,Dekat Sekolah,5,13,32648580
+Bulak,300,230,2,Butuh Renovasi,Unfurnished,HGB,2200,Tidak,174686,Perumahan,Dekat Jalan Raya,5,19,40177780
+Bulak,392,94,1,Bagus,Furnished,SHM,900,Tidak,173136,Komersial,Dekat Jalan Raya,4,28,16274784
+Bulak,324,156,1,Baru,Furnished,AJB,2200,Ya,197153,Campuran,Dekat Sekolah,5,29,30755868
+Bulak,52,87,2,Bagus,Unfurnished,SHM,1300,Tidak,178817,Perumahan,Dekat Jalan Raya,5,16,15557079
+Bulak,61,64,2,Butuh Renovasi,Unfurnished,AJB,900,Tidak,190054,Perumahan,Dekat Pusat Kota,3,28,12163456
+Bulak,301,157,1,Bagus,Furnished,SHM,2200,Tidak,203652,Perumahan,Dekat Pusat Kota,5,29,31973364
+Bulak,481,299,2,Butuh Renovasi,Unfurnished,AJB,4400,Ya,188207,Komersial,Dekat Sekolah,5,20,56273893
+Bulak,453,152,3,Butuh Renovasi,Furnished,HGB,2200,Ya,203467,Campuran,Dekat Jalan Raya,4,11,30926984
+Bulak,427,503,3,Bagus,Semi-Furnished,HGB,6600,Tidak,214486,Komersial,Dekat Sekolah,5,24,107886458
+Bulak,95,162,2,Baru,Unfurnished,SHM,2200,Tidak,173334,Komersial,Dekat Jalan Raya,5,15,28080108
+Bulak,442,80,3,Baru,Furnished,SHM,900,Ya,193623,Campuran,Dekat Jalan Raya,5,23,15489840
+Bulak,40,122,1,Bagus,Unfurnished,AJB,2200,Ya,202669,Komersial,Dekat Sekolah,3,11,24725618
+Bulak,325,310,2,Baru,Furnished,SHM,4400,Tidak,194439,Komersial,Dekat Pusat Kota,5,14,60276090
+Bulak,542,300,2,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,214589,Campuran,Dekat Sekolah,5,24,64376700
+Bulak,161,84,2,Butuh Renovasi,Unfurnished,SHM,900,Tidak,169814,Perumahan,Dekat Sekolah,3,9,14264376
+Bulak,48,30,1,Bagus,Unfurnished,SHM,900,Tidak,177865,Komersial,Dekat Pusat Kota,2,29,5335950
+Bulak,98,197,1,Baru,Semi-Furnished,AJB,1300,Ya,174808,Komersial,Dekat Sekolah,5,24,34437176
+Bulak,143,121,2,Baru,Semi-Furnished,HGB,1300,Ya,200724,Perumahan,Dekat Pusat Kota,5,30,24287604
+Bulak,298,199,1,Baru,Semi-Furnished,SHM,2200,Ya,200412,Campuran,Dekat Jalan Raya,5,6,39881988
+Bulak,145,182,1,Butuh Renovasi,Furnished,AJB,1300,Ya,185195,Komersial,Dekat Pusat Kota,5,19,33705490
+Bulak,98,179,1,Bagus,Unfurnished,SHM,1300,Ya,174917,Perumahan,Dekat Sekolah,4,4,31310143
+Bulak,208,288,2,Bagus,Semi-Furnished,SHM,2200,Ya,198347,Perumahan,Dekat Pusat Kota,5,0,57123936
+Bulak,159,173,1,Butuh Renovasi,Unfurnished,AJB,2200,Ya,196197,Komersial,Dekat Pusat Kota,5,29,33942081
+Bulak,520,456,1,Baru,Furnished,HGB,4400,Tidak,195854,Komersial,Dekat Sekolah,4,16,89309424
+Bulak,444,342,3,Bagus,Unfurnished,SHM,2200,Tidak,179103,Komersial,Dekat Pusat Kota,4,2,61253226
+Dukuh Pakis,380,232,1,Bagus,Unfurnished,HGB,4400,Tidak,236615,Perumahan,Dekat Sekolah,5,12,54894680
+Dukuh Pakis,75,59,3,Baru,Furnished,SHM,900,Ya,232644,Campuran,Dekat Sekolah,5,13,13725996
+Dukuh Pakis,183,196,3,Butuh Renovasi,Semi-Furnished,AJB,1300,Tidak,242055,Perumahan,Dekat Sekolah,5,23,47442780
+Dukuh Pakis,252,214,2,Bagus,Furnished,HGB,4400,Tidak,228701,Campuran,Dekat Sekolah,4,29,48942014
+Dukuh Pakis,587,117,2,Baru,Semi-Furnished,AJB,2200,Ya,248235,Campuran,Dekat Pusat Kota,5,17,29043495
+Dukuh Pakis,70,47,1,Butuh Renovasi,Unfurnished,HGB,1300,Tidak,215769,Komersial,Dekat Jalan Raya,2,3,10141143
+Dukuh Pakis,380,267,2,Butuh Renovasi,Unfurnished,AJB,3500,Ya,230652,Komersial,Dekat Pusat Kota,4,17,61584084
+Dukuh Pakis,493,335,2,Bagus,Semi-Furnished,AJB,4400,Tidak,230486,Campuran,Dekat Jalan Raya,5,29,77212810
+Dukuh Pakis,76,139,1,Bagus,Unfurnished,AJB,2200,Tidak,220443,Campuran,Dekat Jalan Raya,5,4,30641577
+Dukuh Pakis,436,190,1,Baru,Furnished,AJB,1300,Ya,215480,Komersial,Dekat Pusat Kota,5,24,40941200
+Dukuh Pakis,53,83,2,Bagus,Unfurnished,HGB,900,Tidak,235656,Perumahan,Dekat Pusat Kota,5,15,19559448
+Dukuh Pakis,284,45,1,Baru,Semi-Furnished,HGB,900,Tidak,239766,Campuran,Dekat Jalan Raya,1,0,10789470
+Dukuh Pakis,135,141,2,Baru,Semi-Furnished,HGB,1300,Ya,223640,Komersial,Dekat Jalan Raya,5,20,31533240
+Dukuh Pakis,296,335,1,Butuh Renovasi,Unfurnished,SHM,3500,Tidak,236141,Komersial,Dekat Jalan Raya,5,13,79107235
+Dukuh Pakis,189,246,1,Bagus,Semi-Furnished,AJB,2200,Tidak,252400,Komersial,Dekat Sekolah,4,14,62090400
+Dukuh Pakis,131,193,2,Baru,Unfurnished,AJB,1300,Ya,215694,Campuran,Dekat Jalan Raya,4,8,41628942
+Dukuh Pakis,252,315,3,Bagus,Unfurnished,AJB,4400,Tidak,255858,Campuran,Dekat Jalan Raya,5,14,80595270
+Dukuh Pakis,168,88,2,Bagus,Unfurnished,HGB,900,Tidak,229653,Komersial,Dekat Pusat Kota,5,16,20209464
+Dukuh Pakis,133,139,2,Butuh Renovasi,Furnished,AJB,2200,Tidak,217593,Campuran,Dekat Sekolah,4,24,30245427
+Dukuh Pakis,135,98,2,Butuh Renovasi,Furnished,HGB,1300,Tidak,216264,Komersial,Dekat Pusat Kota,4,23,21193872
+Dukuh Pakis,258,352,2,Baru,Unfurnished,HGB,4400,Ya,248978,Perumahan,Dekat Sekolah,4,3,87640256
+Dukuh Pakis,518,371,2,Butuh Renovasi,Unfurnished,AJB,3500,Tidak,245478,Komersial,Dekat Jalan Raya,5,11,91072338
+Dukuh Pakis,223,103,1,Baru,Unfurnished,AJB,2200,Tidak,241149,Perumahan,Dekat Jalan Raya,4,26,24838347
+Dukuh Pakis,45,47,3,Bagus,Furnished,HGB,1300,Tidak,218795,Perumahan,Dekat Sekolah,3,25,10283365
+Dukuh Pakis,256,321,2,Baru,Furnished,HGB,3500,Tidak,254917,Perumahan,Dekat Sekolah,5,4,81828357
+Dukuh Pakis,196,257,3,Bagus,Furnished,AJB,3500,Tidak,219728,Campuran,Dekat Sekolah,5,28,56470096
+Dukuh Pakis,488,305,2,Butuh Renovasi,Semi-Furnished,HGB,4400,Ya,234954,Campuran,Dekat Pusat Kota,4,4,71660970
+Dukuh Pakis,397,298,3,Butuh Renovasi,Furnished,HGB,2200,Tidak,241942,Perumahan,Dekat Jalan Raya,5,10,72098716
+Dukuh Pakis,584,321,3,Butuh Renovasi,Furnished,HGB,4400,Tidak,247075,Campuran,Dekat Jalan Raya,5,27,79311075
+Dukuh Pakis,335,120,1,Butuh Renovasi,Unfurnished,HGB,1300,Tidak,226066,Perumahan,Dekat Sekolah,3,5,27127920
+Dukuh Pakis,376,216,2,Bagus,Unfurnished,HGB,3500,Ya,232341,Komersial,Dekat Jalan Raya,5,6,50185656
+Dukuh Pakis,54,58,3,Butuh Renovasi,Semi-Furnished,HGB,900,Tidak,210807,Campuran,Dekat Pusat Kota,2,23,12226806
+Dukuh Pakis,85,38,1,Baru,Semi-Furnished,AJB,900,Ya,205992,Komersial,Dekat Pusat Kota,2,30,7827696
+Gayungan,227,152,1,Baru,Semi-Furnished,HGB,2200,Ya,217387,Campuran,Dekat Sekolah,4,13,33042824
+Gayungan,225,244,3,Butuh Renovasi,Furnished,HGB,4400,Tidak,231673,Campuran,Dekat Jalan Raya,5,23,56528212
+Gayungan,301,307,3,Bagus,Unfurnished,AJB,4400,Ya,222872,Perumahan,Dekat Pusat Kota,4,10,68421704
+Gayungan,548,484,2,Baru,Unfurnished,AJB,4400,Ya,218897,Komersial,Dekat Jalan Raya,4,29,105946148
+Gayungan,356,363,2,Baru,Semi-Furnished,AJB,3500,Tidak,223306,Komersial,Dekat Jalan Raya,5,12,81060078
+Gayungan,158,103,2,Bagus,Unfurnished,AJB,1300,Ya,199173,Campuran,Dekat Sekolah,2,1,20514819
+Gayungan,93,82,3,Butuh Renovasi,Furnished,SHM,900,Tidak,210161,Perumahan,Dekat Sekolah,5,24,17233202
+Gayungan,309,308,3,Baru,Unfurnished,HGB,2200,Ya,213117,Campuran,Dekat Sekolah,4,6,65640036
+Gayungan,179,59,3,Baru,Unfurnished,HGB,900,Ya,213646,Komersial,Dekat Pusat Kota,5,19,12605114
+Gayungan,147,225,2,Bagus,Unfurnished,SHM,3500,Ya,231606,Campuran,Dekat Pusat Kota,5,3,52111350
+Gayungan,254,115,2,Baru,Semi-Furnished,AJB,1300,Tidak,205349,Campuran,Dekat Pusat Kota,4,26,23615135
+Gayungan,371,222,1,Baru,Semi-Furnished,SHM,4400,Tidak,197667,Komersial,Dekat Jalan Raya,5,7,43882074
+Gayungan,344,67,2,Butuh Renovasi,Furnished,HGB,900,Tidak,205330,Komersial,Dekat Sekolah,5,19,13757110
+Gayungan,568,124,2,Butuh Renovasi,Semi-Furnished,AJB,2200,Tidak,203173,Campuran,Dekat Jalan Raya,4,28,25193452
+Gayungan,527,487,1,Bagus,Semi-Furnished,HGB,4400,Tidak,207218,Komersial,Dekat Sekolah,5,30,100915166
+Gayungan,229,286,2,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,218694,Komersial,Dekat Sekolah,5,21,62546484
+Gayungan,403,62,2,Baru,Semi-Furnished,HGB,900,Ya,211017,Campuran,Dekat Sekolah,3,20,13083054
+Gayungan,218,179,1,Baru,Furnished,AJB,2200,Ya,214288,Campuran,Dekat Pusat Kota,5,18,38357552
+Gayungan,333,129,3,Butuh Renovasi,Furnished,HGB,1300,Ya,204900,Perumahan,Dekat Jalan Raya,5,12,26432100
+Gayungan,397,210,3,Bagus,Unfurnished,HGB,3500,Tidak,229593,Perumahan,Dekat Jalan Raya,4,13,48214530
+Gayungan,114,84,3,Bagus,Unfurnished,AJB,900,Tidak,198082,Campuran,Dekat Jalan Raya,4,9,16638888
+Gayungan,383,47,1,Baru,Unfurnished,AJB,900,Ya,188738,Campuran,Dekat Pusat Kota,3,10,8870686
+Gayungan,301,154,3,Baru,Furnished,AJB,2200,Ya,191993,Komersial,Dekat Jalan Raya,4,1,29566922
+Gayungan,91,96,1,Butuh Renovasi,Semi-Furnished,AJB,900,Ya,188485,Komersial,Dekat Pusat Kota,4,24,18094560
+Gayungan,50,78,3,Baru,Semi-Furnished,HGB,1300,Tidak,225035,Perumahan,Dekat Pusat Kota,5,25,17552730
+Gayungan,178,229,3,Bagus,Furnished,AJB,3500,Tidak,229364,Perumahan,Dekat Pusat Kota,5,8,52524356
+Gayungan,176,268,2,Bagus,Furnished,AJB,3500,Ya,225712,Campuran,Dekat Sekolah,5,16,60490816
+Gayungan,483,315,3,Bagus,Furnished,HGB,4400,Ya,222035,Komersial,Dekat Pusat Kota,5,25,69941025
+Gayungan,490,364,3,Baru,Unfurnished,AJB,4400,Ya,242603,Campuran,Dekat Jalan Raya,4,2,88307492
+Gayungan,74,163,2,Butuh Renovasi,Furnished,SHM,1300,Ya,211031,Campuran,Dekat Pusat Kota,5,23,34398053
+Gayungan,264,296,2,Baru,Furnished,AJB,4400,Tidak,221298,Campuran,Dekat Pusat Kota,5,5,65504208
+Gayungan,473,77,3,Baru,Semi-Furnished,HGB,1300,Ya,208462,Komersial,Dekat Jalan Raya,5,4,16051574
+Gayungan,217,236,2,Bagus,Furnished,HGB,3500,Tidak,195458,Perumahan,Dekat Sekolah,5,4,46128088
+Genteng,479,194,3,Bagus,Unfurnished,AJB,1300,Ya,301881,Campuran,Dekat Pusat Kota,4,21,58564914
+Genteng,548,347,1,Bagus,Semi-Furnished,SHM,3500,Ya,329452,Komersial,Dekat Sekolah,5,14,114319844
+Genteng,115,170,1,Baru,Furnished,HGB,2200,Ya,342386,Perumahan,Dekat Pusat Kota,5,22,58205620
+Genteng,42,47,1,Bagus,Semi-Furnished,SHM,900,Ya,330572,Perumahan,Dekat Jalan Raya,4,16,15536884
+Genteng,432,148,2,Baru,Unfurnished,AJB,2200,Ya,286154,Komersial,Dekat Pusat Kota,5,8,42350792
+Genteng,214,98,3,Butuh Renovasi,Unfurnished,AJB,900,Ya,326207,Perumahan,Dekat Jalan Raya,5,2,31968286
+Genteng,388,33,1,Butuh Renovasi,Semi-Furnished,AJB,900,Tidak,282589,Campuran,Dekat Pusat Kota,2,19,9325437
+Genteng,259,192,3,Butuh Renovasi,Furnished,AJB,2200,Tidak,325767,Campuran,Dekat Jalan Raya,5,25,62547264
+Genteng,303,298,2,Butuh Renovasi,Unfurnished,HGB,4400,Tidak,319789,Campuran,Dekat Pusat Kota,5,16,95297122
+Genteng,201,141,2,Butuh Renovasi,Semi-Furnished,HGB,1300,Tidak,320451,Komersial,Dekat Pusat Kota,5,28,45183591
+Genteng,45,76,1,Butuh Renovasi,Furnished,HGB,900,Tidak,290406,Perumahan,Dekat Jalan Raya,5,26,22070856
+Genteng,190,152,1,Butuh Renovasi,Semi-Furnished,HGB,2200,Tidak,286491,Campuran,Dekat Jalan Raya,5,9,43546632
+Genteng,276,35,1,Butuh Renovasi,Unfurnished,AJB,900,Tidak,329817,Komersial,Dekat Sekolah,3,2,11543595
+Genteng,308,406,1,Bagus,Unfurnished,HGB,6600,Ya,314108,Perumahan,Dekat Jalan Raya,5,17,127527848
+Genteng,509,194,3,Baru,Unfurnished,AJB,2200,Ya,342469,Komersial,Dekat Jalan Raya,5,17,66438986
+Genteng,124,99,3,Bagus,Semi-Furnished,SHM,900,Tidak,321697,Perumahan,Dekat Sekolah,5,29,31848003
+Genteng,197,220,1,Baru,Unfurnished,AJB,3500,Ya,324270,Komersial,Dekat Pusat Kota,5,16,71339400
+Genteng,49,30,3,Baru,Unfurnished,AJB,900,Ya,278660,Perumahan,Dekat Jalan Raya,2,23,8359800
+Genteng,312,109,1,Butuh Renovasi,Semi-Furnished,HGB,2200,Tidak,286728,Campuran,Dekat Sekolah,5,2,31253352
+Genteng,442,196,2,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,316773,Perumahan,Dekat Sekolah,5,2,62087508
+Genteng,172,201,2,Butuh Renovasi,Furnished,AJB,4400,Ya,327069,Perumahan,Dekat Jalan Raya,5,5,65740869
+Genteng,341,256,3,Baru,Unfurnished,SHM,4400,Ya,329438,Komersial,Dekat Pusat Kota,5,12,84336128
+Genteng,286,83,1,Bagus,Semi-Furnished,SHM,900,Ya,290703,Perumahan,Dekat Sekolah,4,23,24128349
+Genteng,185,53,3,Bagus,Unfurnished,SHM,900,Ya,283640,Campuran,Dekat Pusat Kota,3,28,15032920
+Genteng,59,106,2,Butuh Renovasi,Unfurnished,HGB,2200,Ya,294435,Perumahan,Dekat Sekolah,5,14,31210110
+Genteng,224,138,1,Baru,Unfurnished,HGB,2200,Ya,316489,Campuran,Dekat Pusat Kota,5,24,43675482
+Genteng,177,124,3,Baru,Furnished,SHM,1300,Ya,320579,Perumahan,Dekat Jalan Raya,5,8,39751796
+Genteng,412,174,1,Bagus,Unfurnished,SHM,1300,Tidak,310870,Perumahan,Dekat Pusat Kota,4,3,54091380
+Genteng,96,80,2,Bagus,Unfurnished,SHM,900,Tidak,332432,Perumahan,Dekat Sekolah,4,13,26594560
+Genteng,574,457,2,Bagus,Unfurnished,HGB,5500,Ya,364251,Komersial,Dekat Sekolah,5,4,166462707
+Genteng,437,79,3,Bagus,Semi-Furnished,HGB,900,Tidak,295528,Campuran,Dekat Jalan Raya,5,1,23346712
+Genteng,181,82,1,Baru,Furnished,AJB,900,Ya,280008,Komersial,Dekat Pusat Kota,4,10,22960656
+Genteng,327,350,2,Butuh Renovasi,Semi-Furnished,HGB,4400,Tidak,338376,Perumahan,Dekat Pusat Kota,5,8,118431600
+Gubeng,164,106,3,Butuh Renovasi,Furnished,HGB,2200,Ya,290794,Komersial,Dekat Jalan Raya,5,23,30824164
+Gubeng,65,38,3,Butuh Renovasi,Semi-Furnished,SHM,1300,Ya,284971,Campuran,Dekat Pusat Kota,2,2,10828898
+Gubeng,599,514,1,Butuh Renovasi,Furnished,HGB,4400,Tidak,278536,Campuran,Dekat Sekolah,5,26,143167504
+Gubeng,97,75,3,Baru,Semi-Furnished,HGB,900,Ya,287907,Perumahan,Dekat Sekolah,5,27,21593025
+Gubeng,100,183,3,Butuh Renovasi,Furnished,SHM,2200,Tidak,258919,Campuran,Dekat Sekolah,5,28,47382177
+Gubeng,145,111,2,Baru,Semi-Furnished,AJB,1300,Ya,293432,Komersial,Dekat Pusat Kota,5,8,32570952
+Gubeng,118,62,1,Butuh Renovasi,Semi-Furnished,SHM,1300,Tidak,266693,Perumahan,Dekat Jalan Raya,3,2,16534966
+Gubeng,86,53,2,Butuh Renovasi,Furnished,AJB,900,Tidak,241264,Perumahan,Dekat Jalan Raya,3,24,12786992
+Gubeng,310,135,1,Butuh Renovasi,Semi-Furnished,HGB,2200,Ya,262380,Campuran,Dekat Sekolah,4,1,35421300
+Gubeng,66,58,1,Butuh Renovasi,Furnished,SHM,1300,Tidak,263046,Campuran,Dekat Pusat Kota,3,11,15256668
+Gubeng,250,212,1,Bagus,Semi-Furnished,SHM,3500,Ya,288375,Campuran,Dekat Pusat Kota,5,9,61135500
+Gubeng,144,44,3,Bagus,Furnished,SHM,1300,Tidak,258203,Perumahan,Dekat Jalan Raya,5,8,11360932
+Gubeng,534,448,3,Baru,Unfurnished,HGB,6600,Tidak,285173,Komersial,Dekat Sekolah,5,14,127757504
+Gubeng,508,584,1,Butuh Renovasi,Furnished,AJB,5500,Tidak,291542,Campuran,Dekat Jalan Raya,5,7,170260528
+Gubeng,200,68,1,Baru,Unfurnished,HGB,1300,Ya,290716,Campuran,Dekat Sekolah,5,24,19768688
+Gubeng,123,204,3,Bagus,Furnished,SHM,4400,Ya,249816,Campuran,Dekat Jalan Raya,4,4,50962464
+Gubeng,230,180,3,Butuh Renovasi,Semi-Furnished,HGB,2200,Tidak,274341,Perumahan,Dekat Jalan Raya,4,10,49381380
+Gubeng,198,141,3,Bagus,Furnished,SHM,1300,Ya,253575,Perumahan,Dekat Sekolah,5,26,35754075
+Gubeng,483,495,1,Baru,Semi-Furnished,AJB,5500,Ya,316844,Komersial,Dekat Pusat Kota,5,1,156837780
+Gubeng,513,531,3,Baru,Unfurnished,SHM,4400,Ya,329308,Campuran,Dekat Jalan Raya,4,23,174862548
+Gubeng,256,189,1,Bagus,Semi-Furnished,AJB,2200,Ya,265070,Komersial,Dekat Jalan Raya,4,27,50098230
+Gubeng,168,181,2,Butuh Renovasi,Semi-Furnished,AJB,1300,Tidak,258103,Campuran,Dekat Pusat Kota,4,14,46716643
+Gubeng,468,210,3,Butuh Renovasi,Unfurnished,AJB,3500,Tidak,284280,Komersial,Dekat Pusat Kota,5,5,59698800
+Gubeng,223,297,1,Butuh Renovasi,Semi-Furnished,SHM,3500,Tidak,274207,Perumahan,Dekat Jalan Raya,5,7,81439479
+Gubeng,368,144,3,Baru,Unfurnished,AJB,2200,Tidak,245965,Komersial,Dekat Sekolah,5,26,35418960
+Gubeng,405,423,2,Butuh Renovasi,Unfurnished,HGB,5500,Tidak,296043,Campuran,Dekat Sekolah,5,4,125226189
+Gubeng,519,115,3,Baru,Furnished,HGB,2200,Ya,294497,Komersial,Dekat Pusat Kota,4,15,33867155
+Gubeng,406,307,2,Butuh Renovasi,Furnished,HGB,3500,Ya,283232,Perumahan,Dekat Jalan Raya,5,25,86952224
+Gubeng,107,101,2,Butuh Renovasi,Unfurnished,AJB,1300,Ya,267062,Perumahan,Dekat Jalan Raya,2,17,26973262
+Gubeng,152,98,2,Butuh Renovasi,Semi-Furnished,HGB,900,Tidak,274788,Campuran,Dekat Sekolah,4,5,26929224
+Gubeng,121,138,2,Butuh Renovasi,Semi-Furnished,AJB,2200,Tidak,266524,Perumahan,Dekat Jalan Raya,5,4,36780312
+Gubeng,310,169,3,Baru,Unfurnished,SHM,1300,Ya,260741,Komersial,Dekat Jalan Raya,5,27,44065229
+Gubeng,199,114,1,Bagus,Semi-Furnished,SHM,1300,Tidak,285835,Komersial,Dekat Sekolah,4,15,32585190
+Gunung Anyar,546,279,2,Baru,Furnished,HGB,3500,Tidak,189808,Perumahan,Dekat Jalan Raya,5,12,52956432
+Gunung Anyar,359,366,2,Baru,Unfurnished,HGB,4400,Ya,175082,Perumahan,Dekat Jalan Raya,5,27,64080012
+Gunung Anyar,281,139,1,Baru,Furnished,AJB,2200,Ya,180539,Perumahan,Dekat Jalan Raya,5,4,25094921
+Gunung Anyar,167,223,1,Bagus,Unfurnished,AJB,2200,Ya,184031,Campuran,Dekat Pusat Kota,5,12,41038913
+Gunung Anyar,520,317,3,Baru,Furnished,SHM,3500,Tidak,186871,Komersial,Dekat Pusat Kota,4,16,59238107
+Gunung Anyar,278,296,3,Butuh Renovasi,Furnished,AJB,4400,Ya,169651,Komersial,Dekat Pusat Kota,4,17,50216696
+Gunung Anyar,242,309,1,Butuh Renovasi,Unfurnished,SHM,2200,Tidak,177908,Campuran,Dekat Jalan Raya,5,7,54973572
+Gunung Anyar,433,446,2,Butuh Renovasi,Semi-Furnished,HGB,6600,Ya,210066,Campuran,Dekat Sekolah,5,12,93689436
+Gunung Anyar,239,135,3,Baru,Furnished,HGB,1300,Tidak,185112,Campuran,Dekat Pusat Kota,4,29,24990120
+Gunung Anyar,562,469,2,Butuh Renovasi,Semi-Furnished,AJB,6600,Ya,180810,Komersial,Dekat Pusat Kota,5,28,84799890
+Gunung Anyar,572,318,1,Baru,Unfurnished,SHM,2200,Tidak,173356,Campuran,Dekat Sekolah,5,18,55127208
+Gunung Anyar,228,31,1,Bagus,Furnished,SHM,900,Ya,157001,Campuran,Dekat Jalan Raya,2,25,4867031
+Gunung Anyar,222,76,1,Butuh Renovasi,Furnished,HGB,900,Tidak,177293,Campuran,Dekat Pusat Kota,2,2,13474268
+Gunung Anyar,315,322,3,Baru,Semi-Furnished,HGB,4400,Tidak,197585,Komersial,Dekat Pusat Kota,4,23,63622370
+Gunung Anyar,137,188,3,Bagus,Furnished,AJB,2200,Tidak,174594,Perumahan,Dekat Jalan Raya,5,7,32823672
+Gunung Anyar,469,226,2,Butuh Renovasi,Semi-Furnished,HGB,2200,Tidak,192055,Komersial,Dekat Pusat Kota,5,1,43404430
+Gunung Anyar,538,428,3,Bagus,Unfurnished,HGB,6600,Tidak,193435,Komersial,Dekat Jalan Raya,5,7,82790180
+Gunung Anyar,587,447,2,Butuh Renovasi,Semi-Furnished,HGB,5500,Tidak,198919,Komersial,Dekat Sekolah,5,26,88916793
+Gunung Anyar,520,283,1,Bagus,Furnished,AJB,4400,Tidak,199311,Komersial,Dekat Pusat Kota,5,12,56405013
+Gunung Anyar,157,234,2,Baru,Unfurnished,HGB,3500,Tidak,188116,Perumahan,Dekat Jalan Raya,5,12,44019144
+Gunung Anyar,140,198,3,Bagus,Unfurnished,HGB,2200,Tidak,182108,Perumahan,Dekat Jalan Raya,5,0,36057384
+Gunung Anyar,485,505,3,Baru,Furnished,AJB,4400,Ya,203484,Perumahan,Dekat Jalan Raya,4,5,102759420
+Gunung Anyar,313,346,3,Butuh Renovasi,Furnished,HGB,2200,Tidak,184709,Campuran,Dekat Sekolah,5,23,63909314
+Gunung Anyar,285,89,2,Baru,Furnished,AJB,1300,Tidak,186566,Perumahan,Dekat Jalan Raya,5,18,16604374
+Gunung Anyar,62,82,2,Baru,Semi-Furnished,SHM,1300,Ya,179413,Komersial,Dekat Sekolah,4,15,14711866
+Gunung Anyar,485,335,2,Bagus,Furnished,HGB,2200,Ya,171255,Campuran,Dekat Jalan Raya,5,7,57370425
+Gunung Anyar,180,188,1,Bagus,Furnished,HGB,1300,Tidak,176157,Perumahan,Dekat Sekolah,5,27,33117516
+Gunung Anyar,493,561,1,Butuh Renovasi,Unfurnished,SHM,4400,Tidak,210159,Komersial,Dekat Jalan Raya,5,0,117899199
+Gunung Anyar,67,104,1,Butuh Renovasi,Semi-Furnished,SHM,2200,Ya,172738,Campuran,Dekat Sekolah,2,26,17964752
+Gunung Anyar,545,69,3,Bagus,Furnished,HGB,1300,Tidak,186362,Komersial,Dekat Jalan Raya,3,26,12858978
+Gunung Anyar,385,143,3,Bagus,Semi-Furnished,SHM,2200,Ya,173178,Campuran,Dekat Jalan Raya,5,15,24764454
+Gunung Anyar,264,129,2,Bagus,Semi-Furnished,HGB,2200,Tidak,171306,Campuran,Dekat Pusat Kota,4,8,22098474
+Jambangan,548,217,1,Baru,Semi-Furnished,SHM,4400,Ya,201550,Perumahan,Dekat Sekolah,5,12,43736350
+Jambangan,213,94,2,Butuh Renovasi,Semi-Furnished,HGB,1300,Ya,188964,Perumahan,Dekat Sekolah,3,10,17762616
+Jambangan,127,135,2,Bagus,Semi-Furnished,SHM,2200,Ya,182293,Perumahan,Dekat Pusat Kota,4,12,24609555
+Jambangan,310,361,1,Baru,Furnished,HGB,2200,Tidak,219655,Perumahan,Dekat Pusat Kota,4,24,79295455
+Jambangan,281,371,1,Baru,Unfurnished,HGB,2200,Tidak,231743,Campuran,Dekat Pusat Kota,4,20,85976653
+Jambangan,407,418,1,Bagus,Semi-Furnished,SHM,6600,Ya,197764,Komersial,Dekat Jalan Raya,5,9,82665352
+Jambangan,125,131,3,Butuh Renovasi,Furnished,AJB,2200,Ya,181251,Perumahan,Dekat Jalan Raya,5,3,23743881
+Jambangan,468,119,1,Bagus,Furnished,HGB,2200,Ya,200750,Campuran,Dekat Pusat Kota,5,30,23889250
+Jambangan,230,234,2,Butuh Renovasi,Semi-Furnished,SHM,4400,Ya,223312,Perumahan,Dekat Sekolah,5,26,52255008
+Jambangan,512,215,1,Butuh Renovasi,Unfurnished,HGB,4400,Tidak,191356,Komersial,Dekat Sekolah,5,5,41141540
+Jambangan,209,48,1,Baru,Unfurnished,SHM,1300,Tidak,180267,Campuran,Dekat Pusat Kota,2,27,8652816
+Jambangan,534,69,3,Baru,Furnished,AJB,900,Ya,206585,Perumahan,Dekat Jalan Raya,4,6,14254365
+Jambangan,468,146,2,Butuh Renovasi,Furnished,AJB,1300,Tidak,213544,Komersial,Dekat Sekolah,5,4,31177424
+Jambangan,246,110,2,Butuh Renovasi,Unfurnished,SHM,1300,Ya,186858,Campuran,Dekat Jalan Raya,5,10,20554380
+Jambangan,138,105,3,Butuh Renovasi,Semi-Furnished,HGB,2200,Ya,182418,Campuran,Dekat Sekolah,4,12,19153890
+Jambangan,166,96,1,Baru,Semi-Furnished,AJB,900,Ya,205162,Komersial,Dekat Pusat Kota,5,25,19695552
+Jambangan,580,609,1,Butuh Renovasi,Unfurnished,AJB,4400,Ya,206353,Campuran,Dekat Sekolah,5,24,125668977
+Jambangan,467,560,1,Bagus,Semi-Furnished,AJB,6600,Ya,220884,Campuran,Dekat Sekolah,5,18,123695040
+Jambangan,547,181,3,Baru,Semi-Furnished,AJB,2200,Ya,212717,Perumahan,Dekat Sekolah,5,30,38501777
+Jambangan,44,47,3,Butuh Renovasi,Unfurnished,HGB,1300,Tidak,184254,Campuran,Dekat Sekolah,3,22,8659938
+Jambangan,285,181,3,Bagus,Semi-Furnished,HGB,2200,Tidak,209267,Campuran,Dekat Pusat Kota,5,9,37877327
+Jambangan,596,659,1,Baru,Furnished,AJB,4400,Ya,209788,Komersial,Dekat Pusat Kota,5,9,138250292
+Jambangan,74,47,3,Bagus,Unfurnished,HGB,1300,Tidak,207434,Perumahan,Dekat Pusat Kota,3,10,9749398
+Jambangan,233,42,3,Baru,Furnished,AJB,1300,Tidak,186537,Campuran,Dekat Jalan Raya,3,20,7834554
+Jambangan,145,172,1,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,209151,Campuran,Dekat Sekolah,5,29,35973972
+Jambangan,490,122,1,Bagus,Semi-Furnished,SHM,1300,Tidak,210763,Perumahan,Dekat Pusat Kota,4,6,25713086
+Jambangan,400,351,2,Baru,Furnished,HGB,2200,Ya,199031,Campuran,Dekat Sekolah,5,30,69859881
+Jambangan,227,269,1,Baru,Semi-Furnished,AJB,4400,Tidak,215711,Perumahan,Dekat Sekolah,5,17,58026259
+Jambangan,181,83,3,Baru,Unfurnished,AJB,900,Ya,193386,Perumahan,Dekat Jalan Raya,5,3,16051038
+Jambangan,56,70,1,Butuh Renovasi,Semi-Furnished,HGB,1300,Ya,187592,Campuran,Dekat Jalan Raya,4,1,13131440
+Jambangan,193,261,1,Baru,Furnished,HGB,2200,Ya,207179,Komersial,Dekat Jalan Raya,5,13,54073719
+Jambangan,189,133,1,Butuh Renovasi,Unfurnished,AJB,2200,Tidak,189165,Campuran,Dekat Sekolah,4,12,25158945
+Karangpilang,99,182,1,Butuh Renovasi,Furnished,HGB,2200,Tidak,175243,Perumahan,Dekat Jalan Raya,4,28,31894226
+Karangpilang,242,151,3,Baru,Unfurnished,SHM,2200,Tidak,198684,Komersial,Dekat Sekolah,4,11,30001284
+Karangpilang,265,340,2,Bagus,Semi-Furnished,HGB,3500,Ya,195671,Komersial,Dekat Pusat Kota,5,6,66528140
+Karangpilang,220,231,1,Baru,Semi-Furnished,SHM,2200,Tidak,209104,Komersial,Dekat Pusat Kota,5,1,48303024
+Karangpilang,42,87,2,Butuh Renovasi,Unfurnished,AJB,1300,Tidak,194703,Perumahan,Dekat Sekolah,3,12,16939161
+Karangpilang,82,120,1,Bagus,Semi-Furnished,AJB,2200,Ya,170343,Campuran,Dekat Sekolah,4,13,20441160
+Karangpilang,563,223,3,Butuh Renovasi,Semi-Furnished,AJB,3500,Tidak,175706,Campuran,Dekat Pusat Kota,5,26,39182438
+Karangpilang,451,217,1,Bagus,Unfurnished,AJB,4400,Tidak,209696,Perumahan,Dekat Jalan Raya,4,16,45504032
+Karangpilang,499,269,1,Baru,Semi-Furnished,HGB,4400,Ya,176029,Komersial,Dekat Jalan Raya,5,8,47351801
+Karangpilang,391,98,1,Baru,Semi-Furnished,AJB,900,Ya,197105,Perumahan,Dekat Pusat Kota,5,16,19316290
+Karangpilang,332,102,3,Baru,Furnished,HGB,1300,Ya,177109,Perumahan,Dekat Jalan Raya,5,7,18065118
+Karangpilang,289,188,1,Baru,Semi-Furnished,SHM,1300,Tidak,203622,Perumahan,Dekat Pusat Kota,5,30,38280936
+Karangpilang,240,283,2,Butuh Renovasi,Unfurnished,SHM,3500,Ya,184376,Perumahan,Dekat Sekolah,5,1,52178408
+Karangpilang,404,224,3,Bagus,Unfurnished,AJB,4400,Ya,177932,Campuran,Dekat Jalan Raya,5,27,39856768
+Karangpilang,219,128,2,Butuh Renovasi,Semi-Furnished,SHM,1300,Ya,184382,Komersial,Dekat Pusat Kota,5,23,23600896
+Karangpilang,53,141,1,Bagus,Semi-Furnished,SHM,1300,Tidak,205044,Komersial,Dekat Jalan Raya,4,12,28911204
+Karangpilang,150,73,2,Butuh Renovasi,Unfurnished,SHM,1300,Ya,180606,Komersial,Dekat Sekolah,3,2,13184238
+Karangpilang,578,339,3,Baru,Semi-Furnished,AJB,2200,Tidak,186421,Perumahan,Dekat Sekolah,5,15,63196719
+Karangpilang,417,146,1,Bagus,Semi-Furnished,AJB,2200,Ya,201575,Perumahan,Dekat Jalan Raya,5,5,29429950
+Karangpilang,485,433,2,Butuh Renovasi,Furnished,HGB,4400,Tidak,191329,Perumahan,Dekat Jalan Raya,5,18,82845457
+Karangpilang,153,120,3,Bagus,Furnished,SHM,2200,Tidak,199339,Komersial,Dekat Sekolah,4,29,23920680
+Karangpilang,231,140,3,Bagus,Unfurnished,AJB,2200,Ya,179838,Perumahan,Dekat Pusat Kota,5,6,25177320
+Karangpilang,376,420,1,Baru,Unfurnished,SHM,4400,Ya,214700,Campuran,Dekat Sekolah,4,9,90174000
+Karangpilang,518,240,3,Bagus,Furnished,SHM,2200,Tidak,197101,Perumahan,Dekat Jalan Raya,4,8,47304240
+Karangpilang,575,363,1,Baru,Unfurnished,HGB,3500,Tidak,182205,Perumahan,Dekat Sekolah,5,1,66140415
+Karangpilang,371,221,2,Baru,Semi-Furnished,AJB,2200,Ya,189371,Perumahan,Dekat Sekolah,4,30,41850991
+Karangpilang,574,158,1,Baru,Furnished,AJB,2200,Tidak,195336,Campuran,Dekat Pusat Kota,5,27,30863088
+Karangpilang,157,252,3,Bagus,Furnished,SHM,2200,Tidak,185540,Komersial,Dekat Sekolah,5,27,46756080
+Karangpilang,440,89,2,Butuh Renovasi,Unfurnished,HGB,900,Ya,199879,Komersial,Dekat Sekolah,5,14,17789231
+Karangpilang,483,507,1,Butuh Renovasi,Unfurnished,SHM,4400,Ya,196679,Campuran,Dekat Sekolah,5,29,99716253
+Karangpilang,406,34,2,Bagus,Furnished,SHM,1300,Ya,181194,Perumahan,Dekat Jalan Raya,3,4,6160596
+Karangpilang,105,186,1,Bagus,Furnished,SHM,2200,Ya,171410,Perumahan,Dekat Jalan Raya,4,28,31882260
+Kenjeran,161,111,2,Baru,Semi-Furnished,AJB,2200,Ya,177976,Komersial,Dekat Pusat Kota,4,21,19755336
+Kenjeran,378,54,3,Bagus,Unfurnished,AJB,1300,Tidak,159240,Perumahan,Dekat Jalan Raya,3,3,8598960
+Kenjeran,253,202,1,Bagus,Semi-Furnished,AJB,4400,Tidak,176252,Campuran,Dekat Jalan Raya,4,19,35602904
+Kenjeran,360,332,2,Butuh Renovasi,Furnished,SHM,4400,Tidak,162021,Campuran,Dekat Jalan Raya,4,3,53790972
+Kenjeran,79,85,1,Butuh Renovasi,Furnished,HGB,900,Ya,167190,Perumahan,Dekat Pusat Kota,3,17,14211150
+Kenjeran,116,34,2,Butuh Renovasi,Unfurnished,HGB,1300,Ya,168390,Campuran,Dekat Jalan Raya,3,3,5725260
+Kenjeran,517,429,3,Bagus,Semi-Furnished,HGB,6600,Tidak,190828,Campuran,Dekat Sekolah,5,26,81865212
+Kenjeran,140,102,1,Bagus,Unfurnished,HGB,2200,Tidak,177916,Campuran,Dekat Sekolah,3,16,18147432
+Kenjeran,466,175,3,Bagus,Furnished,AJB,1300,Tidak,167756,Perumahan,Dekat Pusat Kota,5,11,29357300
+Kenjeran,424,144,1,Butuh Renovasi,Furnished,SHM,2200,Tidak,152945,Perumahan,Dekat Sekolah,5,21,22024080
+Kenjeran,407,323,2,Butuh Renovasi,Semi-Furnished,HGB,4400,Ya,174776,Komersial,Dekat Jalan Raya,4,16,56452648
+Kenjeran,472,85,1,Butuh Renovasi,Furnished,SHM,1300,Tidak,158727,Campuran,Dekat Pusat Kota,5,9,13491795
+Kenjeran,399,465,2,Bagus,Semi-Furnished,SHM,5500,Tidak,165680,Campuran,Dekat Pusat Kota,4,21,77041200
+Kenjeran,119,160,2,Bagus,Semi-Furnished,SHM,2200,Tidak,162056,Komersial,Dekat Pusat Kota,5,0,25928960
+Kenjeran,139,237,2,Butuh Renovasi,Furnished,SHM,4400,Ya,161077,Campuran,Dekat Sekolah,4,21,38175249
+Kenjeran,428,184,1,Bagus,Furnished,AJB,1300,Ya,158822,Komersial,Dekat Sekolah,5,25,29223248
+Kenjeran,440,214,1,Bagus,Semi-Furnished,AJB,2200,Ya,178008,Campuran,Dekat Sekolah,5,23,38093712
+Kenjeran,326,252,3,Butuh Renovasi,Furnished,AJB,3500,Tidak,180196,Campuran,Dekat Sekolah,5,26,45409392
+Kenjeran,441,409,2,Butuh Renovasi,Semi-Furnished,HGB,4400,Tidak,192818,Campuran,Dekat Jalan Raya,5,17,78862562
+Kenjeran,110,131,2,Butuh Renovasi,Furnished,SHM,2200,Ya,165844,Komersial,Dekat Jalan Raya,5,17,21725564
+Kenjeran,574,179,1,Butuh Renovasi,Unfurnished,HGB,1300,Tidak,173818,Campuran,Dekat Jalan Raya,4,13,31113422
+Kenjeran,477,229,2,Baru,Furnished,SHM,2200,Tidak,161097,Campuran,Dekat Sekolah,5,14,36891213
+Kenjeran,291,317,2,Bagus,Furnished,HGB,3500,Tidak,165957,Campuran,Dekat Sekolah,5,28,52608369
+Kenjeran,48,72,2,Butuh Renovasi,Semi-Furnished,AJB,1300,Tidak,152984,Perumahan,Dekat Pusat Kota,3,11,11014848
+Kenjeran,522,487,1,Butuh Renovasi,Semi-Furnished,SHM,5500,Tidak,180186,Perumahan,Dekat Jalan Raya,5,3,87750582
+Kenjeran,349,229,3,Baru,Furnished,HGB,4400,Tidak,183671,Perumahan,Dekat Pusat Kota,5,26,42060659
+Kenjeran,61,81,2,Bagus,Unfurnished,SHM,900,Tidak,169218,Perumahan,Dekat Jalan Raya,3,2,13706658
+Kenjeran,570,307,2,Butuh Renovasi,Furnished,AJB,3500,Ya,191140,Komersial,Dekat Sekolah,5,19,58679980
+Kenjeran,382,337,2,Baru,Furnished,AJB,2200,Tidak,179291,Komersial,Dekat Pusat Kota,4,28,60421067
+Kenjeran,117,56,2,Baru,Unfurnished,SHM,1300,Ya,175172,Komersial,Dekat Pusat Kota,2,11,9809632
+Kenjeran,208,266,2,Baru,Unfurnished,HGB,3500,Tidak,167135,Perumahan,Dekat Pusat Kota,4,6,44457910
+Kenjeran,576,422,2,Baru,Furnished,AJB,4400,Ya,183424,Komersial,Dekat Jalan Raya,4,28,77404928
+Krembangan,340,371,3,Bagus,Unfurnished,HGB,4400,Ya,216897,Campuran,Dekat Sekolah,5,10,80468787
+Krembangan,476,498,1,Baru,Semi-Furnished,HGB,4400,Ya,228713,Campuran,Dekat Sekolah,5,0,113899074
+Krembangan,109,192,3,Butuh Renovasi,Semi-Furnished,AJB,2200,Ya,226927,Komersial,Dekat Jalan Raya,4,5,43569984
+Krembangan,238,112,2,Bagus,Furnished,SHM,2200,Ya,197200,Komersial,Dekat Jalan Raya,4,14,22086400
+Krembangan,209,274,1,Bagus,Furnished,SHM,2200,Ya,197033,Komersial,Dekat Jalan Raya,4,14,53987042
+Krembangan,223,90,1,Baru,Semi-Furnished,AJB,900,Ya,223223,Campuran,Dekat Pusat Kota,3,18,20090070
+Krembangan,126,46,3,Baru,Semi-Furnished,HGB,1300,Tidak,210392,Campuran,Dekat Jalan Raya,4,10,9678032
+Krembangan,582,674,3,Butuh Renovasi,Unfurnished,HGB,5500,Ya,216633,Perumahan,Dekat Sekolah,5,25,146010642
+Krembangan,512,356,1,Baru,Unfurnished,HGB,4400,Ya,224906,Komersial,Dekat Pusat Kota,5,22,80066536
+Krembangan,90,101,3,Butuh Renovasi,Unfurnished,AJB,1300,Ya,207388,Campuran,Dekat Pusat Kota,2,25,20946188
+Krembangan,368,356,1,Butuh Renovasi,Furnished,HGB,3500,Tidak,230421,Perumahan,Dekat Sekolah,5,1,82029876
+Krembangan,462,419,1,Bagus,Furnished,HGB,6600,Ya,211106,Perumahan,Dekat Jalan Raya,5,13,88453414
+Krembangan,417,238,3,Butuh Renovasi,Semi-Furnished,AJB,3500,Ya,230057,Komersial,Dekat Pusat Kota,4,1,54753566
+Krembangan,578,200,1,Baru,Furnished,SHM,4400,Tidak,232293,Campuran,Dekat Jalan Raya,5,28,46458600
+Krembangan,46,104,3,Butuh Renovasi,Semi-Furnished,SHM,2200,Ya,211100,Perumahan,Dekat Jalan Raya,5,3,21954400
+Krembangan,399,36,1,Bagus,Furnished,AJB,900,Tidak,186517,Campuran,Dekat Sekolah,3,16,6714612
+Krembangan,257,136,3,Baru,Semi-Furnished,SHM,2200,Tidak,196322,Perumahan,Dekat Jalan Raya,5,2,26699792
+Krembangan,302,135,1,Butuh Renovasi,Furnished,SHM,2200,Tidak,211312,Campuran,Dekat Sekolah,5,12,28527120
+Krembangan,542,340,2,Bagus,Semi-Furnished,AJB,2200,Tidak,200485,Perumahan,Dekat Jalan Raya,5,8,68164900
+Krembangan,212,111,3,Bagus,Unfurnished,SHM,1300,Ya,217093,Perumahan,Dekat Jalan Raya,5,6,24097323
+Krembangan,87,85,3,Bagus,Furnished,SHM,900,Ya,220626,Komersial,Dekat Pusat Kota,5,14,18753210
+Krembangan,236,151,2,Bagus,Unfurnished,AJB,2200,Tidak,206474,Campuran,Dekat Jalan Raya,5,22,31177574
+Krembangan,309,110,2,Bagus,Furnished,AJB,1300,Ya,203938,Perumahan,Dekat Pusat Kota,5,28,22433180
+Krembangan,475,564,1,Butuh Renovasi,Furnished,AJB,4400,Tidak,240811,Perumahan,Dekat Jalan Raya,5,28,135817404
+Krembangan,402,499,3,Butuh Renovasi,Unfurnished,AJB,4400,Tidak,225165,Komersial,Dekat Sekolah,5,10,112357335
+Krembangan,191,154,1,Baru,Unfurnished,SHM,2200,Tidak,213277,Perumahan,Dekat Pusat Kota,5,19,32844658
+Krembangan,58,135,1,Baru,Furnished,SHM,1300,Ya,190336,Perumahan,Dekat Pusat Kota,4,1,25695360
+Krembangan,266,259,1,Baru,Semi-Furnished,HGB,2200,Ya,226719,Perumahan,Dekat Sekolah,5,14,58720221
+Krembangan,159,62,2,Bagus,Semi-Furnished,HGB,1300,Tidak,204497,Campuran,Dekat Sekolah,5,13,12678814
+Krembangan,120,123,1,Butuh Renovasi,Semi-Furnished,AJB,1300,Tidak,191159,Perumahan,Dekat Jalan Raya,5,19,23512557
+Krembangan,165,138,3,Baru,Furnished,HGB,1300,Ya,209679,Perumahan,Dekat Sekolah,5,21,28935702
+Krembangan,170,223,2,Bagus,Furnished,AJB,4400,Ya,223915,Campuran,Dekat Sekolah,5,10,49933045
+Lakarsantri,208,198,1,Butuh Renovasi,Furnished,SHM,2200,Tidak,219397,Perumahan,Dekat Sekolah,5,26,43440606
+Lakarsantri,565,44,1,Butuh Renovasi,Semi-Furnished,SHM,900,Tidak,201856,Campuran,Dekat Jalan Raya,3,2,8881664
+Lakarsantri,167,220,3,Bagus,Semi-Furnished,HGB,4400,Tidak,222927,Komersial,Dekat Pusat Kota,4,16,49043940
+Lakarsantri,408,472,1,Baru,Furnished,AJB,5500,Ya,228074,Perumahan,Dekat Pusat Kota,5,29,107650928
+Lakarsantri,97,44,3,Baru,Unfurnished,SHM,1300,Ya,214438,Perumahan,Dekat Pusat Kota,3,11,9435272
+Lakarsantri,261,204,1,Butuh Renovasi,Unfurnished,SHM,2200,Ya,218390,Komersial,Dekat Pusat Kota,5,23,44551560
+Lakarsantri,474,410,3,Butuh Renovasi,Semi-Furnished,HGB,6600,Ya,220791,Campuran,Dekat Jalan Raya,5,27,90524310
+Lakarsantri,590,611,3,Bagus,Furnished,AJB,6600,Ya,232817,Komersial,Dekat Jalan Raya,4,28,142251187
+Lakarsantri,368,256,3,Butuh Renovasi,Furnished,HGB,3500,Ya,215118,Komersial,Dekat Sekolah,5,20,55070208
+Lakarsantri,361,287,2,Baru,Furnished,AJB,3500,Ya,207253,Perumahan,Dekat Sekolah,4,14,59481611
+Lakarsantri,299,108,1,Butuh Renovasi,Unfurnished,HGB,1300,Ya,222787,Campuran,Dekat Sekolah,4,15,24060996
+Lakarsantri,431,73,3,Butuh Renovasi,Furnished,AJB,1300,Ya,202240,Perumahan,Dekat Pusat Kota,4,4,14763520
+Lakarsantri,123,195,1,Bagus,Semi-Furnished,SHM,2200,Tidak,240329,Campuran,Dekat Pusat Kota,5,26,46864155
+Lakarsantri,528,91,1,Butuh Renovasi,Unfurnished,AJB,1300,Tidak,227836,Komersial,Dekat Pusat Kota,3,19,20733076
+Lakarsantri,337,53,1,Bagus,Semi-Furnished,SHM,900,Tidak,220653,Komersial,Dekat Pusat Kota,2,5,11694609
+Lakarsantri,285,114,2,Bagus,Unfurnished,HGB,2200,Tidak,215086,Campuran,Dekat Jalan Raya,3,18,24519804
+Lakarsantri,49,51,3,Baru,Furnished,AJB,900,Ya,228959,Perumahan,Dekat Pusat Kota,4,24,11676909
+Lakarsantri,473,406,2,Bagus,Unfurnished,AJB,6600,Ya,213133,Komersial,Dekat Pusat Kota,4,4,86531998
+Lakarsantri,196,62,2,Bagus,Semi-Furnished,HGB,900,Tidak,219808,Perumahan,Dekat Jalan Raya,3,2,13628096
+Lakarsantri,513,291,2,Butuh Renovasi,Semi-Furnished,AJB,3500,Tidak,228185,Campuran,Dekat Pusat Kota,4,26,66401835
+Lakarsantri,55,96,3,Bagus,Semi-Furnished,HGB,1300,Ya,223646,Komersial,Dekat Jalan Raya,5,0,21470016
+Lakarsantri,145,91,3,Butuh Renovasi,Semi-Furnished,SHM,900,Ya,224035,Perumahan,Dekat Jalan Raya,5,25,20387185
+Lakarsantri,320,183,1,Bagus,Furnished,AJB,2200,Ya,226102,Campuran,Dekat Jalan Raya,5,27,41376666
+Lakarsantri,233,206,2,Bagus,Unfurnished,AJB,2200,Ya,204221,Perumahan,Dekat Jalan Raya,5,5,42069526
+Lakarsantri,484,73,3,Bagus,Semi-Furnished,AJB,900,Ya,207018,Campuran,Dekat Sekolah,4,14,15112314
+Lakarsantri,129,52,1,Baru,Unfurnished,AJB,1300,Ya,210819,Campuran,Dekat Pusat Kota,3,1,10962588
+Lakarsantri,181,252,2,Butuh Renovasi,Unfurnished,AJB,2200,Ya,213846,Campuran,Dekat Pusat Kota,4,28,53889192
+Lakarsantri,99,198,1,Butuh Renovasi,Furnished,AJB,2200,Tidak,230488,Campuran,Dekat Jalan Raya,5,2,45636624
+Lakarsantri,43,88,1,Baru,Semi-Furnished,SHM,900,Tidak,222850,Campuran,Dekat Sekolah,4,16,19610800
+Lakarsantri,351,199,1,Bagus,Furnished,HGB,1300,Ya,244589,Campuran,Dekat Jalan Raya,5,24,48673211
+Lakarsantri,354,211,2,Bagus,Unfurnished,AJB,2200,Ya,226075,Campuran,Dekat Jalan Raya,4,23,47701825
+Lakarsantri,575,150,2,Butuh Renovasi,Unfurnished,HGB,2200,Ya,206323,Campuran,Dekat Pusat Kota,5,11,30948450
+Mulyorejo,75,113,2,Bagus,Semi-Furnished,SHM,2200,Ya,253101,Perumahan,Dekat Sekolah,5,17,28600413
+Mulyorejo,341,240,3,Baru,Unfurnished,HGB,3500,Ya,261129,Campuran,Dekat Jalan Raya,4,14,62670960
+Mulyorejo,373,238,1,Baru,Semi-Furnished,AJB,2200,Ya,229291,Campuran,Dekat Sekolah,5,11,54571258
+Mulyorejo,520,392,1,Bagus,Semi-Furnished,SHM,3500,Tidak,243869,Komersial,Dekat Pusat Kota,5,15,95596648
+Mulyorejo,498,290,2,Bagus,Unfurnished,HGB,4400,Ya,229465,Perumahan,Dekat Pusat Kota,5,26,66544850
+Mulyorejo,63,157,2,Bagus,Furnished,AJB,2200,Tidak,241162,Campuran,Dekat Jalan Raya,5,7,37862434
+Mulyorejo,443,513,2,Butuh Renovasi,Furnished,AJB,5500,Ya,254947,Campuran,Dekat Pusat Kota,5,27,130787811
+Mulyorejo,140,181,3,Bagus,Furnished,SHM,1300,Tidak,235035,Perumahan,Dekat Pusat Kota,5,13,42541335
+Mulyorejo,145,66,1,Butuh Renovasi,Semi-Furnished,AJB,900,Tidak,229721,Campuran,Dekat Sekolah,4,24,15161586
+Mulyorejo,458,298,2,Baru,Furnished,HGB,3500,Tidak,233612,Komersial,Dekat Jalan Raya,5,16,69616376
+Mulyorejo,184,47,3,Baru,Semi-Furnished,HGB,1300,Tidak,249636,Campuran,Dekat Sekolah,4,28,11732892
+Mulyorejo,213,219,2,Bagus,Unfurnished,AJB,2200,Ya,247058,Campuran,Dekat Pusat Kota,5,20,54105702
+Mulyorejo,405,223,2,Bagus,Semi-Furnished,SHM,3500,Ya,263450,Campuran,Dekat Jalan Raya,4,7,58749350
+Mulyorejo,405,353,1,Bagus,Furnished,AJB,4400,Tidak,270571,Komersial,Dekat Jalan Raya,5,14,95511563
+Mulyorejo,244,193,2,Bagus,Unfurnished,SHM,2200,Tidak,252803,Campuran,Dekat Jalan Raya,5,26,48790979
+Mulyorejo,125,174,3,Butuh Renovasi,Semi-Furnished,HGB,2200,Tidak,262950,Perumahan,Dekat Pusat Kota,4,13,45753300
+Mulyorejo,314,294,1,Bagus,Unfurnished,AJB,3500,Ya,271448,Komersial,Dekat Pusat Kota,4,17,79805712
+Mulyorejo,546,350,1,Baru,Semi-Furnished,HGB,4400,Tidak,270889,Perumahan,Dekat Jalan Raya,5,19,94811150
+Mulyorejo,88,51,1,Butuh Renovasi,Semi-Furnished,HGB,1300,Tidak,241286,Perumahan,Dekat Jalan Raya,2,6,12305586
+Mulyorejo,147,74,3,Butuh Renovasi,Semi-Furnished,HGB,1300,Tidak,217951,Komersial,Dekat Jalan Raya,4,2,16128374
+Mulyorejo,424,78,2,Baru,Unfurnished,SHM,1300,Tidak,217588,Campuran,Dekat Sekolah,5,28,16971864
+Mulyorejo,508,77,3,Butuh Renovasi,Unfurnished,HGB,1300,Tidak,232466,Campuran,Dekat Sekolah,5,11,17899882
+Mulyorejo,581,191,3,Bagus,Semi-Furnished,HGB,2200,Tidak,219721,Perumahan,Dekat Sekolah,5,20,41966711
+Mulyorejo,71,102,1,Bagus,Furnished,HGB,1300,Ya,216242,Campuran,Dekat Sekolah,3,23,22056684
+Mulyorejo,600,496,3,Baru,Semi-Furnished,AJB,5500,Tidak,263410,Komersial,Dekat Pusat Kota,4,27,130651360
+Mulyorejo,448,181,1,Bagus,Semi-Furnished,SHM,1300,Tidak,265946,Campuran,Dekat Sekolah,4,25,48136226
+Mulyorejo,318,240,2,Bagus,Furnished,SHM,3500,Tidak,260500,Komersial,Dekat Sekolah,4,2,62520000
+Mulyorejo,442,138,2,Butuh Renovasi,Unfurnished,HGB,2200,Tidak,218553,Komersial,Dekat Sekolah,5,19,30160314
+Mulyorejo,196,174,2,Bagus,Unfurnished,AJB,2200,Ya,229065,Perumahan,Dekat Sekolah,5,13,39857310
+Mulyorejo,445,488,2,Baru,Furnished,AJB,6600,Ya,265098,Campuran,Dekat Jalan Raya,5,14,129367824
+Mulyorejo,59,78,3,Baru,Unfurnished,HGB,1300,Ya,230900,Campuran,Dekat Pusat Kota,4,24,18010200
+Mulyorejo,179,262,3,Bagus,Semi-Furnished,HGB,3500,Ya,243817,Campuran,Dekat Jalan Raya,4,29,63880054
+Pabean Cantikan,366,328,1,Baru,Unfurnished,HGB,4400,Tidak,216052,Campuran,Dekat Sekolah,5,13,70865056
+Pabean Cantikan,174,115,2,Bagus,Semi-Furnished,SHM,1300,Tidak,168303,Komersial,Dekat Sekolah,5,6,19354845
+Pabean Cantikan,561,600,1,Butuh Renovasi,Semi-Furnished,AJB,4400,Ya,199218,Komersial,Dekat Sekolah,4,16,119530800
+Pabean Cantikan,445,209,1,Bagus,Semi-Furnished,SHM,2200,Ya,181385,Komersial,Dekat Sekolah,4,29,37909465
+Pabean Cantikan,482,268,2,Baru,Furnished,AJB,2200,Ya,176682,Komersial,Dekat Pusat Kota,4,11,47350776
+Pabean Cantikan,295,213,2,Butuh Renovasi,Furnished,AJB,4400,Tidak,189754,Campuran,Dekat Pusat Kota,4,19,40417602
+Pabean Cantikan,555,284,1,Bagus,Furnished,HGB,3500,Tidak,209582,Perumahan,Dekat Sekolah,5,3,59521288
+Pabean Cantikan,237,297,2,Baru,Unfurnished,AJB,3500,Ya,191900,Campuran,Dekat Pusat Kota,5,8,56994300
+Pabean Cantikan,219,190,1,Butuh Renovasi,Furnished,HGB,2200,Ya,176300,Campuran,Dekat Jalan Raya,5,5,33497000
+Pabean Cantikan,382,66,1,Bagus,Unfurnished,HGB,1300,Tidak,190470,Campuran,Dekat Jalan Raya,1,15,12571020
+Pabean Cantikan,155,245,3,Butuh Renovasi,Furnished,SHM,2200,Ya,209860,Perumahan,Dekat Jalan Raya,5,24,51415700
+Pabean Cantikan,160,125,2,Butuh Renovasi,Unfurnished,HGB,2200,Ya,182505,Perumahan,Dekat Jalan Raya,3,27,22813125
+Pabean Cantikan,497,273,3,Butuh Renovasi,Unfurnished,AJB,2200,Ya,177863,Perumahan,Dekat Sekolah,4,30,48556599
+Pabean Cantikan,522,373,3,Bagus,Semi-Furnished,AJB,2200,Tidak,200631,Perumahan,Dekat Jalan Raya,4,21,74835363
+Pabean Cantikan,598,690,3,Baru,Semi-Furnished,HGB,4400,Tidak,227958,Komersial,Dekat Sekolah,4,21,157291020
+Pabean Cantikan,488,229,1,Baru,Unfurnished,AJB,2200,Ya,173595,Campuran,Dekat Sekolah,5,20,39753255
+Pabean Cantikan,525,432,3,Butuh Renovasi,Unfurnished,AJB,6600,Tidak,201780,Komersial,Dekat Pusat Kota,5,20,87168960
+Pabean Cantikan,535,348,2,Butuh Renovasi,Semi-Furnished,AJB,4400,Tidak,210077,Komersial,Dekat Sekolah,4,1,73106796
+Pabean Cantikan,273,47,2,Butuh Renovasi,Unfurnished,AJB,1300,Ya,188390,Campuran,Dekat Sekolah,1,23,8854330
+Pabean Cantikan,516,527,2,Baru,Furnished,SHM,4400,Ya,191056,Perumahan,Dekat Jalan Raya,4,7,100686512
+Pabean Cantikan,200,250,1,Baru,Unfurnished,SHM,3500,Tidak,198324,Perumahan,Dekat Jalan Raya,5,10,49581000
+Pabean Cantikan,355,361,1,Butuh Renovasi,Unfurnished,AJB,3500,Tidak,189735,Komersial,Dekat Sekolah,4,12,68494335
+Pabean Cantikan,455,266,2,Baru,Unfurnished,HGB,4400,Ya,193518,Campuran,Dekat Pusat Kota,5,16,51475788
+Pabean Cantikan,439,62,3,Butuh Renovasi,Semi-Furnished,SHM,1300,Tidak,175750,Komersial,Dekat Pusat Kota,3,7,10896500
+Pabean Cantikan,140,220,1,Butuh Renovasi,Semi-Furnished,AJB,3500,Tidak,208009,Perumahan,Dekat Sekolah,4,20,45761980
+Pabean Cantikan,539,602,1,Bagus,Furnished,HGB,6600,Ya,230702,Campuran,Dekat Jalan Raya,4,17,138882604
+Pabean Cantikan,69,50,2,Baru,Furnished,SHM,1300,Ya,184530,Perumahan,Dekat Sekolah,3,29,9226500
+Pabean Cantikan,78,102,3,Butuh Renovasi,Unfurnished,SHM,1300,Ya,175887,Komersial,Dekat Pusat Kota,5,17,17940474
+Pabean Cantikan,495,399,2,Baru,Semi-Furnished,HGB,2200,Ya,181903,Komersial,Dekat Pusat Kota,4,13,72579297
+Pabean Cantikan,597,278,2,Butuh Renovasi,Unfurnished,HGB,2200,Ya,209106,Perumahan,Dekat Sekolah,4,14,58131468
+Pabean Cantikan,236,89,2,Butuh Renovasi,Unfurnished,SHM,1300,Ya,189835,Komersial,Dekat Jalan Raya,4,30,16895315
+Pabean Cantikan,555,154,2,Butuh Renovasi,Semi-Furnished,SHM,1300,Ya,196921,Campuran,Dekat Sekolah,4,5,30325834
+Pakal,398,347,3,Butuh Renovasi,Unfurnished,SHM,3500,Ya,149011,Komersial,Dekat Jalan Raya,5,10,51706817
+Pakal,388,168,3,Baru,Unfurnished,HGB,2200,Tidak,133620,Campuran,Dekat Jalan Raya,4,12,22448160
+Pakal,262,49,3,Baru,Semi-Furnished,HGB,1300,Tidak,130462,Komersial,Dekat Pusat Kota,4,24,6392638
+Pakal,514,534,1,Baru,Unfurnished,SHM,4400,Tidak,173495,Campuran,Dekat Sekolah,5,0,92646330
+Pakal,280,68,3,Baru,Semi-Furnished,HGB,900,Ya,149810,Campuran,Dekat Sekolah,4,27,10187080
+Pakal,479,300,3,Bagus,Unfurnished,AJB,4400,Tidak,158364,Perumahan,Dekat Sekolah,5,5,47509200
+Pakal,213,170,1,Baru,Furnished,SHM,2200,Ya,145191,Komersial,Dekat Pusat Kota,5,8,24682470
+Pakal,487,536,3,Butuh Renovasi,Furnished,HGB,4400,Ya,154278,Campuran,Dekat Pusat Kota,5,7,82693008
+Pakal,133,43,3,Bagus,Semi-Furnished,AJB,1300,Tidak,133126,Campuran,Dekat Jalan Raya,3,10,5724418
+Pakal,359,417,2,Bagus,Unfurnished,AJB,5500,Tidak,159249,Perumahan,Dekat Pusat Kota,5,21,66406833
+Pakal,389,83,2,Bagus,Furnished,SHM,900,Ya,139335,Campuran,Dekat Jalan Raya,4,18,11564805
+Pakal,349,311,2,Butuh Renovasi,Furnished,SHM,3500,Ya,163716,Campuran,Dekat Jalan Raya,4,23,50915676
+Pakal,230,168,2,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,138305,Komersial,Dekat Pusat Kota,5,8,23235240
+Pakal,230,262,3,Butuh Renovasi,Furnished,SHM,4400,Tidak,158743,Perumahan,Dekat Jalan Raya,5,16,41590666
+Pakal,190,178,3,Bagus,Furnished,HGB,2200,Tidak,162115,Komersial,Dekat Sekolah,5,11,28856470
+Pakal,345,68,1,Bagus,Semi-Furnished,SHM,1300,Tidak,150867,Komersial,Dekat Pusat Kota,3,24,10258956
+Pakal,283,73,1,Bagus,Semi-Furnished,HGB,1300,Ya,140565,Komersial,Dekat Sekolah,2,13,10261245
+Pakal,216,219,3,Bagus,Unfurnished,SHM,2200,Ya,139257,Perumahan,Dekat Jalan Raya,5,14,30497283
+Pakal,151,80,2,Baru,Semi-Furnished,SHM,900,Tidak,154090,Komersial,Dekat Pusat Kota,3,15,12327200
+Pakal,546,273,1,Baru,Unfurnished,AJB,4400,Tidak,153888,Perumahan,Dekat Jalan Raya,5,21,42011424
+Pakal,290,76,3,Bagus,Furnished,AJB,1300,Ya,142808,Campuran,Dekat Sekolah,4,21,10853408
+Pakal,395,440,3,Baru,Semi-Furnished,SHM,4400,Ya,168782,Campuran,Dekat Pusat Kota,5,27,74264080
+Pakal,494,506,1,Bagus,Furnished,AJB,5500,Ya,167554,Komersial,Dekat Jalan Raya,5,19,84782324
+Pakal,178,170,1,Baru,Unfurnished,SHM,1300,Ya,156707,Komersial,Dekat Jalan Raya,5,0,26640190
+Pakal,151,110,1,Baru,Semi-Furnished,HGB,1300,Tidak,139650,Perumahan,Dekat Pusat Kota,4,9,15361500
+Pakal,560,320,2,Butuh Renovasi,Furnished,SHM,4400,Ya,140015,Perumahan,Dekat Jalan Raya,5,7,44804800
+Pakal,148,57,1,Butuh Renovasi,Unfurnished,HGB,900,Ya,136682,Perumahan,Dekat Jalan Raya,2,17,7790874
+Pakal,386,310,2,Bagus,Semi-Furnished,HGB,4400,Tidak,161762,Campuran,Dekat Sekolah,5,27,50146220
+Pakal,173,172,1,Butuh Renovasi,Furnished,HGB,1300,Ya,154503,Perumahan,Dekat Sekolah,5,0,26574516
+Pakal,370,449,1,Butuh Renovasi,Unfurnished,HGB,4400,Tidak,148833,Campuran,Dekat Sekolah,5,1,66826017
+Pakal,394,191,1,Butuh Renovasi,Unfurnished,AJB,2200,Tidak,153950,Komersial,Dekat Jalan Raya,5,0,29404450
+Pakal,575,481,1,Baru,Semi-Furnished,SHM,4400,Ya,160781,Komersial,Dekat Jalan Raya,5,0,77335661
+Rungkut,266,257,2,Butuh Renovasi,Furnished,HGB,3500,Ya,230616,Campuran,Dekat Jalan Raya,5,8,59268312
+Rungkut,316,71,3,Baru,Unfurnished,HGB,900,Tidak,191436,Perumahan,Dekat Jalan Raya,4,12,13591956
+Rungkut,465,395,1,Butuh Renovasi,Furnished,HGB,3500,Tidak,232917,Campuran,Dekat Pusat Kota,4,29,92002215
+Rungkut,119,78,3,Baru,Unfurnished,AJB,900,Tidak,204535,Komersial,Dekat Jalan Raya,5,0,15953730
+Rungkut,448,503,3,Bagus,Furnished,HGB,5500,Tidak,209798,Campuran,Dekat Pusat Kota,5,12,105528394
+Rungkut,269,158,3,Butuh Renovasi,Semi-Furnished,HGB,2200,Ya,220011,Komersial,Dekat Pusat Kota,5,19,34761738
+Rungkut,204,65,1,Butuh Renovasi,Furnished,SHM,1300,Ya,195040,Komersial,Dekat Pusat Kota,2,25,12677600
+Rungkut,161,117,2,Butuh Renovasi,Semi-Furnished,AJB,2200,Tidak,196543,Perumahan,Dekat Sekolah,5,21,22995531
+Rungkut,598,380,1,Baru,Furnished,SHM,4400,Tidak,217060,Perumahan,Dekat Sekolah,5,6,82482800
+Rungkut,203,202,1,Butuh Renovasi,Semi-Furnished,AJB,2200,Ya,193681,Campuran,Dekat Sekolah,5,1,39123562
+Rungkut,496,373,3,Baru,Semi-Furnished,SHM,4400,Tidak,227703,Komersial,Dekat Jalan Raya,4,5,84933219
+Rungkut,321,332,2,Baru,Unfurnished,HGB,4400,Tidak,216009,Komersial,Dekat Sekolah,4,6,71714988
+Rungkut,44,53,3,Bagus,Furnished,AJB,900,Tidak,212625,Perumahan,Dekat Jalan Raya,4,25,11269125
+Rungkut,557,415,3,Baru,Semi-Furnished,SHM,5500,Tidak,244548,Campuran,Dekat Pusat Kota,5,13,101487420
+Rungkut,397,321,1,Baru,Semi-Furnished,AJB,2200,Ya,224716,Campuran,Dekat Pusat Kota,5,25,72133836
+Rungkut,111,140,1,Bagus,Furnished,AJB,2200,Ya,214825,Komersial,Dekat Sekolah,4,17,30075500
+Rungkut,119,154,3,Bagus,Semi-Furnished,AJB,1300,Tidak,201234,Perumahan,Dekat Pusat Kota,5,14,30990036
+Rungkut,204,96,1,Baru,Unfurnished,SHM,1300,Tidak,189879,Campuran,Dekat Sekolah,5,1,18228384
+Rungkut,272,248,2,Butuh Renovasi,Semi-Furnished,HGB,3500,Ya,197209,Campuran,Dekat Jalan Raya,5,9,48907832
+Rungkut,122,150,1,Baru,Furnished,SHM,2200,Ya,192897,Komersial,Dekat Sekolah,5,22,28934550
+Rungkut,416,402,1,Butuh Renovasi,Semi-Furnished,AJB,4400,Ya,237195,Perumahan,Dekat Pusat Kota,5,11,95352390
+Rungkut,468,198,1,Bagus,Unfurnished,AJB,1300,Tidak,210112,Komersial,Dekat Pusat Kota,5,16,41602176
+Rungkut,118,32,1,Baru,Furnished,AJB,900,Tidak,208550,Perumahan,Dekat Jalan Raya,2,7,6673600
+Rungkut,78,131,3,Bagus,Semi-Furnished,HGB,1300,Tidak,204191,Perumahan,Dekat Sekolah,5,10,26749021
+Rungkut,231,321,2,Butuh Renovasi,Unfurnished,AJB,3500,Ya,231844,Komersial,Dekat Pusat Kota,5,28,74421924
+Rungkut,81,146,2,Baru,Semi-Furnished,AJB,1300,Ya,190053,Campuran,Dekat Sekolah,5,2,27747738
+Rungkut,594,692,2,Bagus,Unfurnished,AJB,5500,Tidak,259495,Perumahan,Dekat Sekolah,5,26,179570540
+Rungkut,275,74,3,Baru,Semi-Furnished,HGB,1300,Tidak,205232,Komersial,Dekat Jalan Raya,4,5,15187168
+Rungkut,104,71,3,Butuh Renovasi,Unfurnished,SHM,1300,Tidak,190436,Komersial,Dekat Jalan Raya,2,8,13520956
+Rungkut,426,207,1,Bagus,Furnished,SHM,3500,Tidak,233024,Komersial,Dekat Jalan Raya,5,5,48235968
+Rungkut,298,282,3,Baru,Unfurnished,SHM,4400,Ya,199312,Campuran,Dekat Pusat Kota,5,8,56205984
+Rungkut,547,343,3,Baru,Unfurnished,AJB,3500,Ya,220483,Campuran,Dekat Jalan Raya,5,6,75625669
+Sambikerep,208,249,3,Bagus,Semi-Furnished,HGB,4400,Tidak,200002,Perumahan,Dekat Sekolah,5,30,49800498
+Sambikerep,530,444,1,Baru,Semi-Furnished,HGB,5500,Tidak,202551,Campuran,Dekat Sekolah,4,8,89932644
+Sambikerep,341,102,3,Baru,Furnished,HGB,1300,Ya,205897,Campuran,Dekat Pusat Kota,5,17,21001494
+Sambikerep,288,158,1,Baru,Furnished,HGB,2200,Tidak,194865,Campuran,Dekat Sekolah,5,11,30788670
+Sambikerep,500,472,2,Baru,Unfurnished,SHM,5500,Tidak,214630,Perumahan,Dekat Sekolah,5,7,101305360
+Sambikerep,268,244,2,Butuh Renovasi,Furnished,SHM,4400,Tidak,218474,Campuran,Dekat Pusat Kota,5,7,53307656
+Sambikerep,358,415,1,Bagus,Semi-Furnished,AJB,4400,Tidak,213956,Perumahan,Dekat Jalan Raya,4,17,88791740
+Sambikerep,461,250,1,Butuh Renovasi,Unfurnished,SHM,4400,Ya,213753,Perumahan,Dekat Jalan Raya,5,27,53438250
+Sambikerep,88,186,1,Bagus,Semi-Furnished,HGB,1300,Ya,219368,Komersial,Dekat Sekolah,5,29,40802448
+Sambikerep,274,300,1,Bagus,Semi-Furnished,HGB,2200,Ya,207315,Perumahan,Dekat Pusat Kota,5,19,62194500
+Sambikerep,533,552,2,Baru,Unfurnished,SHM,4400,Ya,228901,Komersial,Dekat Jalan Raya,5,29,126353352
+Sambikerep,79,145,3,Bagus,Furnished,AJB,1300,Ya,217289,Campuran,Dekat Sekolah,4,14,31506905
+Sambikerep,168,182,1,Baru,Unfurnished,HGB,1300,Ya,202768,Perumahan,Dekat Jalan Raya,3,26,36903776
+Sambikerep,284,236,2,Butuh Renovasi,Furnished,AJB,3500,Ya,191641,Campuran,Dekat Pusat Kota,5,30,45227276
+Sambikerep,159,183,2,Baru,Unfurnished,AJB,2200,Tidak,214788,Komersial,Dekat Pusat Kota,5,6,39306204
+Sambikerep,441,226,2,Baru,Furnished,SHM,2200,Ya,213414,Perumahan,Dekat Pusat Kota,5,10,48231564
+Sambikerep,55,83,3,Baru,Unfurnished,SHM,900,Tidak,193144,Komersial,Dekat Pusat Kota,4,19,16030952
+Sambikerep,92,82,2,Bagus,Furnished,HGB,1300,Tidak,209462,Komersial,Dekat Pusat Kota,4,15,17175884
+Sambikerep,394,423,1,Baru,Semi-Furnished,AJB,5500,Ya,228070,Perumahan,Dekat Jalan Raya,5,3,96473610
+Sambikerep,525,101,2,Baru,Semi-Furnished,AJB,1300,Tidak,211627,Campuran,Dekat Pusat Kota,5,5,21374327
+Sambikerep,461,39,1,Baru,Semi-Furnished,SHM,1300,Ya,198033,Campuran,Dekat Sekolah,3,25,7723287
+Sambikerep,333,104,1,Butuh Renovasi,Furnished,AJB,2200,Ya,207926,Komersial,Dekat Jalan Raya,5,21,21624304
+Sambikerep,286,375,2,Bagus,Unfurnished,HGB,3500,Ya,195575,Campuran,Dekat Sekolah,5,25,73340625
+Sambikerep,69,100,3,Baru,Semi-Furnished,SHM,1300,Ya,178855,Campuran,Dekat Sekolah,4,30,17885500
+Sambikerep,542,34,1,Butuh Renovasi,Unfurnished,HGB,900,Tidak,210814,Campuran,Dekat Jalan Raya,1,2,7167676
+Sambikerep,306,214,2,Baru,Unfurnished,SHM,2200,Ya,210049,Perumahan,Dekat Pusat Kota,4,30,44950486
+Sambikerep,554,106,2,Butuh Renovasi,Semi-Furnished,AJB,1300,Tidak,179123,Campuran,Dekat Pusat Kota,4,8,18987038
+Sambikerep,124,152,1,Baru,Furnished,HGB,2200,Tidak,216079,Komersial,Dekat Pusat Kota,4,27,32844008
+Sambikerep,376,284,2,Bagus,Semi-Furnished,SHM,4400,Tidak,188006,Campuran,Dekat Pusat Kota,4,9,53393704
+Sambikerep,211,37,2,Baru,Semi-Furnished,HGB,900,Tidak,198668,Perumahan,Dekat Pusat Kota,2,13,7350716
+Sambikerep,355,184,1,Bagus,Semi-Furnished,AJB,2200,Ya,195656,Komersial,Dekat Jalan Raya,5,10,36000704
+Sambikerep,536,387,1,Baru,Furnished,AJB,3500,Ya,206986,Komersial,Dekat Pusat Kota,5,17,80103582
+Sawahan,277,333,1,Baru,Semi-Furnished,SHM,3500,Ya,218651,Campuran,Dekat Sekolah,5,21,72810783
+Sawahan,78,33,3,Bagus,Unfurnished,AJB,900,Ya,238101,Campuran,Dekat Jalan Raya,4,11,7857333
+Sawahan,313,188,3,Bagus,Unfurnished,HGB,2200,Tidak,241672,Komersial,Dekat Sekolah,4,22,45434336
+Sawahan,456,235,2,Baru,Semi-Furnished,SHM,4400,Ya,246186,Komersial,Dekat Pusat Kota,5,11,57853710
+Sawahan,418,103,1,Butuh Renovasi,Furnished,AJB,2200,Tidak,232925,Perumahan,Dekat Sekolah,3,12,23991275
+Sawahan,52,41,1,Baru,Unfurnished,HGB,1300,Ya,224518,Perumahan,Dekat Sekolah,2,24,9205238
+Sawahan,448,403,2,Butuh Renovasi,Unfurnished,SHM,4400,Ya,249910,Perumahan,Dekat Pusat Kota,5,12,100713730
+Sawahan,197,280,3,Bagus,Unfurnished,HGB,3500,Tidak,225428,Campuran,Dekat Jalan Raya,5,18,63119840
+Sawahan,559,117,2,Bagus,Unfurnished,AJB,2200,Tidak,246071,Perumahan,Dekat Jalan Raya,5,25,28790307
+Sawahan,78,101,3,Bagus,Unfurnished,HGB,2200,Tidak,219431,Komersial,Dekat Sekolah,3,18,22162531
+Sawahan,179,213,2,Bagus,Furnished,SHM,2200,Tidak,221864,Perumahan,Dekat Pusat Kota,4,22,47257032
+Sawahan,185,30,1,Baru,Semi-Furnished,HGB,1300,Ya,211670,Komersial,Dekat Sekolah,3,13,6350100
+Sawahan,447,41,3,Butuh Renovasi,Semi-Furnished,AJB,1300,Tidak,203270,Perumahan,Dekat Pusat Kota,2,3,8334070
+Sawahan,186,161,3,Bagus,Furnished,HGB,1300,Ya,241583,Campuran,Dekat Pusat Kota,5,12,38894863
+Sawahan,65,158,1,Butuh Renovasi,Furnished,AJB,2200,Tidak,245603,Campuran,Dekat Jalan Raya,5,7,38805274
+Sawahan,52,100,1,Baru,Semi-Furnished,AJB,2200,Tidak,235412,Komersial,Dekat Sekolah,4,28,23541200
+Sawahan,513,205,3,Bagus,Semi-Furnished,SHM,2200,Tidak,246321,Campuran,Dekat Pusat Kota,5,22,50495805
+Sawahan,562,433,1,Butuh Renovasi,Semi-Furnished,AJB,4400,Ya,232200,Perumahan,Dekat Jalan Raya,5,20,100542600
+Sawahan,421,240,3,Butuh Renovasi,Semi-Furnished,HGB,4400,Ya,245397,Komersial,Dekat Jalan Raya,5,22,58895280
+Sawahan,187,170,2,Bagus,Furnished,AJB,1300,Ya,225879,Komersial,Dekat Sekolah,5,18,38399430
+Sawahan,117,58,2,Bagus,Furnished,AJB,900,Tidak,213602,Perumahan,Dekat Sekolah,5,11,12388916
+Sawahan,215,240,2,Bagus,Furnished,HGB,3500,Tidak,242165,Campuran,Dekat Jalan Raya,5,17,58119600
+Sawahan,65,65,1,Butuh Renovasi,Semi-Furnished,HGB,1300,Ya,203644,Perumahan,Dekat Jalan Raya,2,5,13236860
+Sawahan,220,192,2,Butuh Renovasi,Furnished,SHM,1300,Ya,222286,Perumahan,Dekat Jalan Raya,5,17,42678912
+Sawahan,74,52,3,Butuh Renovasi,Semi-Furnished,SHM,1300,Tidak,228906,Komersial,Dekat Jalan Raya,3,18,11903112
+Sawahan,188,209,3,Bagus,Unfurnished,SHM,2200,Tidak,220093,Perumahan,Dekat Pusat Kota,5,21,45999437
+Sawahan,560,368,3,Baru,Unfurnished,AJB,4400,Tidak,222277,Campuran,Dekat Sekolah,5,4,81797936
+Sawahan,453,335,3,Butuh Renovasi,Unfurnished,HGB,2200,Tidak,240311,Komersial,Dekat Sekolah,5,23,80504185
+Sawahan,323,346,2,Bagus,Furnished,AJB,3500,Tidak,232806,Campuran,Dekat Jalan Raya,4,8,80550876
+Sawahan,167,40,2,Bagus,Furnished,AJB,900,Tidak,213046,Campuran,Dekat Sekolah,2,26,8521840
+Sawahan,80,123,3,Baru,Unfurnished,AJB,1300,Tidak,228456,Perumahan,Dekat Sekolah,4,2,28100088
+Sawahan,511,36,3,Butuh Renovasi,Furnished,AJB,900,Tidak,202133,Campuran,Dekat Jalan Raya,2,27,7276788
+Semampir,209,299,2,Butuh Renovasi,Semi-Furnished,HGB,4400,Tidak,181343,Perumahan,Dekat Jalan Raya,5,9,54221557
+Semampir,164,42,3,Bagus,Furnished,HGB,1300,Tidak,179510,Campuran,Dekat Jalan Raya,3,18,7539420
+Semampir,167,49,1,Butuh Renovasi,Unfurnished,HGB,1300,Ya,180034,Campuran,Dekat Pusat Kota,3,2,8821666
+Semampir,66,138,3,Baru,Semi-Furnished,SHM,1300,Tidak,181867,Komersial,Dekat Sekolah,5,28,25097646
+Semampir,461,301,3,Butuh Renovasi,Furnished,AJB,3500,Ya,168319,Komersial,Dekat Jalan Raya,4,28,50664019
+Semampir,256,209,3,Baru,Semi-Furnished,SHM,3500,Ya,191511,Komersial,Dekat Sekolah,4,21,40025799
+Semampir,544,617,3,Baru,Semi-Furnished,HGB,4400,Tidak,203464,Perumahan,Dekat Sekolah,4,30,125537288
+Semampir,533,107,1,Butuh Renovasi,Furnished,SHM,1300,Tidak,170360,Campuran,Dekat Jalan Raya,4,14,18228520
+Semampir,540,204,3,Butuh Renovasi,Unfurnished,AJB,4400,Ya,185688,Campuran,Dekat Jalan Raya,5,0,37880352
+Semampir,44,55,2,Butuh Renovasi,Furnished,SHM,1300,Ya,177508,Campuran,Dekat Jalan Raya,1,6,9762940
+Semampir,203,184,2,Bagus,Unfurnished,SHM,2200,Tidak,167610,Perumahan,Dekat Pusat Kota,4,11,30840240
+Semampir,55,47,2,Baru,Semi-Furnished,AJB,1300,Ya,157448,Komersial,Dekat Jalan Raya,4,16,7400056
+Semampir,422,172,3,Butuh Renovasi,Semi-Furnished,HGB,2200,Ya,185739,Perumahan,Dekat Sekolah,4,29,31947108
+Semampir,389,111,2,Bagus,Semi-Furnished,HGB,2200,Ya,178373,Komersial,Dekat Pusat Kota,5,20,19799403
+Semampir,573,443,2,Butuh Renovasi,Semi-Furnished,AJB,4400,Ya,181655,Perumahan,Dekat Pusat Kota,5,30,80473165
+Semampir,321,233,3,Bagus,Unfurnished,SHM,3500,Ya,194454,Perumahan,Dekat Pusat Kota,5,25,45307782
+Semampir,110,130,3,Baru,Unfurnished,SHM,1300,Ya,161708,Campuran,Dekat Jalan Raya,5,28,21022040
+Semampir,299,365,2,Bagus,Furnished,HGB,3500,Tidak,186593,Campuran,Dekat Pusat Kota,5,23,68106445
+Semampir,439,537,1,Bagus,Unfurnished,AJB,4400,Tidak,200516,Campuran,Dekat Pusat Kota,5,19,107677092
+Semampir,585,455,2,Baru,Furnished,SHM,5500,Tidak,196381,Campuran,Dekat Pusat Kota,5,4,89353355
+Semampir,136,228,2,Bagus,Semi-Furnished,SHM,4400,Tidak,177740,Campuran,Dekat Jalan Raya,5,3,40524720
+Semampir,275,220,1,Bagus,Unfurnished,HGB,2200,Tidak,186502,Perumahan,Dekat Jalan Raya,5,27,41030440
+Semampir,97,100,1,Bagus,Semi-Furnished,AJB,1300,Tidak,162999,Komersial,Dekat Jalan Raya,4,11,16299900
+Semampir,305,98,1,Bagus,Unfurnished,HGB,900,Tidak,157733,Komersial,Dekat Pusat Kota,2,29,15457834
+Semampir,386,336,3,Butuh Renovasi,Furnished,AJB,3500,Ya,180070,Campuran,Dekat Jalan Raya,5,19,60503520
+Semampir,354,49,2,Bagus,Unfurnished,AJB,1300,Tidak,184288,Perumahan,Dekat Sekolah,4,27,9030112
+Semampir,459,180,1,Butuh Renovasi,Unfurnished,HGB,1300,Ya,185926,Perumahan,Dekat Jalan Raya,5,23,33466680
+Semampir,108,97,3,Bagus,Unfurnished,AJB,900,Tidak,191652,Campuran,Dekat Pusat Kota,5,17,18590244
+Semampir,44,82,2,Bagus,Furnished,SHM,1300,Tidak,158122,Campuran,Dekat Jalan Raya,5,16,12966004
+Semampir,56,112,3,Butuh Renovasi,Unfurnished,AJB,2200,Ya,172037,Perumahan,Dekat Sekolah,3,18,19268144
+Semampir,560,296,1,Butuh Renovasi,Furnished,HGB,2200,Ya,177294,Campuran,Dekat Sekolah,5,8,52479024
+Semampir,594,87,2,Baru,Semi-Furnished,HGB,900,Tidak,170069,Campuran,Dekat Pusat Kota,5,3,14796003
+Simokerto,133,160,1,Baru,Semi-Furnished,HGB,1300,Ya,200966,Perumahan,Dekat Pusat Kota,4,25,32154560
+Simokerto,225,291,3,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,182076,Campuran,Dekat Sekolah,5,20,52984116
+Simokerto,418,193,2,Butuh Renovasi,Furnished,SHM,1300,Ya,191998,Perumahan,Dekat Jalan Raya,5,1,37055614
+Simokerto,185,117,1,Bagus,Furnished,AJB,1300,Tidak,173959,Komersial,Dekat Pusat Kota,5,3,20353203
+Simokerto,369,59,2,Butuh Renovasi,Furnished,AJB,1300,Tidak,175944,Perumahan,Dekat Jalan Raya,3,1,10380696
+Simokerto,365,192,2,Butuh Renovasi,Furnished,AJB,1300,Tidak,190651,Komersial,Dekat Sekolah,4,14,36604992
+Simokerto,158,143,1,Butuh Renovasi,Furnished,HGB,1300,Ya,189888,Campuran,Dekat Sekolah,4,1,27153984
+Simokerto,114,210,1,Butuh Renovasi,Furnished,AJB,2200,Ya,210463,Campuran,Dekat Jalan Raya,5,3,44197230
+Simokerto,199,166,3,Bagus,Furnished,AJB,1300,Ya,185251,Campuran,Dekat Pusat Kota,5,5,30751666
+Simokerto,96,70,2,Baru,Furnished,HGB,1300,Ya,177377,Campuran,Dekat Pusat Kota,3,6,12416390
+Simokerto,96,153,2,Butuh Renovasi,Furnished,SHM,2200,Ya,184313,Campuran,Dekat Jalan Raya,5,9,28199889
+Simokerto,111,209,1,Bagus,Furnished,SHM,4400,Tidak,206854,Perumahan,Dekat Pusat Kota,5,18,43232486
+Simokerto,362,197,3,Butuh Renovasi,Semi-Furnished,AJB,1300,Tidak,199107,Campuran,Dekat Pusat Kota,5,18,39224079
+Simokerto,552,238,1,Baru,Unfurnished,SHM,4400,Tidak,202334,Campuran,Dekat Sekolah,4,25,48155492
+Simokerto,206,110,3,Butuh Renovasi,Semi-Furnished,AJB,2200,Tidak,177601,Perumahan,Dekat Pusat Kota,3,21,19536110
+Simokerto,283,157,2,Bagus,Furnished,SHM,2200,Ya,205407,Campuran,Dekat Pusat Kota,5,28,32248899
+Simokerto,48,139,1,Butuh Renovasi,Unfurnished,SHM,1300,Ya,201139,Perumahan,Dekat Jalan Raya,4,11,27958321
+Simokerto,325,401,2,Butuh Renovasi,Semi-Furnished,SHM,5500,Ya,202559,Campuran,Dekat Pusat Kota,5,2,81226159
+Simokerto,581,180,2,Butuh Renovasi,Semi-Furnished,HGB,1300,Tidak,190147,Komersial,Dekat Jalan Raya,5,12,34226460
+Simokerto,222,143,1,Baru,Furnished,SHM,1300,Tidak,202531,Perumahan,Dekat Jalan Raya,5,17,28961933
+Simokerto,105,192,1,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,200439,Komersial,Dekat Pusat Kota,5,7,38484288
+Simokerto,246,172,2,Butuh Renovasi,Furnished,AJB,2200,Ya,208070,Campuran,Dekat Sekolah,5,20,35788040
+Simokerto,160,121,1,Baru,Furnished,SHM,2200,Tidak,199478,Campuran,Dekat Pusat Kota,4,14,24136838
+Simokerto,485,153,2,Bagus,Furnished,SHM,1300,Tidak,179076,Perumahan,Dekat Pusat Kota,5,0,27398628
+Simokerto,577,193,2,Butuh Renovasi,Unfurnished,HGB,2200,Tidak,206660,Perumahan,Dekat Pusat Kota,5,2,39885380
+Simokerto,579,467,3,Butuh Renovasi,Unfurnished,SHM,6600,Tidak,185950,Komersial,Dekat Sekolah,5,25,86838650
+Simokerto,71,92,2,Baru,Semi-Furnished,AJB,1300,Ya,177546,Perumahan,Dekat Sekolah,4,7,16334232
+Simokerto,502,447,1,Butuh Renovasi,Furnished,SHM,5500,Tidak,213652,Perumahan,Dekat Sekolah,5,3,95502444
+Simokerto,285,197,3,Baru,Furnished,SHM,2200,Tidak,209618,Perumahan,Dekat Pusat Kota,5,15,41294746
+Simokerto,572,362,1,Bagus,Semi-Furnished,AJB,4400,Tidak,179685,Komersial,Dekat Sekolah,5,29,65045970
+Simokerto,43,114,3,Baru,Semi-Furnished,SHM,1300,Ya,195109,Komersial,Dekat Jalan Raya,4,22,22242426
+Simokerto,210,174,2,Baru,Furnished,HGB,1300,Tidak,201590,Campuran,Dekat Jalan Raya,5,9,35076660
+Sukolilo,499,168,2,Bagus,Furnished,AJB,2200,Tidak,257823,Campuran,Dekat Jalan Raya,5,11,43314264
+Sukolilo,244,319,1,Bagus,Unfurnished,HGB,3500,Ya,251414,Komersial,Dekat Sekolah,4,13,80201066
+Sukolilo,48,118,3,Butuh Renovasi,Unfurnished,AJB,2200,Ya,250937,Perumahan,Dekat Sekolah,5,13,29610566
+Sukolilo,99,118,2,Baru,Semi-Furnished,AJB,1300,Ya,227240,Campuran,Dekat Pusat Kota,4,1,26814320
+Sukolilo,250,290,1,Baru,Semi-Furnished,AJB,2200,Tidak,270362,Komersial,Dekat Jalan Raya,5,22,78404980
+Sukolilo,308,321,2,Bagus,Semi-Furnished,HGB,3500,Tidak,274009,Komersial,Dekat Pusat Kota,4,4,87956889
+Sukolilo,125,142,3,Butuh Renovasi,Unfurnished,SHM,2200,Tidak,239979,Campuran,Dekat Sekolah,5,4,34077018
+Sukolilo,504,70,1,Baru,Furnished,AJB,1300,Ya,234871,Komersial,Dekat Pusat Kota,5,5,16440970
+Sukolilo,584,205,3,Baru,Furnished,AJB,2200,Ya,245664,Komersial,Dekat Jalan Raya,5,12,50361120
+Sukolilo,571,428,3,Baru,Semi-Furnished,SHM,4400,Tidak,255610,Campuran,Dekat Sekolah,5,8,109401080
+Sukolilo,292,37,2,Butuh Renovasi,Unfurnished,HGB,1300,Tidak,249837,Perumahan,Dekat Sekolah,1,29,9243969
+Sukolilo,440,477,1,Baru,Semi-Furnished,HGB,5500,Tidak,294477,Perumahan,Dekat Sekolah,5,21,140465529
+Sukolilo,484,252,2,Baru,Unfurnished,SHM,3500,Ya,236035,Komersial,Dekat Jalan Raya,4,27,59480820
+Sukolilo,432,475,1,Bagus,Semi-Furnished,HGB,6600,Tidak,291887,Komersial,Dekat Sekolah,5,28,138646325
+Sukolilo,101,121,2,Baru,Semi-Furnished,HGB,1300,Tidak,230947,Perumahan,Dekat Pusat Kota,5,14,27944587
+Sukolilo,332,86,1,Baru,Semi-Furnished,SHM,1300,Ya,229383,Komersial,Dekat Sekolah,4,13,19726938
+Sukolilo,495,215,3,Butuh Renovasi,Semi-Furnished,AJB,2200,Ya,232708,Campuran,Dekat Sekolah,5,23,50032220
+Sukolilo,397,409,2,Baru,Furnished,HGB,5500,Tidak,270047,Komersial,Dekat Pusat Kota,5,6,110449223
+Sukolilo,547,585,3,Butuh Renovasi,Semi-Furnished,HGB,5500,Ya,304448,Campuran,Dekat Jalan Raya,5,24,178102080
+Sukolilo,326,373,3,Baru,Semi-Furnished,SHM,2200,Tidak,290363,Komersial,Dekat Pusat Kota,5,19,108305399
+Sukolilo,116,212,1,Bagus,Unfurnished,HGB,2200,Tidak,236370,Campuran,Dekat Jalan Raya,5,1,50110440
+Sukolilo,160,214,2,Baru,Semi-Furnished,AJB,4400,Ya,270167,Perumahan,Dekat Sekolah,5,6,57815738
+Sukolilo,128,197,2,Bagus,Semi-Furnished,AJB,2200,Ya,247947,Komersial,Dekat Pusat Kota,5,5,48845559
+Sukolilo,51,76,1,Bagus,Furnished,SHM,1300,Tidak,254653,Campuran,Dekat Sekolah,4,16,19353628
+Sukolilo,550,272,3,Baru,Furnished,AJB,4400,Tidak,277456,Campuran,Dekat Jalan Raya,4,26,75468032
+Sukolilo,153,208,2,Baru,Unfurnished,AJB,2200,Ya,265840,Perumahan,Dekat Jalan Raya,4,24,55294720
+Sukolilo,69,56,2,Baru,Unfurnished,HGB,1300,Tidak,225954,Komersial,Dekat Sekolah,5,24,12653424
+Sukolilo,491,564,2,Bagus,Furnished,AJB,6600,Tidak,258460,Perumahan,Dekat Jalan Raya,5,27,145771440
+Sukolilo,426,142,3,Bagus,Semi-Furnished,SHM,2200,Ya,230446,Komersial,Dekat Pusat Kota,5,1,32723332
+Sukolilo,75,74,1,Baru,Furnished,SHM,900,Ya,242027,Perumahan,Dekat Sekolah,3,2,17909998
+Sukolilo,421,301,3,Baru,Unfurnished,SHM,2200,Tidak,275843,Campuran,Dekat Pusat Kota,4,4,83028743
+Sukolilo,59,54,2,Butuh Renovasi,Furnished,AJB,900,Tidak,239815,Campuran,Dekat Pusat Kota,3,4,12950010
+Sukomanunggal,290,146,3,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,213549,Perumahan,Dekat Sekolah,5,30,31178154
+Sukomanunggal,542,491,2,Butuh Renovasi,Semi-Furnished,SHM,4400,Ya,227235,Campuran,Dekat Sekolah,5,0,111572385
+Sukomanunggal,156,163,3,Butuh Renovasi,Unfurnished,AJB,2200,Tidak,215631,Komersial,Dekat Jalan Raya,5,7,35147853
+Sukomanunggal,251,259,3,Bagus,Unfurnished,AJB,2200,Ya,217971,Komersial,Dekat Pusat Kota,5,11,56454489
+Sukomanunggal,299,216,1,Baru,Semi-Furnished,SHM,2200,Ya,227148,Komersial,Dekat Pusat Kota,4,23,49063968
+Sukomanunggal,125,42,2,Butuh Renovasi,Furnished,SHM,1300,Ya,193852,Campuran,Dekat Sekolah,3,3,8141784
+Sukomanunggal,167,225,2,Baru,Semi-Furnished,AJB,3500,Ya,206235,Campuran,Dekat Jalan Raya,4,12,46402875
+Sukomanunggal,259,81,1,Baru,Unfurnished,AJB,1300,Ya,208105,Komersial,Dekat Jalan Raya,3,22,16856505
+Sukomanunggal,217,137,2,Baru,Unfurnished,HGB,1300,Tidak,198141,Campuran,Dekat Sekolah,5,14,27145317
+Sukomanunggal,124,208,3,Butuh Renovasi,Furnished,SHM,2200,Ya,227348,Komersial,Dekat Pusat Kota,5,30,47288384
+Sukomanunggal,244,309,3,Baru,Furnished,SHM,3500,Ya,230340,Campuran,Dekat Pusat Kota,5,10,71175060
+Sukomanunggal,359,402,1,Butuh Renovasi,Unfurnished,AJB,4400,Tidak,224371,Campuran,Dekat Jalan Raya,5,9,90197142
+Sukomanunggal,272,223,2,Bagus,Semi-Furnished,HGB,2200,Tidak,207269,Campuran,Dekat Jalan Raya,4,2,46220987
+Sukomanunggal,596,178,2,Butuh Renovasi,Furnished,HGB,1300,Ya,215362,Komersial,Dekat Jalan Raya,4,21,38334436
+Sukomanunggal,487,579,1,Baru,Furnished,AJB,4400,Ya,236288,Campuran,Dekat Pusat Kota,5,13,136810752
+Sukomanunggal,147,34,2,Bagus,Unfurnished,AJB,1300,Ya,218160,Campuran,Dekat Jalan Raya,1,15,7417440
+Sukomanunggal,44,54,1,Baru,Unfurnished,HGB,900,Ya,219652,Campuran,Dekat Jalan Raya,4,9,11861208
+Sukomanunggal,258,42,2,Baru,Semi-Furnished,SHM,1300,Ya,214643,Campuran,Dekat Sekolah,3,28,9015006
+Sukomanunggal,246,209,2,Baru,Unfurnished,HGB,3500,Ya,221292,Komersial,Dekat Jalan Raya,4,9,46250028
+Sukomanunggal,576,599,3,Bagus,Semi-Furnished,AJB,4400,Tidak,258148,Perumahan,Dekat Pusat Kota,4,11,154630652
+Sukomanunggal,114,116,3,Butuh Renovasi,Unfurnished,HGB,1300,Ya,228062,Campuran,Dekat Sekolah,5,29,26455192
+Sukomanunggal,576,560,2,Baru,Semi-Furnished,AJB,6600,Ya,269327,Campuran,Dekat Jalan Raya,5,8,150823120
+Sukomanunggal,339,269,3,Butuh Renovasi,Unfurnished,HGB,4400,Tidak,228966,Perumahan,Dekat Pusat Kota,5,0,61591854
+Sukomanunggal,598,249,1,Butuh Renovasi,Unfurnished,AJB,3500,Ya,212370,Perumahan,Dekat Pusat Kota,4,4,52880130
+Sukomanunggal,226,72,2,Bagus,Unfurnished,HGB,1300,Tidak,219788,Campuran,Dekat Jalan Raya,4,19,15824736
+Sukomanunggal,544,190,2,Bagus,Semi-Furnished,HGB,2200,Ya,243352,Komersial,Dekat Pusat Kota,5,7,46236880
+Sukomanunggal,532,349,3,Baru,Unfurnished,HGB,4400,Ya,240066,Perumahan,Dekat Jalan Raya,5,10,83783034
+Sukomanunggal,502,248,1,Baru,Furnished,SHM,3500,Ya,218284,Komersial,Dekat Sekolah,5,11,54134432
+Sukomanunggal,436,136,1,Butuh Renovasi,Semi-Furnished,AJB,2200,Ya,227648,Perumahan,Dekat Sekolah,4,0,30960128
+Sukomanunggal,229,46,3,Butuh Renovasi,Semi-Furnished,AJB,900,Tidak,212783,Komersial,Dekat Pusat Kota,3,24,9788018
+Sukomanunggal,254,159,3,Baru,Furnished,SHM,1300,Tidak,240167,Campuran,Dekat Pusat Kota,5,21,38186553
+Sukomanunggal,97,129,2,Baru,Semi-Furnished,SHM,2200,Ya,237717,Perumahan,Dekat Jalan Raya,4,19,30665493
+Tambaksari,269,260,1,Baru,Furnished,HGB,3500,Tidak,228836,Perumahan,Dekat Jalan Raya,5,27,59497360
+Tambaksari,225,198,3,Bagus,Furnished,AJB,1300,Ya,210125,Campuran,Dekat Sekolah,4,24,41604750
+Tambaksari,368,260,3,Baru,Semi-Furnished,SHM,4400,Tidak,203060,Komersial,Dekat Sekolah,5,10,52795600
+Tambaksari,271,199,2,Baru,Semi-Furnished,AJB,2200,Tidak,232921,Campuran,Dekat Jalan Raya,5,4,46351279
+Tambaksari,402,95,2,Bagus,Unfurnished,AJB,1300,Ya,224650,Perumahan,Dekat Sekolah,3,14,21341750
+Tambaksari,438,337,2,Butuh Renovasi,Semi-Furnished,HGB,4400,Ya,216109,Campuran,Dekat Jalan Raya,5,4,72828733
+Tambaksari,48,124,1,Bagus,Furnished,HGB,1300,Tidak,197463,Komersial,Dekat Pusat Kota,5,11,24485412
+Tambaksari,285,62,3,Bagus,Furnished,SHM,1300,Tidak,192065,Perumahan,Dekat Pusat Kota,5,4,11908030
+Tambaksari,100,123,1,Baru,Furnished,SHM,1300,Ya,219515,Campuran,Dekat Sekolah,4,16,27000345
+Tambaksari,280,90,1,Baru,Semi-Furnished,AJB,1300,Ya,201095,Campuran,Dekat Jalan Raya,5,16,18098550
+Tambaksari,189,227,3,Baru,Unfurnished,HGB,3500,Tidak,199165,Perumahan,Dekat Jalan Raya,5,23,45210455
+Tambaksari,560,231,3,Butuh Renovasi,Semi-Furnished,AJB,4400,Tidak,219874,Komersial,Dekat Sekolah,5,11,50790894
+Tambaksari,334,171,1,Bagus,Semi-Furnished,AJB,1300,Ya,221344,Campuran,Dekat Pusat Kota,5,23,37849824
+Tambaksari,69,56,1,Butuh Renovasi,Unfurnished,AJB,900,Ya,183391,Perumahan,Dekat Pusat Kota,3,27,10269896
+Tambaksari,527,144,3,Baru,Semi-Furnished,AJB,1300,Ya,221356,Perumahan,Dekat Sekolah,4,14,31875264
+Tambaksari,336,310,2,Butuh Renovasi,Furnished,AJB,4400,Tidak,233816,Campuran,Dekat Jalan Raya,4,14,72482960
+Tambaksari,188,226,1,Bagus,Unfurnished,HGB,2200,Tidak,209406,Perumahan,Dekat Sekolah,4,5,47325756
+Tambaksari,313,170,1,Butuh Renovasi,Furnished,AJB,1300,Tidak,195646,Perumahan,Dekat Pusat Kota,5,11,33259820
+Tambaksari,435,168,2,Bagus,Unfurnished,HGB,1300,Ya,190958,Komersial,Dekat Pusat Kota,5,26,32080944
+Tambaksari,53,127,3,Bagus,Furnished,AJB,2200,Ya,190625,Campuran,Dekat Pusat Kota,5,28,24209375
+Tambaksari,284,93,2,Baru,Semi-Furnished,HGB,1300,Ya,208750,Komersial,Dekat Sekolah,5,19,19413750
+Tambaksari,357,443,3,Bagus,Unfurnished,SHM,4400,Tidak,221428,Campuran,Dekat Pusat Kota,5,17,98092604
+Tambaksari,227,233,3,Baru,Semi-Furnished,HGB,3500,Ya,202870,Komersial,Dekat Sekolah,5,13,47268710
+Tambaksari,41,114,3,Butuh Renovasi,Semi-Furnished,HGB,1300,Ya,187294,Komersial,Dekat Sekolah,4,1,21351516
+Tambaksari,548,582,1,Butuh Renovasi,Semi-Furnished,SHM,4400,Ya,213120,Campuran,Dekat Jalan Raya,4,8,124035840
+Tambaksari,167,69,2,Butuh Renovasi,Unfurnished,AJB,1300,Tidak,192907,Campuran,Dekat Jalan Raya,3,30,13310583
+Tambaksari,558,313,2,Butuh Renovasi,Furnished,HGB,4400,Ya,222284,Campuran,Dekat Pusat Kota,5,4,69574892
+Tambaksari,131,35,3,Bagus,Furnished,SHM,900,Ya,187702,Komersial,Dekat Pusat Kota,5,19,6569570
+Tambaksari,270,255,2,Baru,Semi-Furnished,AJB,2200,Tidak,232203,Komersial,Dekat Jalan Raya,5,25,59211765
+Tambaksari,316,223,3,Butuh Renovasi,Furnished,SHM,3500,Tidak,229976,Campuran,Dekat Pusat Kota,4,28,51284648
+Tambaksari,324,248,3,Butuh Renovasi,Semi-Furnished,AJB,4400,Tidak,201391,Campuran,Dekat Pusat Kota,5,0,49944968
+Tambaksari,280,293,1,Baru,Unfurnished,HGB,4400,Tidak,223500,Komersial,Dekat Sekolah,4,22,65485500
+Tandes,307,47,2,Bagus,Unfurnished,AJB,900,Ya,172635,Perumahan,Dekat Pusat Kota,2,2,8113845
+Tandes,191,41,2,Butuh Renovasi,Furnished,SHM,1300,Ya,156521,Campuran,Dekat Pusat Kota,3,5,6417361
+Tandes,432,233,1,Butuh Renovasi,Furnished,HGB,4400,Tidak,187508,Komersial,Dekat Pusat Kota,5,4,43689364
+Tandes,415,412,1,Bagus,Furnished,AJB,6600,Tidak,173645,Campuran,Dekat Sekolah,5,20,71541740
+Tandes,515,292,3,Baru,Unfurnished,SHM,2200,Tidak,186618,Campuran,Dekat Pusat Kota,4,26,54492456
+Tandes,571,244,1,Bagus,Unfurnished,HGB,2200,Tidak,183265,Campuran,Dekat Sekolah,5,4,44716660
+Tandes,446,388,2,Butuh Renovasi,Furnished,SHM,2200,Ya,178536,Campuran,Dekat Jalan Raya,5,0,69271968
+Tandes,436,468,3,Bagus,Unfurnished,HGB,6600,Tidak,174538,Perumahan,Dekat Pusat Kota,4,16,81683784
+Tandes,596,374,3,Butuh Renovasi,Furnished,AJB,4400,Tidak,197836,Komersial,Dekat Jalan Raya,5,18,73990664
+Tandes,277,161,1,Butuh Renovasi,Semi-Furnished,AJB,2200,Tidak,182118,Campuran,Dekat Pusat Kota,4,13,29320998
+Tandes,52,149,2,Baru,Semi-Furnished,AJB,2200,Ya,188850,Campuran,Dekat Sekolah,4,11,28138650
+Tandes,498,304,2,Baru,Unfurnished,SHM,4400,Ya,204037,Campuran,Dekat Pusat Kota,4,9,62027248
+Tandes,329,207,3,Baru,Semi-Furnished,HGB,2200,Ya,182090,Campuran,Dekat Jalan Raya,5,19,37692630
+Tandes,247,101,3,Bagus,Unfurnished,AJB,2200,Ya,184042,Komersial,Dekat Jalan Raya,4,20,18588242
+Tandes,550,431,3,Baru,Semi-Furnished,SHM,6600,Tidak,195197,Perumahan,Dekat Sekolah,5,17,84129907
+Tandes,571,360,3,Butuh Renovasi,Unfurnished,HGB,4400,Ya,183150,Komersial,Dekat Jalan Raya,5,23,65934000
+Tandes,520,445,1,Butuh Renovasi,Furnished,SHM,4400,Ya,177376,Perumahan,Dekat Sekolah,5,26,78932320
+Tandes,82,123,3,Baru,Unfurnished,AJB,1300,Ya,192927,Komersial,Dekat Pusat Kota,5,10,23730021
+Tandes,421,257,3,Baru,Semi-Furnished,SHM,4400,Ya,190955,Komersial,Dekat Sekolah,5,29,49075435
+Tandes,361,181,1,Bagus,Unfurnished,HGB,1300,Tidak,165793,Komersial,Dekat Pusat Kota,5,1,30008533
+Tandes,183,127,1,Butuh Renovasi,Furnished,SHM,1300,Ya,187315,Komersial,Dekat Sekolah,3,24,23789005
+Tandes,224,156,3,Bagus,Semi-Furnished,SHM,1300,Tidak,183833,Perumahan,Dekat Jalan Raya,5,17,28677948
+Tandes,560,287,2,Butuh Renovasi,Unfurnished,HGB,4400,Tidak,193021,Perumahan,Dekat Jalan Raya,5,28,55397027
+Tandes,450,317,3,Butuh Renovasi,Unfurnished,SHM,3500,Tidak,179166,Campuran,Dekat Pusat Kota,4,24,56795622
+Tandes,199,198,1,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,188542,Komersial,Dekat Sekolah,4,6,37331316
+Tandes,252,165,3,Bagus,Semi-Furnished,HGB,2200,Ya,165011,Campuran,Dekat Sekolah,5,30,27226815
+Tandes,323,240,3,Butuh Renovasi,Semi-Furnished,HGB,4400,Tidak,179967,Perumahan,Dekat Jalan Raya,5,23,43192080
+Tandes,152,117,2,Baru,Semi-Furnished,SHM,2200,Tidak,177173,Komersial,Dekat Pusat Kota,4,14,20729241
+Tandes,343,267,2,Bagus,Semi-Furnished,SHM,3500,Ya,191639,Komersial,Dekat Sekolah,4,10,51167613
+Tandes,450,129,2,Bagus,Furnished,SHM,1300,Tidak,184151,Komersial,Dekat Pusat Kota,5,17,23755479
+Tandes,469,510,1,Baru,Unfurnished,SHM,6600,Tidak,210330,Perumahan,Dekat Sekolah,5,22,107268300
+Tandes,508,160,3,Butuh Renovasi,Unfurnished,HGB,1300,Ya,191394,Perumahan,Dekat Jalan Raya,5,11,30623040
+Tegalsari,600,292,2,Baru,Furnished,AJB,4400,Ya,240785,Komersial,Dekat Sekolah,5,5,70309220
+Tegalsari,459,518,2,Bagus,Furnished,HGB,5500,Ya,287324,Perumahan,Dekat Jalan Raya,4,19,148833832
+Tegalsari,194,129,2,Baru,Unfurnished,HGB,2200,Tidak,223941,Komersial,Dekat Pusat Kota,4,22,28888389
+Tegalsari,338,402,1,Baru,Unfurnished,AJB,4400,Tidak,250158,Komersial,Dekat Jalan Raya,5,29,100563516
+Tegalsari,282,357,2,Baru,Semi-Furnished,HGB,2200,Ya,273882,Perumahan,Dekat Jalan Raya,4,12,97775874
+Tegalsari,332,353,2,Bagus,Unfurnished,AJB,2200,Tidak,243458,Perumahan,Dekat Pusat Kota,5,19,85940674
+Tegalsari,377,326,2,Bagus,Unfurnished,SHM,4400,Tidak,230102,Perumahan,Dekat Jalan Raya,5,15,75013252
+Tegalsari,491,205,3,Bagus,Furnished,AJB,4400,Ya,258054,Campuran,Dekat Jalan Raya,5,17,52901070
+Tegalsari,544,107,1,Butuh Renovasi,Semi-Furnished,HGB,2200,Ya,233505,Perumahan,Dekat Sekolah,4,9,24985035
+Tegalsari,406,477,3,Baru,Unfurnished,AJB,6600,Tidak,253724,Komersial,Dekat Pusat Kota,5,27,121026348
+Tegalsari,433,279,1,Baru,Furnished,AJB,2200,Tidak,227690,Campuran,Dekat Sekolah,5,22,63525510
+Tegalsari,211,55,2,Baru,Semi-Furnished,AJB,1300,Tidak,236029,Komersial,Dekat Pusat Kota,4,7,12981595
+Tegalsari,325,306,3,Bagus,Unfurnished,SHM,2200,Tidak,261387,Perumahan,Dekat Sekolah,4,17,79984422
+Tegalsari,597,137,1,Baru,Semi-Furnished,HGB,1300,Tidak,219053,Komersial,Dekat Jalan Raya,4,20,30010261
+Tegalsari,94,164,1,Baru,Semi-Furnished,AJB,2200,Tidak,230144,Perumahan,Dekat Jalan Raya,5,0,37743616
+Tegalsari,362,201,3,Butuh Renovasi,Semi-Furnished,HGB,4400,Ya,226502,Komersial,Dekat Jalan Raya,4,22,45526902
+Tegalsari,229,282,1,Butuh Renovasi,Semi-Furnished,SHM,4400,Ya,271980,Komersial,Dekat Pusat Kota,5,7,76698360
+Tegalsari,495,39,1,Baru,Semi-Furnished,HGB,900,Ya,230737,Komersial,Dekat Jalan Raya,4,28,8998743
+Tegalsari,168,203,1,Bagus,Unfurnished,SHM,4400,Ya,220343,Komersial,Dekat Sekolah,5,5,44729629
+Tegalsari,208,197,3,Butuh Renovasi,Furnished,AJB,2200,Ya,241190,Perumahan,Dekat Jalan Raya,5,4,47514430
+Tegalsari,96,122,2,Butuh Renovasi,Furnished,AJB,2200,Tidak,227503,Perumahan,Dekat Pusat Kota,4,14,27755366
+Tegalsari,462,414,2,Bagus,Furnished,SHM,4400,Ya,238763,Komersial,Dekat Pusat Kota,4,21,98847882
+Tegalsari,337,120,3,Bagus,Semi-Furnished,HGB,2200,Tidak,249552,Komersial,Dekat Pusat Kota,4,14,29946240
+Tegalsari,309,146,2,Butuh Renovasi,Furnished,AJB,2200,Ya,246085,Komersial,Dekat Pusat Kota,5,1,35928410
+Tegalsari,278,148,1,Baru,Furnished,SHM,2200,Ya,216930,Campuran,Dekat Sekolah,5,0,32105640
+Tegalsari,179,191,2,Baru,Furnished,AJB,2200,Tidak,264561,Perumahan,Dekat Jalan Raya,5,22,50531151
+Tegalsari,72,59,1,Bagus,Unfurnished,HGB,1300,Ya,219490,Campuran,Dekat Jalan Raya,4,22,12949910
+Tegalsari,522,339,3,Bagus,Semi-Furnished,SHM,4400,Ya,253291,Campuran,Dekat Jalan Raya,5,25,85865649
+Tegalsari,176,46,3,Bagus,Semi-Furnished,HGB,900,Ya,244757,Campuran,Dekat Sekolah,4,10,11258822
+Tegalsari,533,39,2,Baru,Unfurnished,SHM,900,Tidak,247455,Perumahan,Dekat Jalan Raya,3,9,9650745
+Tegalsari,199,126,2,Baru,Semi-Furnished,SHM,1300,Ya,242964,Campuran,Dekat Jalan Raya,5,29,30613464
+Tegalsari,504,273,3,Bagus,Furnished,HGB,2200,Ya,258833,Perumahan,Dekat Pusat Kota,4,17,70661409
+Tenggilis Mejoyo,513,40,1,Baru,Semi-Furnished,HGB,1300,Tidak,206795,Campuran,Dekat Sekolah,3,17,8271800
+Tenggilis Mejoyo,532,135,3,Bagus,Semi-Furnished,SHM,2200,Tidak,192000,Perumahan,Dekat Pusat Kota,4,16,25920000
+Tenggilis Mejoyo,194,50,3,Baru,Semi-Furnished,SHM,900,Ya,175976,Campuran,Dekat Jalan Raya,3,25,8798800
+Tenggilis Mejoyo,285,204,1,Bagus,Semi-Furnished,SHM,3500,Ya,205543,Campuran,Dekat Pusat Kota,5,7,41930772
+Tenggilis Mejoyo,271,233,2,Baru,Semi-Furnished,AJB,4400,Tidak,218932,Campuran,Dekat Sekolah,5,14,51011156
+Tenggilis Mejoyo,454,466,1,Baru,Furnished,HGB,5500,Ya,218478,Perumahan,Dekat Sekolah,5,7,101810748
+Tenggilis Mejoyo,557,314,2,Baru,Furnished,AJB,4400,Tidak,197642,Perumahan,Dekat Sekolah,5,16,62059588
+Tenggilis Mejoyo,451,127,2,Baru,Semi-Furnished,AJB,1300,Ya,192154,Perumahan,Dekat Jalan Raya,4,11,24403558
+Tenggilis Mejoyo,293,134,2,Bagus,Furnished,HGB,2200,Tidak,191060,Komersial,Dekat Jalan Raya,5,26,25602040
+Tenggilis Mejoyo,222,268,3,Butuh Renovasi,Semi-Furnished,AJB,4400,Ya,212110,Komersial,Dekat Pusat Kota,5,7,56845480
+Tenggilis Mejoyo,446,160,2,Baru,Furnished,SHM,2200,Ya,189099,Perumahan,Dekat Sekolah,5,24,30255840
+Tenggilis Mejoyo,440,510,1,Baru,Semi-Furnished,AJB,6600,Tidak,220604,Campuran,Dekat Pusat Kota,5,13,112508040
+Tenggilis Mejoyo,580,46,2,Bagus,Furnished,AJB,1300,Tidak,205132,Perumahan,Dekat Pusat Kota,3,3,9436072
+Tenggilis Mejoyo,237,89,2,Bagus,Furnished,HGB,1300,Tidak,183411,Komersial,Dekat Pusat Kota,5,0,16323579
+Tenggilis Mejoyo,419,367,3,Baru,Unfurnished,HGB,4400,Tidak,210543,Campuran,Dekat Jalan Raya,4,0,77269281
+Tenggilis Mejoyo,244,260,2,Butuh Renovasi,Semi-Furnished,SHM,2200,Tidak,184808,Perumahan,Dekat Pusat Kota,4,18,48050080
+Tenggilis Mejoyo,347,441,3,Butuh Renovasi,Semi-Furnished,HGB,4400,Ya,200527,Komersial,Dekat Sekolah,5,30,88432407
+Tenggilis Mejoyo,429,457,2,Butuh Renovasi,Unfurnished,AJB,6600,Tidak,226712,Komersial,Dekat Pusat Kota,5,15,103607384
+Tenggilis Mejoyo,108,206,3,Butuh Renovasi,Semi-Furnished,AJB,2200,Tidak,186023,Campuran,Dekat Sekolah,4,13,38320738
+Tenggilis Mejoyo,104,133,3,Baru,Semi-Furnished,AJB,2200,Ya,195340,Perumahan,Dekat Pusat Kota,5,20,25980220
+Tenggilis Mejoyo,427,372,1,Baru,Furnished,HGB,2200,Ya,205027,Campuran,Dekat Sekolah,5,15,76270044
+Tenggilis Mejoyo,514,237,2,Bagus,Semi-Furnished,HGB,2200,Ya,216099,Perumahan,Dekat Pusat Kota,5,4,51215463
+Tenggilis Mejoyo,591,457,1,Bagus,Unfurnished,SHM,6600,Ya,216292,Campuran,Dekat Pusat Kota,4,8,98845444
+Tenggilis Mejoyo,284,148,3,Butuh Renovasi,Furnished,HGB,2200,Ya,214452,Komersial,Dekat Jalan Raya,5,25,31738896
+Tenggilis Mejoyo,559,500,1,Butuh Renovasi,Furnished,SHM,5500,Ya,205121,Perumahan,Dekat Sekolah,5,29,102560500
+Tenggilis Mejoyo,449,75,1,Baru,Furnished,AJB,1300,Ya,188243,Komersial,Dekat Jalan Raya,5,27,14118225
+Tenggilis Mejoyo,447,307,1,Bagus,Furnished,SHM,2200,Ya,212086,Perumahan,Dekat Pusat Kota,5,1,65110402
+Tenggilis Mejoyo,542,627,3,Butuh Renovasi,Semi-Furnished,AJB,6600,Tidak,235758,Komersial,Dekat Jalan Raya,5,17,147820266
+Tenggilis Mejoyo,203,300,3,Butuh Renovasi,Semi-Furnished,AJB,2200,Ya,217066,Komersial,Dekat Pusat Kota,5,5,65119800
+Tenggilis Mejoyo,154,205,2,Butuh Renovasi,Semi-Furnished,HGB,3500,Tidak,202287,Perumahan,Dekat Jalan Raya,5,30,41468835
+Tenggilis Mejoyo,490,446,3,Butuh Renovasi,Unfurnished,SHM,5500,Ya,211725,Perumahan,Dekat Jalan Raya,5,8,94429350
+Tenggilis Mejoyo,130,57,3,Bagus,Semi-Furnished,SHM,900,Tidak,198452,Campuran,Dekat Jalan Raya,2,0,11311764
+Wiyung,537,42,2,Butuh Renovasi,Semi-Furnished,AJB,1300,Ya,227572,Perumahan,Dekat Pusat Kota,2,8,9558024
+Wiyung,439,423,3,Bagus,Unfurnished,SHM,5500,Tidak,236394,Komersial,Dekat Jalan Raya,4,24,99994662
+Wiyung,282,204,2,Bagus,Furnished,AJB,2200,Ya,238894,Perumahan,Dekat Jalan Raya,5,15,48734376
+Wiyung,522,583,3,Bagus,Semi-Furnished,SHM,6600,Ya,277681,Campuran,Dekat Pusat Kota,5,12,161888023
+Wiyung,498,296,2,Butuh Renovasi,Unfurnished,HGB,3500,Tidak,223807,Perumahan,Dekat Pusat Kota,5,8,66246872
+Wiyung,287,131,3,Butuh Renovasi,Furnished,SHM,1300,Ya,232094,Campuran,Dekat Sekolah,5,20,30404314
+Wiyung,487,530,2,Baru,Furnished,AJB,4400,Tidak,260367,Komersial,Dekat Sekolah,5,12,137994510
+Wiyung,229,71,2,Baru,Unfurnished,SHM,900,Ya,233317,Perumahan,Dekat Sekolah,2,30,16565507
+Wiyung,214,283,3,Bagus,Unfurnished,SHM,3500,Ya,247217,Campuran,Dekat Pusat Kota,5,8,69962411
+Wiyung,125,120,3,Bagus,Semi-Furnished,AJB,1300,Ya,205954,Komersial,Dekat Sekolah,5,10,24714480
+Wiyung,554,252,3,Butuh Renovasi,Semi-Furnished,HGB,2200,Tidak,232283,Perumahan,Dekat Jalan Raya,5,3,58535316
+Wiyung,549,93,1,Bagus,Unfurnished,AJB,900,Tidak,214979,Campuran,Dekat Sekolah,5,1,19993047
+Wiyung,489,48,2,Butuh Renovasi,Furnished,SHM,900,Tidak,234444,Komersial,Dekat Sekolah,5,28,11253312
+Wiyung,67,128,2,Butuh Renovasi,Unfurnished,AJB,1300,Ya,227766,Perumahan,Dekat Jalan Raya,4,5,29154048
+Wiyung,88,46,2,Bagus,Furnished,SHM,900,Ya,223507,Perumahan,Dekat Pusat Kota,5,13,10281322
+Wiyung,483,201,1,Baru,Unfurnished,SHM,2200,Ya,231694,Komersial,Dekat Jalan Raya,5,3,46570494
+Wiyung,558,358,2,Bagus,Semi-Furnished,SHM,3500,Tidak,220020,Campuran,Dekat Sekolah,4,5,78767160
+Wiyung,536,380,2,Butuh Renovasi,Semi-Furnished,HGB,2200,Tidak,239659,Perumahan,Dekat Pusat Kota,5,18,91070420
+Wiyung,274,295,3,Butuh Renovasi,Semi-Furnished,HGB,2200,Tidak,241653,Perumahan,Dekat Sekolah,4,5,71287635
+Wiyung,156,193,3,Butuh Renovasi,Furnished,AJB,1300,Ya,246879,Campuran,Dekat Jalan Raya,4,1,47647647
+Wiyung,193,44,2,Butuh Renovasi,Unfurnished,HGB,900,Ya,202523,Campuran,Dekat Pusat Kota,2,17,8911012
+Wiyung,201,113,3,Butuh Renovasi,Semi-Furnished,AJB,1300,Tidak,221659,Campuran,Dekat Sekolah,5,12,25047467
+Wiyung,253,197,1,Baru,Furnished,SHM,1300,Tidak,226919,Perumahan,Dekat Jalan Raya,5,8,44703043
+Wiyung,330,82,1,Butuh Renovasi,Furnished,AJB,900,Tidak,203247,Perumahan,Dekat Jalan Raya,5,22,16666254
+Wiyung,363,391,2,Baru,Semi-Furnished,HGB,4400,Ya,239574,Komersial,Dekat Pusat Kota,5,18,93673434
+Wiyung,201,165,3,Butuh Renovasi,Unfurnished,HGB,1300,Tidak,233125,Campuran,Dekat Jalan Raya,5,12,38465625
+Wiyung,290,134,2,Baru,Furnished,HGB,2200,Ya,231042,Perumahan,Dekat Sekolah,5,10,30959628
+Wiyung,99,103,1,Baru,Furnished,HGB,1300,Tidak,227614,Komersial,Dekat Sekolah,4,0,23444242
+Wiyung,154,101,2,Baru,Unfurnished,SHM,1300,Ya,236332,Campuran,Dekat Sekolah,4,23,23869532
+Wiyung,545,267,2,Butuh Renovasi,Unfurnished,SHM,2200,Ya,256175,Komersial,Dekat Sekolah,4,29,68398725
+Wiyung,205,65,2,Bagus,Furnished,SHM,900,Ya,229018,Komersial,Dekat Sekolah,4,21,14886170
+Wiyung,513,473,1,Butuh Renovasi,Unfurnished,HGB,5500,Tidak,255177,Campuran,Dekat Pusat Kota,5,6,120698721
+Wonocolo,370,346,2,Baru,Unfurnished,SHM,4400,Tidak,195305,Komersial,Dekat Pusat Kota,4,24,67575530
+Wonocolo,150,186,2,Butuh Renovasi,Furnished,AJB,2200,Ya,182967,Perumahan,Dekat Sekolah,5,20,34031862
+Wonocolo,506,191,3,Butuh Renovasi,Furnished,AJB,2200,Ya,204345,Campuran,Dekat Pusat Kota,5,14,39029895
+Wonocolo,409,453,3,Baru,Unfurnished,SHM,5500,Ya,187163,Perumahan,Dekat Pusat Kota,4,0,84784839
+Wonocolo,272,95,3,Bagus,Unfurnished,SHM,1300,Ya,183307,Campuran,Dekat Pusat Kota,5,11,17414165
+Wonocolo,589,473,3,Bagus,Semi-Furnished,AJB,6600,Tidak,213449,Campuran,Dekat Sekolah,5,25,100961377
+Wonocolo,241,337,3,Butuh Renovasi,Furnished,SHM,3500,Tidak,187298,Perumahan,Dekat Jalan Raya,4,6,63119426
+Wonocolo,182,30,3,Baru,Semi-Furnished,HGB,900,Tidak,188690,Komersial,Dekat Sekolah,2,14,5660700
+Wonocolo,583,460,3,Baru,Semi-Furnished,SHM,4400,Ya,186942,Komersial,Dekat Jalan Raya,5,20,85993320
+Wonocolo,311,221,3,Bagus,Furnished,AJB,3500,Tidak,201947,Campuran,Dekat Sekolah,5,18,44630287
+Wonocolo,527,471,1,Butuh Renovasi,Unfurnished,SHM,4400,Ya,215616,Komersial,Dekat Sekolah,5,27,101555136
+Wonocolo,151,237,1,Bagus,Furnished,HGB,3500,Ya,183527,Campuran,Dekat Sekolah,5,28,43495899
+Wonocolo,294,266,3,Baru,Unfurnished,SHM,3500,Tidak,206971,Perumahan,Dekat Jalan Raya,5,24,55054286
+Wonocolo,296,259,3,Butuh Renovasi,Unfurnished,HGB,4400,Ya,209424,Campuran,Dekat Pusat Kota,5,0,54240816
+Wonocolo,490,555,2,Bagus,Furnished,HGB,4400,Ya,207300,Perumahan,Dekat Pusat Kota,5,16,115051500
+Wonocolo,324,156,2,Bagus,Furnished,HGB,2200,Ya,178965,Komersial,Dekat Pusat Kota,5,16,27918540
+Wonocolo,205,278,1,Bagus,Semi-Furnished,HGB,4400,Ya,207752,Campuran,Dekat Jalan Raya,5,2,57755056
+Wonocolo,531,370,2,Baru,Semi-Furnished,HGB,4400,Ya,206949,Komersial,Dekat Sekolah,5,11,76571130
+Wonocolo,490,116,1,Baru,Semi-Furnished,AJB,1300,Ya,169140,Campuran,Dekat Sekolah,5,5,19620240
+Wonocolo,192,215,1,Bagus,Unfurnished,SHM,2200,Ya,206621,Campuran,Dekat Jalan Raya,5,25,44423515
+Wonocolo,469,483,3,Butuh Renovasi,Furnished,HGB,4400,Ya,198365,Perumahan,Dekat Jalan Raya,4,10,95810295
+Wonocolo,252,98,2,Butuh Renovasi,Furnished,HGB,1300,Tidak,195088,Perumahan,Dekat Jalan Raya,5,2,19118624
+Wonocolo,579,32,2,Butuh Renovasi,Semi-Furnished,HGB,1300,Ya,168376,Komersial,Dekat Jalan Raya,2,7,5388032
+Wonocolo,267,40,1,Butuh Renovasi,Unfurnished,SHM,900,Ya,186699,Campuran,Dekat Sekolah,2,13,7467960
+Wonocolo,249,230,3,Butuh Renovasi,Unfurnished,SHM,2200,Tidak,175846,Campuran,Dekat Sekolah,5,13,40444580
+Wonocolo,90,104,1,Baru,Furnished,HGB,1300,Tidak,193315,Perumahan,Dekat Pusat Kota,5,9,20104760
+Wonocolo,368,235,3,Bagus,Semi-Furnished,AJB,4400,Ya,206887,Campuran,Dekat Sekolah,5,1,48618445
+Wonocolo,178,199,1,Bagus,Semi-Furnished,SHM,1300,Tidak,191801,Perumahan,Dekat Pusat Kota,5,13,38168399
+Wonocolo,337,310,1,Bagus,Semi-Furnished,HGB,3500,Ya,196509,Perumahan,Dekat Pusat Kota,5,8,60917790
+Wonocolo,285,35,2,Butuh Renovasi,Furnished,HGB,900,Tidak,185278,Komersial,Dekat Pusat Kota,4,2,6484730
+Wonocolo,498,220,3,Baru,Semi-Furnished,AJB,3500,Ya,186600,Campuran,Dekat Jalan Raya,5,20,41052000
+Wonocolo,217,107,2,Bagus,Furnished,HGB,1300,Ya,173418,Perumahan,Dekat Pusat Kota,4,25,18555726
+Wonokromo,320,254,1,Baru,Semi-Furnished,AJB,3500,Ya,247438,Campuran,Dekat Jalan Raya,4,7,62849252
+Wonokromo,558,90,1,Baru,Semi-Furnished,HGB,1300,Tidak,221533,Campuran,Dekat Sekolah,4,15,19937970
+Wonokromo,330,421,1,Bagus,Unfurnished,HGB,5500,Tidak,214873,Komersial,Dekat Sekolah,5,1,90461533
+Wonokromo,418,286,3,Butuh Renovasi,Unfurnished,HGB,3500,Tidak,212956,Perumahan,Dekat Sekolah,5,5,60905416
+Wonokromo,449,439,3,Butuh Renovasi,Semi-Furnished,SHM,5500,Ya,247146,Komersial,Dekat Pusat Kota,5,27,108497094
+Wonokromo,88,97,1,Bagus,Semi-Furnished,SHM,1300,Tidak,222120,Perumahan,Dekat Sekolah,5,20,21545640
+Wonokromo,551,184,2,Butuh Renovasi,Furnished,HGB,2200,Ya,224809,Campuran,Dekat Sekolah,5,28,41364856
+Wonokromo,172,99,3,Bagus,Furnished,HGB,1300,Ya,226640,Campuran,Dekat Pusat Kota,4,25,22437360
+Wonokromo,180,121,2,Baru,Furnished,SHM,2200,Tidak,197242,Perumahan,Dekat Jalan Raya,4,24,23866282
+Wonokromo,331,105,1,Butuh Renovasi,Unfurnished,HGB,1300,Ya,221654,Perumahan,Dekat Sekolah,5,11,23273670
+Wonokromo,197,186,3,Bagus,Unfurnished,AJB,1300,Ya,208912,Komersial,Dekat Jalan Raya,5,4,38857632
+Wonokromo,420,499,3,Butuh Renovasi,Furnished,HGB,6600,Tidak,235422,Perumahan,Dekat Pusat Kota,4,1,117475578
+Wonokromo,275,269,3,Butuh Renovasi,Semi-Furnished,HGB,2200,Tidak,249516,Komersial,Dekat Jalan Raya,5,15,67119804
+Wonokromo,403,387,1,Baru,Furnished,AJB,4400,Tidak,256571,Komersial,Dekat Sekolah,5,4,99292977
+Wonokromo,562,555,2,Baru,Semi-Furnished,AJB,6600,Tidak,236894,Campuran,Dekat Jalan Raya,5,14,131476170
+Wonokromo,369,317,1,Baru,Semi-Furnished,SHM,3500,Tidak,237758,Campuran,Dekat Pusat Kota,5,11,75369286
+Wonokromo,390,94,2,Bagus,Furnished,SHM,1300,Ya,210981,Perumahan,Dekat Jalan Raya,5,3,19832214
+Wonokromo,179,73,2,Bagus,Unfurnished,SHM,1300,Ya,213523,Perumahan,Dekat Pusat Kota,2,14,15587179
+Wonokromo,529,268,2,Butuh Renovasi,Semi-Furnished,AJB,2200,Ya,211795,Perumahan,Dekat Sekolah,5,10,56761060
+Wonokromo,294,268,1,Baru,Unfurnished,SHM,4400,Ya,211729,Perumahan,Dekat Pusat Kota,5,15,56743372
+Wonokromo,78,61,2,Bagus,Semi-Furnished,AJB,1300,Ya,205262,Perumahan,Dekat Jalan Raya,2,22,12520982
+Wonokromo,483,146,2,Baru,Semi-Furnished,AJB,2200,Tidak,213305,Campuran,Dekat Jalan Raya,5,5,31142530
+Wonokromo,240,244,2,Baru,Semi-Furnished,HGB,3500,Ya,212323,Perumahan,Dekat Jalan Raya,5,13,51806812
+Wonokromo,404,309,2,Bagus,Semi-Furnished,AJB,4400,Ya,210030,Campuran,Dekat Jalan Raya,4,17,64899270
+Wonokromo,255,320,2,Butuh Renovasi,Semi-Furnished,HGB,4400,Ya,245318,Campuran,Dekat Pusat Kota,5,11,78501760
+Wonokromo,132,168,2,Baru,Unfurnished,HGB,2200,Tidak,204576,Komersial,Dekat Jalan Raya,5,26,34368768
+Wonokromo,333,56,1,Baru,Furnished,SHM,1300,Ya,205486,Perumahan,Dekat Jalan Raya,4,10,11507216
+Wonokromo,584,231,1,Baru,Semi-Furnished,SHM,4400,Ya,205792,Perumahan,Dekat Jalan Raya,5,12,47537952
+Wonokromo,347,444,3,Bagus,Semi-Furnished,AJB,4400,Ya,248213,Komersial,Dekat Sekolah,5,20,110206572
+Wonokromo,286,348,3,Butuh Renovasi,Semi-Furnished,HGB,3500,Ya,242360,Campuran,Dekat Sekolah,5,22,84341280
+Wonokromo,250,222,1,Bagus,Semi-Furnished,HGB,4400,Ya,240211,Campuran,Dekat Pusat Kota,4,10,53326842
+Wonokromo,550,624,3,Butuh Renovasi,Furnished,AJB,4400,Tidak,252431,Campuran,Dekat Sekolah,5,22,157516944
