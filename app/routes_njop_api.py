@@ -2,10 +2,71 @@
 API routes untuk data NJOP dan kelas bumi berdasarkan PERWALI NO 2 TH 2017
 """
 from flask import Blueprint, jsonify, request
-from perwali_njop_enhancement import get_njop_extractor
 
 # Create blueprint for NJOP API
 njop_bp = Blueprint('njop_api', __name__)
+
+# Data NJOP berdasarkan PERWALI NO 2 TH 2017
+# Format: {kecamatan: {kelas: {nilai_min, nilai_max, recommended_njop, range_text}}}
+NJOP_DATA = {
+    'ASEMROWO': {
+        'A1': {'nilai_min': 1500000, 'nilai_max': 2500000, 'recommended_njop': 2000000, 'range_text': 'Rp 1.500.000 s/d Rp 2.500.000'},
+        'A2': {'nilai_min': 1000000, 'nilai_max': 1500000, 'recommended_njop': 1250000, 'range_text': 'Rp 1.000.000 s/d Rp 1.500.000'},
+        'B': {'nilai_min': 500000, 'nilai_max': 1000000, 'recommended_njop': 750000, 'range_text': 'Rp 500.000 s/d Rp 1.000.000'},
+    },
+    'BENOWO': {
+        'A': {'nilai_min': 1000000, 'nilai_max': 1500000, 'recommended_njop': 1250000, 'range_text': 'Rp 1.000.000 s/d Rp 1.500.000'},
+        'B': {'nilai_min': 500000, 'nilai_max': 1000000, 'recommended_njop': 750000, 'range_text': 'Rp 500.000 s/d Rp 1.000.000'},
+        'C': {'nilai_min': 200000, 'nilai_max': 500000, 'recommended_njop': 350000, 'range_text': 'Rp 200.000 s/d Rp 500.000'},
+    },
+    'BUBUTAN': {
+        'A1': {'nilai_min': 3000000, 'nilai_max': 5000000, 'recommended_njop': 4000000, 'range_text': 'Rp 3.000.000 s/d Rp 5.000.000'},
+        'A2': {'nilai_min': 2000000, 'nilai_max': 3000000, 'recommended_njop': 2500000, 'range_text': 'Rp 2.000.000 s/d Rp 3.000.000'},
+        'B': {'nilai_min': 1000000, 'nilai_max': 2000000, 'recommended_njop': 1500000, 'range_text': 'Rp 1.000.000 s/d Rp 2.000.000'},
+    },
+}
+
+class NJOPExtractor:
+    """Simple NJOP data extractor"""
+    
+    def __init__(self):
+        self.data = NJOP_DATA
+    
+    def get_kelas_bumi_by_kecamatan(self, kecamatan):
+        """Mendapatkan daftar kelas bumi untuk kecamatan tertentu"""
+        kecamatan_upper = kecamatan.upper()
+        if kecamatan_upper in self.data:
+            return list(self.data[kecamatan_upper].keys())
+        return []
+    
+    def get_njop_by_kelas(self, kecamatan, kelas):
+        """Mendapatkan data NJOP untuk kecamatan dan kelas tertentu"""
+        kecamatan_upper = kecamatan.upper()
+        kelas_upper = kelas.upper()
+        if kecamatan_upper in self.data and kelas_upper in self.data[kecamatan_upper]:
+            return self.data[kecamatan_upper][kelas_upper]
+        return None
+    
+    def get_range_suggestions(self, kecamatan):
+        """Mendapatkan range NJOP untuk kecamatan"""
+        kecamatan_upper = kecamatan.upper()
+        if kecamatan_upper in self.data:
+            all_values = []
+            for kelas_data in self.data[kecamatan_upper].values():
+                all_values.append(kelas_data['nilai_min'])
+                all_values.append(kelas_data['nilai_max'])
+            
+            if all_values:
+                return {
+                    'min_range': min(all_values),
+                    'max_range': max(all_values),
+                    'suggestion_text': f"Range NJOP untuk {kecamatan}: Rp {min(all_values):,} - Rp {max(all_values):,}"
+                }
+        return None
+    
+    def get_all_data(self):
+        """Mendapatkan semua data NJOP"""
+        return self.data
 
 # Initialize NJOP extractor (singleton pattern)
 njop_extractor = None
@@ -13,7 +74,7 @@ njop_extractor = None
 def get_extractor():
     global njop_extractor
     if njop_extractor is None:
-        njop_extractor = get_njop_extractor()
+        njop_extractor = NJOPExtractor()
     return njop_extractor
 
 @njop_bp.route('/api/kelas-bumi/<kecamatan>')

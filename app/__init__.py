@@ -51,7 +51,6 @@ def create_app():
     from .routes_visualization_dynamic import visualization_dynamic
     from .routes_admin_notifications_api import admin_notifications_api
     from .routes_midtrans import midtrans_bp
-    from .routes_payment_test import payment_bp
     from .routes_rental_transaction import rental_transaction_bp
     from .routes_prediction import prediction_bp
     from .routes_njop_api import njop_bp
@@ -73,7 +72,6 @@ def create_app():
     app.register_blueprint(user_rental_pages)
     app.register_blueprint(assets_status_bp)
     app.register_blueprint(midtrans_bp)
-    app.register_blueprint(payment_bp)
     app.register_blueprint(rental_transaction_bp)
     app.register_blueprint(prediction_bp, url_prefix='/prediction')
     app.register_blueprint(njop_bp)
