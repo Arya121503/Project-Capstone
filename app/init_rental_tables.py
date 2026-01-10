@@ -1,4 +1,3 @@
-import mysql.connector
 import os
 import sys
 import datetime
@@ -11,19 +10,14 @@ sys.path.insert(0, parent_dir)
 
 def init_rental_tables():
     """Initialize the rental_assets tables in the database"""
-    from app import create_app
+    from app import create_app, db
     app = create_app()
     
     with app.app_context():
         conn = None
         try:
-            # Connect to the database
-            conn = mysql.connector.connect(
-                host=current_app.config['MYSQL_HOST'],
-                user=current_app.config['MYSQL_USER'],
-                password=current_app.config['MYSQL_PASSWORD'],
-                database=current_app.config['MYSQL_DB']
-            )
+            # Connect to the database using SQLAlchemy
+            conn = db.engine.raw_connection()
             cursor = conn.cursor()
             
             # Create the rental_assets table
