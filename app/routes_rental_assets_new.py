@@ -175,16 +175,11 @@ def get_rented_assets():
         
         # Use raw SQL to join with rental_transactions table
         from flask import current_app
-        import mysql.connector
-        from config import Config
+        from app import db
+        from sqlalchemy import text
         
-        # Buat koneksi MySQL secara langsung
-        conn = mysql.connector.connect(
-            host=Config.MYSQL_HOST,
-            user=Config.MYSQL_USER,
-            password=Config.MYSQL_PASSWORD,
-            database=Config.MYSQL_DB
-        )
+        # Use SQLAlchemy connection
+        conn = db.engine.raw_connection()
         cursor = conn.cursor()
         
         # Base query to get rented assets with transaction info

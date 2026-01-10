@@ -7,6 +7,7 @@ __pycache__/
 venv/
 env/
 .env
+.venv/
 
 # IDE files
 .vscode/
@@ -19,6 +20,7 @@ Thumbs.db
 # Database files
 *.db
 *.sqlite3
+instance/*.sql
 
 # Log files
 *.log
@@ -26,3 +28,19 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.temp
+
+# Backup files
+backups/
+*.bak
+
+# Model files (too large for git)
+model/*.pkl
+model/*.joblib
+*.h5
+
+# Data files
+data/raw/
+Database/
+
+# Railway
+.railway/

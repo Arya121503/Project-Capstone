@@ -1,5 +1,4 @@
 from flask import Flask
-from flask_mysqldb import MySQL
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 import os
@@ -8,28 +7,51 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Buat objek MySQL sekali di level global
-mysql = MySQL()
+# SQLAlchemy and Migrate objects
 db = SQLAlchemy()
 migrate = Migrate()
+
+# Conditionally import MySQL for local development
+mysql = None
+if not os.environ.get('DATABASE_URL'):
+    try:
+        from flask_mysqldb import MySQL
+        mysql = MySQL()
+    except ImportError:
+        print("[WARNING] Flask-MySQLdb not available, using SQLAlchemy only")
 
 def create_app():
     app = Flask(__name__)
 
     # Load configuration from environment variables
     app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') or 'telkom-dashboard-secret'
-    app.config['MYSQL_HOST'] = os.environ.get('MYSQL_HOST') or 'localhost'
-    app.config['MYSQL_USER'] = os.environ.get('MYSQL_USER') or 'root'
-    app.config['MYSQL_PASSWORD'] = os.environ.get('MYSQL_PASSWORD') or ''
-    app.config['MYSQL_PORT'] = int(os.environ.get('MYSQL_PORT') or 3306)
-    app.config['MYSQL_DB'] = os.environ.get('MYSQL_DB') or 'db_kp'
     
-    # SQLAlchemy configuration
-    app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{app.config['MYSQL_USER']}:{app.config['MYSQL_PASSWORD']}@{app.config['MYSQL_HOST']}:{app.config['MYSQL_PORT']}/{app.config['MYSQL_DB']}"
+    # Check if DATABASE_URL is provided (Railway PostgreSQL)
+    DATABASE_URL = os.environ.get('DATABASE_URL')
+    
+    if DATABASE_URL:
+        # Railway PostgreSQL configuration
+        if DATABASE_URL.startswith('postgres://'):
+            DATABASE_URL = DATABASE_URL.replace('postgres://', 'postgresql://', 1)
+        app.config['SQLALCHEMY_DATABASE_URI'] = DATABASE_URL
+        print("[INFO] Using PostgreSQL database from Railway")
+    else:
+        # Local MySQL configuration
+        app.config['MYSQL_HOST'] = os.environ.get('MYSQL_HOST') or 'localhost'
+        app.config['MYSQL_USER'] = os.environ.get('MYSQL_USER') or 'root'
+        app.config['MYSQL_PASSWORD'] = os.environ.get('MYSQL_PASSWORD') or ''
+        app.config['MYSQL_PORT'] = int(os.environ.get('MYSQL_PORT') or 3306)
+        app.config['MYSQL_DB'] = os.environ.get('MYSQL_DB') or 'db_kp'
+        
+        # SQLAlchemy configuration for MySQL
+        app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{app.config['MYSQL_USER']}:{app.config['MYSQL_PASSWORD']}@{app.config['MYSQL_HOST']}:{app.config['MYSQL_PORT']}/{app.config['MYSQL_DB']}"
+        print("[INFO] Using MySQL database (local)")
+        
+        # Init MySQL for local development only (if available)
+        if mysql is not None:
+            mysql.init_app(app)
+    
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
-    # Init MySQL ke app
-    mysql.init_app(app)
     
     # Init SQLAlchemy and Migrate
     db.init_app(app)
