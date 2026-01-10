@@ -1,3 +1,7 @@
+login sebagai admin
+email: admin@telkom.co.id
+password: admin123
+
 # Sistem Prediksi Harga Properti Telkom
 
 Sistem web berbasis Flask untuk prediksi harga properti (tanah dan bangunan) menggunakan machine learning dengan antarmuka admin dan user yang terpisah.
