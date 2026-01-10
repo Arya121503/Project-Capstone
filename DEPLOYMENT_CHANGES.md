@@ -22,9 +22,15 @@ Template untuk environment variables yang diperlukan.
 ## Perubahan File
 
 ### requirements.txt
+- Dihapus `mysql-connector-python` (tidak diperlukan di Railway)
+- Dihapus `Flask-MySQLdb` (tidak diperlukan di Railway)
 - Ditambahkan `gunicorn` untuk production server
 - Ditambahkan `psycopg2-binary` untuk PostgreSQL support
 - Ditambahkan versi spesifik untuk semua dependencies
+
+### requirements-local.txt (Baru)
+- File terpisah untuk development lokal dengan MySQL dependencies
+- Digunakan saat development lokal saja
 
 ### run.py
 - Port sekarang dinamis dari environment variable `PORT`

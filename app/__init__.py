@@ -1,5 +1,4 @@
 from flask import Flask
-from flask_mysqldb import MySQL
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 import os
@@ -8,10 +7,18 @@ from dotenv import load_dotenv
 # Load environment variables
 load_dotenv()
 
-# Buat objek MySQL sekali di level global
-mysql = MySQL()
+# SQLAlchemy and Migrate objects
 db = SQLAlchemy()
 migrate = Migrate()
+
+# Conditionally import MySQL for local development
+mysql = None
+if not os.environ.get('DATABASE_URL'):
+    try:
+        from flask_mysqldb import MySQL
+        mysql = MySQL()
+    except ImportError:
+        print("[WARNING] Flask-MySQLdb not available, using SQLAlchemy only")
 
 def create_app():
     app = Flask(__name__)
@@ -40,8 +47,9 @@ def create_app():
         app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{app.config['MYSQL_USER']}:{app.config['MYSQL_PASSWORD']}@{app.config['MYSQL_HOST']}:{app.config['MYSQL_PORT']}/{app.config['MYSQL_DB']}"
         print("[INFO] Using MySQL database (local)")
         
-        # Init MySQL for local development only
-        mysql.init_app(app)
+        # Init MySQL for local development only (if available)
+        if mysql is not None:
+            mysql.init_app(app)
     
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
     
