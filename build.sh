@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# exit on error
+set -o errexit
+
+# Install Python dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+
+# Run database migrations (if using Flask-Migrate)
+# Uncomment if you have migrations set up
+# flask db upgrade
+
+echo "Build completed successfully!"

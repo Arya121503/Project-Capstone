@@ -4,6 +4,9 @@ from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 import os
 from dotenv import load_dotenv
+import sys
+sys.path.insert(0, os.path.dirname(os.path.dirname(__file__)))
+from db_config import get_database_config
 
 # Load environment variables
 load_dotenv()
@@ -15,21 +18,25 @@ migrate = Migrate()
 
 def create_app():
     app = Flask(__name__)
+    
+    # Get database configuration
+    db_config = get_database_config()
 
     # Load configuration from environment variables
     app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY') or 'telkom-dashboard-secret'
-    app.config['MYSQL_HOST'] = os.environ.get('MYSQL_HOST') or 'localhost'
-    app.config['MYSQL_USER'] = os.environ.get('MYSQL_USER') or 'root'
-    app.config['MYSQL_PASSWORD'] = os.environ.get('MYSQL_PASSWORD') or ''
-    app.config['MYSQL_PORT'] = int(os.environ.get('MYSQL_PORT') or 3306)
-    app.config['MYSQL_DB'] = os.environ.get('MYSQL_DB') or 'db_kp'
+    app.config['MYSQL_HOST'] = db_config['host']
+    app.config['MYSQL_USER'] = db_config['user']
+    app.config['MYSQL_PASSWORD'] = db_config['password']
+    app.config['MYSQL_PORT'] = db_config['port']
+    app.config['MYSQL_DB'] = db_config['database']
     
-    # SQLAlchemy configuration
-    app.config['SQLALCHEMY_DATABASE_URI'] = f"mysql+pymysql://{app.config['MYSQL_USER']}:{app.config['MYSQL_PASSWORD']}@{app.config['MYSQL_HOST']}:{app.config['MYSQL_PORT']}/{app.config['MYSQL_DB']}"
+    # SQLAlchemy configuration - supports both MySQL and PostgreSQL
+    app.config['SQLALCHEMY_DATABASE_URI'] = db_config['sqlalchemy_uri']
     app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
-    # Init MySQL ke app
-    mysql.init_app(app)
+    # Init MySQL ke app (only for MySQL)
+    if db_config['type'] == 'mysql':
+        mysql.init_app(app)
     
     # Init SQLAlchemy and Migrate
     db.init_app(app)
