@@ -22,8 +22,8 @@ class RentalTransaction(db.Model):
     remaining_amount = db.Column(db.Float, nullable=False)
     
     # Status tracking
-    status = db.Column(db.Enum('active', 'extended', 'completed', 'terminated'), default='active')
-    payment_status = db.Column(db.Enum('unpaid', 'partial', 'paid', 'failed'), default='unpaid')
+    status = db.Column(db.Enum('active', 'extended', 'completed', 'terminated', name='rental_transaction_status_enum'), default='active')
+    payment_status = db.Column(db.Enum('unpaid', 'partial', 'paid', 'failed', name='payment_status_enum'), default='unpaid')
     
     # Extension tracking
     extension_count = db.Column(db.Integer, default=0)
