@@ -6,22 +6,52 @@ from sqlalchemy import text
 def init_mysql_db():
     """Create users table & default admin"""
     try:
+        # Detect database type
+        engine_name = db.engine.name
+        is_postgres = engine_name == 'postgresql'
+        
         # Use SQLAlchemy instead of Flask-MySQLdb
         # Handle potential tablespace issues
         try:
-            db.session.execute(text("""
-                CREATE TABLE IF NOT EXISTS users (
-                    id INT AUTO_INCREMENT PRIMARY KEY,
-                    name VARCHAR(100) NOT NULL,
-                    email VARCHAR(100) NOT NULL UNIQUE,
-                    password VARCHAR(255) NOT NULL,
-                    role ENUM('admin', 'pengguna') NOT NULL DEFAULT 'pengguna',
-                    phone VARCHAR(20),
-                    address TEXT,
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
-            """))
+            if is_postgres:
+                # PostgreSQL syntax
+                # Create ENUM types first
+                db.session.execute(text("""
+                    DO $$ BEGIN
+                        CREATE TYPE user_role AS ENUM ('admin', 'pengguna');
+                    EXCEPTION
+                        WHEN duplicate_object THEN null;
+                    END $$;
+                """))
+                
+                db.session.execute(text("""
+                    CREATE TABLE IF NOT EXISTS users (
+                        id SERIAL PRIMARY KEY,
+                        name VARCHAR(100) NOT NULL,
+                        email VARCHAR(100) NOT NULL UNIQUE,
+                        password VARCHAR(255) NOT NULL,
+                        role user_role NOT NULL DEFAULT 'pengguna',
+                        phone VARCHAR(20),
+                        address TEXT,
+                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+                    )
+                """))
+            else:
+                # MySQL syntax
+                db.session.execute(text("""
+                    CREATE TABLE IF NOT EXISTS users (
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        name VARCHAR(100) NOT NULL,
+                        email VARCHAR(100) NOT NULL UNIQUE,
+                        password VARCHAR(255) NOT NULL,
+                        role ENUM('admin', 'pengguna') NOT NULL DEFAULT 'pengguna',
+                        phone VARCHAR(20),
+                        address TEXT,
+                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+                """))
         except Exception as table_error:
             # Handle tablespace issues
             if "Tablespace" in str(table_error):
@@ -36,24 +66,63 @@ def init_mysql_db():
         
         # Create pengajuan_sewa table for rental applications
         try:
-            db.session.execute(text("""
-                CREATE TABLE IF NOT EXISTS pengajuan_sewa (
-                    id INT AUTO_INCREMENT PRIMARY KEY,
-                    user_id INT NOT NULL,
-                    aset_id INT NOT NULL,
-                    jenis_aset ENUM('tanah', 'tanah_bangunan') NOT NULL,
-                    nama_penyewa VARCHAR(100) NOT NULL,
-                    email VARCHAR(100) NOT NULL,
-                    telepon VARCHAR(20) NOT NULL,
-                    durasi_sewa INT NOT NULL COMMENT 'dalam bulan',
-                    tanggal_mulai DATE,
-                    pesan TEXT,
-                    status ENUM('pending', 'approved', 'rejected', 'completed') DEFAULT 'pending',
-                    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
-                    updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-                    FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
-                ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
-            """))
+            if is_postgres:
+                # PostgreSQL syntax
+                # Create ENUM types first
+                db.session.execute(text("""
+                    DO $$ BEGIN
+                        CREATE TYPE jenis_aset_type AS ENUM ('tanah', 'tanah_bangunan');
+                    EXCEPTION
+                        WHEN duplicate_object THEN null;
+                    END $$;
+                """))
+                
+                db.session.execute(text("""
+                    DO $$ BEGIN
+                        CREATE TYPE status_pengajuan AS ENUM ('pending', 'approved', 'rejected', 'completed');
+                    EXCEPTION
+                        WHEN duplicate_object THEN null;
+                    END $$;
+                """))
+                
+                db.session.execute(text("""
+                    CREATE TABLE IF NOT EXISTS pengajuan_sewa (
+                        id SERIAL PRIMARY KEY,
+                        user_id INT NOT NULL,
+                        aset_id INT NOT NULL,
+                        jenis_aset jenis_aset_type NOT NULL,
+                        nama_penyewa VARCHAR(100) NOT NULL,
+                        email VARCHAR(100) NOT NULL,
+                        telepon VARCHAR(20) NOT NULL,
+                        durasi_sewa INT NOT NULL,
+                        tanggal_mulai DATE,
+                        pesan TEXT,
+                        status status_pengajuan DEFAULT 'pending',
+                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                        FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                    )
+                """))
+            else:
+                # MySQL syntax
+                db.session.execute(text("""
+                    CREATE TABLE IF NOT EXISTS pengajuan_sewa (
+                        id INT AUTO_INCREMENT PRIMARY KEY,
+                        user_id INT NOT NULL,
+                        aset_id INT NOT NULL,
+                        jenis_aset ENUM('tanah', 'tanah_bangunan') NOT NULL,
+                        nama_penyewa VARCHAR(100) NOT NULL,
+                        email VARCHAR(100) NOT NULL,
+                        telepon VARCHAR(20) NOT NULL,
+                        durasi_sewa INT NOT NULL COMMENT 'dalam bulan',
+                        tanggal_mulai DATE,
+                        pesan TEXT,
+                        status ENUM('pending', 'approved', 'rejected', 'completed') DEFAULT 'pending',
+                        created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                        updated_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+                        FOREIGN KEY (user_id) REFERENCES users(id) ON DELETE CASCADE
+                    ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+                """))
         except Exception as table_error:
             # Handle tablespace issues
             if "Tablespace" in str(table_error):
@@ -90,7 +159,11 @@ def init_mysql_db():
         # """)
 
         # Create default admin if none exists
-        result = db.session.execute(text('SELECT COUNT(*) FROM users WHERE role = "admin"')).fetchone()
+        if is_postgres:
+            result = db.session.execute(text("SELECT COUNT(*) FROM users WHERE role = 'admin'")).fetchone()
+        else:
+            result = db.session.execute(text('SELECT COUNT(*) FROM users WHERE role = "admin"')).fetchone()
+            
         if result[0] == 0:
             hashed_pw = generate_password_hash('admin123')
             db.session.execute(text("""
